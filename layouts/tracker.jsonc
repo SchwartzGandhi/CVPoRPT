@@ -1,104 +1,176 @@
 {
-  //sets the trackers layout
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "left",
-          "v_alignment": "stretch",
-          "content": [
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "shared_item_grid"
-              }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "bottom",
-          "content": [
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "shared_item_grid"
-              }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  }
+	//sets the trackers layout
+	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+	"tracker_default": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "left",
+					"v_alignment": "stretch",
+					"content": [
+						{
+							"type": "group",
+							"header": "Items",
+							"dock": "top",
+							"content": {
+								"type": "layout",
+								"key": "shared_item_grid"
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Map 1",
+							"content": {
+								"type": "map",
+								"maps": [
+									"map1"
+								]
+							}
+						},
+						{
+							"title": "Map 2",
+							"content": {
+								"type": "map",
+								"maps": [
+									"map2"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	},
+	"tracker_horizontal": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"content": [
+						{
+							"type": "group",
+							"header": "Items",
+							"dock": "left",
+							"margin": "0,0,3,0",
+							"content": {
+								"type": "layout",
+								"h_alignment": "center",
+								"v_alignment": "center",
+								"key": "shared_item_grid"
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Dracula's Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dracula's Castle"
+								]
+							}
+						},
+						{
+							"title": "City of Haze",
+							"content": {
+								"type": "map",
+								"maps": [
+									"City of Haze"
+								]
+							}
+						},
+						{
+							"title": "13th Street",
+							"content": {
+								"type": "map",
+								"maps": [
+									"13th Street"
+								]
+							}
+						},
+						{
+							"title": "Sandy Grave",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Sandy Grave"
+								]
+							}
+						},
+						{
+							"title": "Forgotten City",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Forgotten City"
+								]
+							}
+						},
+						{
+							"title": "Nation of Fools",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Nation of Fools"
+								]
+							}
+						},
+						{
+							"title": "Burnt Paradise",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Burnt Paradise"
+								]
+							}
+						},
+						{
+							"title": "Forest of Doom",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Forest of Doom"
+								]
+							}
+						},
+						{
+							"title": "Dark Academy",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dark Academy"
+								]
+							}
+						},
+						{
+							"title": "Nest of Evil",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Nest of Evil"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
 }

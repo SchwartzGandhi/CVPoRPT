@@ -1,15 +1,62 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
-  {
-    "name": "map1",
-    "location_size": 48,
-    "location_border_thickness": 4,
-    "img": "images/maps/map.png"
-  },
-  {
-    "name": "map2",
-    "location_size": 48,
-    "location_border_thickness": 4,
-    "img": "images/maps/map_2.png"
-  }
+	{
+		"name": "Dracula's Castle",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Castle.png"
+	},
+	{
+		"name": "City of Haze",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/CityofHaze.png"
+	},
+	{
+		"name": "13th Street",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/13thStreet.png"
+	},
+	{
+		"name": "Sandy Grave",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/SandyGrave.png"
+	},
+	{
+		"name": "Forgotten City",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/ForgottenCity.png"
+	},
+	{
+		"name": "Nation of Fools",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/NationofFools.png"
+	},
+	{
+		"name": "Burnt Paradise",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/BurntParadise.png"
+	},
+	{
+		"name": "Forest of Doom",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/ForestofDoom.png"
+	},
+	{
+		"name": "Dark Academy",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/DarkAcademy.png"
+	},
+	{
+		"name": "Nest of Evil",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/NestofEvil.png"
+	}
 ]
