@@ -1,10 +1,99 @@
 [
-	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 	{
-		"name": "Toggle",
+		"name": "Change Cube",
 		"type": "toggle",
 		"img": "images/items/toggle.png",
-		"codes": "toggle"
+		"codes": "tag"
+	},
+	{
+		"name": "Call Cube",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "ringaling"
+	},
+	{
+		"name": "Skill Cube",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "subskill"
+	},
+	{
+		"name": "Wait Cube",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "stay"
+	},
+	{
+		"name": "Acrobat Cube",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "mario"
+	},
+	{
+		"name": "Push Cube",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "powerglove"
+	},
+	{
+		"name": "Lizard Tail",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "slide"
+	},
+	{
+		"name": "Stone of Flight",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "djump"
+	},
+	{
+		"name": "Griffon Wing",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "zip"
+	},
+	{
+		"name": "Strength Glove",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "titansmitt"
+	},
+	{
+		"name": "Spinning Art",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "dodgeroll"
+	},
+	{
+		"name": "Martial Art",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "cfalcfair"
+	},
+	{
+		"name": "Critical Art",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "kh2"
+	},
+	{
+		"name": "Whip Skill 1",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "dangle"
+	},
+	{
+		"name": "Whip Skill 2",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "downslash"
+	},
+	{
+		"name": "Book of Spirits",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "names"
 	},
 	{
 		"name": "Progressive",

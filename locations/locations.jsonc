@@ -109,6 +109,23 @@
 				]
 			},
 			{
+				"name": "Quest: Preparations",
+				"access_rules": [
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 312,
+						"y": 632
+					}
+				]
+			},
+			{
 				"name": "Above Hub",
 				"access_rules": [
 				],
