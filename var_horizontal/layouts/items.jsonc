@@ -25,16 +25,10 @@
 								"h_alignment": "left",
 								"rows": [
 									[
-										"tag", "doubleup", "subskill", "stay"
+										"tag", "doubleup", "subskill", "stay", "mario", "powerglove", "slide", "djump"
 									],
 									[
-										"mario", "powerglove", "slide", "djump"
-									],
-									[
-										"zip", "titansmitt", "roll", "cfalcfair"
-									],
-									[
-										"kh2", "dangle", "downslash", "names"
+										"zip", "titansmitt", "roll", "cfalcfair", "kh2", "dangle", "downslash", "names"
 									]
 								]
 							}

@@ -3,6 +3,7 @@
 ENABLE_DEBUG_LOG = true
 local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_HORIZONTAL = variant:find("horizontal")
 
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)
@@ -31,9 +32,15 @@ if not IS_ITEMS_ONLY then
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
-Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/broadcast.jsonc")
+if IS_HORIZONTAL then
+    Tracker:AddLayouts("var_horizontal/layouts/items.jsonc")
+    Tracker:AddLayouts("var_horizontal/layouts/tracker.jsonc")
+    Tracker:AddLayouts("var_horizontal/layouts/broadcast.jsonc")
+else
+    Tracker:AddLayouts("layouts/items.jsonc")
+    Tracker:AddLayouts("layouts/tracker.jsonc")
+    Tracker:AddLayouts("layouts/broadcast.jsonc")
+end
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

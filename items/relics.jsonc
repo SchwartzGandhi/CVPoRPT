@@ -9,7 +9,7 @@
 		"name": "Call Cube",
 		"type": "toggle",
 		"img": "images/items/toggle.png",
-		"codes": "ringaling"
+		"codes": "doubleup"
 	},
 	{
 		"name": "Skill Cube",
@@ -63,7 +63,7 @@
 		"name": "Spinning Art",
 		"type": "toggle",
 		"img": "images/items/toggle.png",
-		"codes": "dodgeroll"
+		"codes": "roll"
 	},
 	{
 		"name": "Martial Art",
