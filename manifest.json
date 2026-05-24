@@ -20,5 +20,6 @@
 				"ap"
 			]
 		}
-	}
+	},
+	// "versions_url": "https://raw.githubusercontent.com/SchwartzGandhi/CVPoRPT/refs/heads/main/versions.json"
 }
