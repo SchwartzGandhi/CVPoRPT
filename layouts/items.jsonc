@@ -10,7 +10,7 @@
 			{
 				"type": "group",
 				"header": "Relics",
-				"dock": "left",
+				"dock": "top",
 				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
@@ -35,6 +35,58 @@
 									],
 									[
 										"kh2", "dangle", "downslash", "names"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			
+			{
+				"type": "group",
+				"header": "Spells",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "left",
+								"rows": [
+									[
+										"froggy", "birdie", "longspell", "fast"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			
+			{
+				"type": "group",
+				"header": "Misc",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "left",
+								"rows": [
+									[
+										"locket", "toon", "puppet"
 									]
 								]
 							}

@@ -23,6 +23,8 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/relics.jsonc")
+Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/spells.jsonc")
 
 if not IS_ITEMS_ONLY then
     -- Maps

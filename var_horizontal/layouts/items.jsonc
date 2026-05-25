@@ -3,7 +3,7 @@
 	// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 	"shared_item_grid": {
 		"type": "dock",
-		"dock": "left",
+		"dock": "bottom",
 		"v_alignment": "stretch",
 		"h_alignment": "stretch",
 		"content": [
@@ -29,6 +29,59 @@
 									],
 									[
 										"zip", "titansmitt", "roll", "cfalcfair", "kh2", "dangle", "downslash", "names"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Spells",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "left",
+								"rows": [
+									[
+										"froggy", "birdie"
+									],
+									[
+										"longspell", "fast"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Misc",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "left",
+								"rows": [
+									[
+										"locket", "toon"
+									],
+									[
+										"puppet"
 									]
 								]
 							}
