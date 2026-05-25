@@ -2,13 +2,13 @@
 	{
 		"name": "Toad Morph",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/charolette/frog.png",
 		"codes": "froggy"
 	},
 	{
 		"name": "Owl Morph",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/owl.png",
 		"codes": "birdie"
 	},
 	{

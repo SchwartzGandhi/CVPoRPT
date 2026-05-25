@@ -26,49 +26,49 @@
 	{
 		"name": "Acrobat Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/charolette/mario.png",
 		"codes": "mario"
 	},
 	{
 		"name": "Push Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/push2.png",
 		"codes": "powerglove"
 	},
 	{
 		"name": "Lizard Tail",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/slide.png",
 		"codes": "slide"
 	},
 	{
 		"name": "Stone of Flight",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/charolette/djump.png",
 		"codes": "djump"
 	},
 	{
 		"name": "Griffon Wing",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/zip.png",
 		"codes": "zip"
 	},
 	{
 		"name": "Strength Glove",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/glove.png",
 		"codes": "titansmitt"
 	},
 	{
 		"name": "Spinning Art",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/roll.png",
 		"codes": "roll"
 	},
 	{
 		"name": "Martial Art",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/knee.png",
 		"codes": "cfalcfair"
 	},
 	{
@@ -80,19 +80,19 @@
 	{
 		"name": "Whip Skill 1",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/whipdangle.png",
 		"codes": "dangle"
 	},
 	{
 		"name": "Whip Skill 2",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/downwhip.png",
 		"codes": "downslash"
 	},
 	{
 		"name": "Book of Spirits",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/tome.png",
 		"codes": "names"
 	}
 ]
