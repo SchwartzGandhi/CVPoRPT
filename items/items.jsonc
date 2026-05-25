@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Cog",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "toon"
+	},
+	{
+		"name": "Stella's Locket",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "locket"
+	},
+	{
+		"name": "Puppet Master",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "puppet"
+	}
+]

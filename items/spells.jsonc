@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Toad Morph",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "froggy"
+	},
+	{
+		"name": "Owl Morph",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "birdie"
+	},
+	{
+		"name": "Sanctuary",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "longspell"
+	},
+	{
+		"name": "Speed Up",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "fast"
+	}
+]
