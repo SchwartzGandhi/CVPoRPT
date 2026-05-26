@@ -2,7 +2,7 @@
 	{
 		"name": "Toad Morph",
 		"type": "toggle",
-		"img": "images/items/charolette/frog.png",
+		"img": "images/items/charlotte/frog.png",
 		"codes": "froggy"
 	},
 	{
@@ -14,13 +14,13 @@
 	{
 		"name": "Sanctuary",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/spell.png",
 		"codes": "longspell"
 	},
 	{
 		"name": "Speed Up",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/spell.png",
 		"codes": "fast"
 	}
 ]

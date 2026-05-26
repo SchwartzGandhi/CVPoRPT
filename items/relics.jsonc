@@ -2,31 +2,31 @@
 	{
 		"name": "Change Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/cube.png",
 		"codes": "tag"
 	},
 	{
 		"name": "Call Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/cube.png",
 		"codes": "doubleup"
 	},
 	{
 		"name": "Skill Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/cube.png",
 		"codes": "subskill"
 	},
 	{
 		"name": "Wait Cube",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/cube.png",
 		"codes": "stay"
 	},
 	{
 		"name": "Acrobat Cube",
 		"type": "toggle",
-		"img": "images/items/charolette/mario.png",
+		"img": "images/items/charlotte/mario.png",
 		"codes": "mario"
 	},
 	{
@@ -44,7 +44,7 @@
 	{
 		"name": "Stone of Flight",
 		"type": "toggle",
-		"img": "images/items/charolette/djump.png",
+		"img": "images/items/charlotte/djump.png",
 		"codes": "djump"
 	},
 	{

@@ -8,13 +8,13 @@
 	{
 		"name": "Stella's Locket",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/locket.png",
 		"codes": "locket"
 	},
 	{
 		"name": "Puppet Master",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/spell.png",
 		"codes": "puppet"
 	}
 ]
