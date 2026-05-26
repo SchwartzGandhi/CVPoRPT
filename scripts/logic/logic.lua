@@ -13,3 +13,69 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+
+local function has(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
+
+-- Move Macros
+-- These cubes can be started with via yaml settings TODO maybe just give the player the item in slot_data
+function doubleup()
+    return has("doubleup") or false -- settings
+end
+function tag()
+    return has("tag") or false -- settings
+end
+-- Moves that involve your partner need to do be able to summon them in the first place
+function mario()
+    return has("mario") and doubleup()
+end
+function stay()
+    return has("stay") and doubleup()
+end
+function strongies()
+    if has("titansmitt") then
+        return (has("powerglove") and doubleup()) or false -- settings
+    end
+end
+
+-- Every spell needs access to Charlotte to use
+function comcast()
+    return has("dlink") or tag()
+end
+function birdie()
+    return comcast() and has("birdie")
+end
+function frog()
+    return comcast() and has("frog")
+end
+function longspell()
+    return comcast() and has("longspell")
+end
+function fast()
+    return comcast() and has("fast")
+end
+
+-- Misc traversal
+function biguppies()
+    return has("zip") or (comcast() and has("birdie"))
+end
+function mediumuppies()
+    return biguppies or has("djump")
+end
+function smalluppies()
+    return mediumuppies() or (has("doubleup") and has("mario"))
+end
+
+function holes()
+    return frog() or birdie()
+end
+function smol()
+    return has("slide") or holes()
+end

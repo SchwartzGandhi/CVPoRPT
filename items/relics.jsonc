@@ -15,7 +15,7 @@
 		"name": "Skill Cube",
 		"type": "toggle",
 		"img": "images/items/cube.png",
-		"codes": "subskill"
+		"codes": "dlink"
 	},
 	{
 		"name": "Wait Cube",
