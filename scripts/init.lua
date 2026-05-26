@@ -30,6 +30,7 @@ if not IS_ITEMS_ONLY then
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
+    Tracker:AddLocations("locations/regions.jsonc")
     Tracker:AddLocations("locations/locations.jsonc")
 end
 

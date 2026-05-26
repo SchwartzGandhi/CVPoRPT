@@ -229,7 +229,7 @@
 		]
 	},
 	{
-		"name": "The Throne Room",
+		"name": "The Throne Room Region",
 		"access_rules": [
 			"@Master's Keep Regions/Upper Quarters" // need settings
 		]
@@ -297,7 +297,7 @@
 		"name": "Forgotten City Regions",
 		"children": [
 			{
-				"name": "Outside",
+				"name": "Main",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room"
 				]
@@ -305,8 +305,8 @@
 			{
 				"name": "Inner",
 				"access_rules": [
-					"@Forgotten City Regions/Outside, $mediumuppies",
-					"@Forgotten City Regions/Outside, puppet"
+					"@Forgotten City Regions/Main, $mediumuppies",
+					"@Forgotten City Regions/Main, puppet"
 				]
 			},
 			{

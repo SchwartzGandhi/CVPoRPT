@@ -5,6 +5,7 @@
 			{
 				"name": "Drawbridge Pit Item",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -22,6 +23,7 @@
 			{
 				"name": "Drawbridge Switch Item",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -39,6 +41,7 @@
 			{
 				"name": "Drawbridge Upper Item",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -56,6 +59,7 @@
 			{
 				"name": "First Passage Upper Item",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -73,6 +77,7 @@
 			{
 				"name": "First Passage Lower",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -93,6 +98,7 @@
 			{
 				"name": "Hub Room",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -110,6 +116,7 @@
 			{
 				"name": "Above Hub",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -127,6 +134,7 @@
 			{
 				"name": "Statue Room Upper",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -144,6 +152,7 @@
 			{
 				"name": "Statue Room Above Statue",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -161,6 +170,7 @@
 			{
 				"name": "Behemoth Chase Room",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -178,6 +188,7 @@
 			{
 				"name": "Double Room Lower",
 				"access_rules": [
+					"@Entrance Regions/Hub"
 				],
 				"sections": [
 					{
@@ -195,6 +206,7 @@
 			{
 				"name": "Double Room Upper",
 				"access_rules": [
+					"@Entrance Regions/Behemoth Area"
 				],
 				"sections": [
 					{
@@ -212,6 +224,7 @@
 			{
 				"name": "Pre-Behemoth Boss Room",
 				"access_rules": [
+					"@Entrance Regions/Behemoth Area"
 				],
 				"sections": [
 					{
@@ -229,6 +242,7 @@
 			{
 				"name": "Right Hidden Room",
 				"access_rules": [
+					"@Entrance Regions/Behemoth Area"
 				],
 				"sections": [
 					{
@@ -246,6 +260,7 @@
 			{
 				"name": "Lilith Room",
 				"access_rules": [
+					"@Entrance Regions/Upper Area"
 				],
 				"sections": [
 					{
@@ -263,6 +278,7 @@
 			{
 				"name": "Above Metal Block Room",
 				"access_rules": [
+					"@Entrance Regions/Upper Area"
 				],
 				"sections": [
 					{
@@ -280,6 +296,7 @@
 			{
 				"name": "Center Hidden Room",
 				"access_rules": [
+					"@Entrance Regions/Upper Area"
 				],
 				"sections": [
 					{
@@ -297,6 +314,7 @@
 			{
 				"name": "Beyond Great Armor Hallway",
 				"access_rules": [
+					"@Entrance Regions/Upper Area"
 				],
 				"sections": [
 					{
@@ -314,6 +332,7 @@
 			{
 				"name": "Wind's Quests",
 				"access_rules": [
+					"@Entrance Regions/Wind's Room"
 				],
 				"sections": [
 					{
@@ -441,6 +460,7 @@
 			{
 				"name": "Westmost Room",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -458,6 +478,7 @@
 			{
 				"name": "Central Secret",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -475,6 +496,7 @@
 			{
 				"name": "West Shaft",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -492,6 +514,7 @@
 			{
 				"name": "Central Hall",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -509,6 +532,7 @@
 			{
 				"name": "Hidden Wall Item",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -526,6 +550,7 @@
 			{
 				"name": "Right Secret",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -543,6 +568,7 @@
 			{
 				"name": "Right Shade Hall",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -560,6 +586,7 @@
 			{
 				"name": "Final Shaft Item",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -577,6 +604,7 @@
 			{
 				"name": "Right Shaft Top",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -594,6 +622,7 @@
 			{
 				"name": "Eastmost Room",
 				"access_rules": [
+					"@Buried Chamber Regions/Main"
 				],
 				"sections": [
 					{
@@ -616,6 +645,7 @@
 			{
 				"name": "After Keremet Lower",
 				"access_rules": [
+					"@Great Stairway Regions/Lower"
 				],
 				"sections": [
 					{
@@ -633,6 +663,7 @@
 			{
 				"name": "Before Keremet Room",
 				"access_rules": [
+					"@Great Stairway Regions/Lower"
 				],
 				"sections": [
 					{
@@ -650,6 +681,7 @@
 			{
 				"name": "Left Loft",
 				"access_rules": [
+					"@Great Stairway Regions/Central Painting Area"
 				],
 				"sections": [
 					{
@@ -667,6 +699,7 @@
 			{
 				"name": "Left Loft Lower",
 				"access_rules": [
+					"@Great Stairway Regions/Central Painting Area"
 				],
 				"sections": [
 					{
@@ -684,6 +717,7 @@
 			{
 				"name": "Central Nook",
 				"access_rules": [
+					"@Great Stairway Regions/Entrance Connector"
 				],
 				"sections": [
 					{
@@ -701,6 +735,7 @@
 			{
 				"name": "Upper Grand Staircase Corner Nook",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -718,6 +753,7 @@
 			{
 				"name": "Upper Grand Staircase Middle Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -735,6 +771,7 @@
 			{
 				"name": "Upper Grand Staircase Lower Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -752,6 +789,7 @@
 			{
 				"name": "Upper Grand Staircase Upper Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -769,6 +807,7 @@
 			{
 				"name": "Lower Grand Staircase Corner Nook",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -786,6 +825,7 @@
 			{
 				"name": "Lower Grand Staircase Lower Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -803,6 +843,7 @@
 			{
 				"name": "Lower Grand Staircase Middle Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -820,6 +861,7 @@
 			{
 				"name": "Lower Grand Staircase Upper Alcove",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -837,6 +879,7 @@
 			{
 				"name": "Upper Underground Room",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -854,6 +897,7 @@
 			{
 				"name": "After Keremet Upper",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -871,6 +915,7 @@
 			{
 				"name": "Big Underground Room Upper",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -888,6 +933,7 @@
 			{
 				"name": "Big Underground Room Hidden Item",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -905,6 +951,7 @@
 			{
 				"name": "Big Underground Room Lower",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -922,6 +969,7 @@
 			{
 				"name": "Underground Hidden Room",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -939,6 +987,7 @@
 			{
 				"name": "Underground East Room",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -956,6 +1005,7 @@
 			{
 				"name": "Connector Pipe",
 				"access_rules": [
+					"@Great Stairway Regions/Upper"
 				],
 				"sections": [
 					{
@@ -976,6 +1026,7 @@
 			{
 				"name": "Upper Grand Staircase Top Left Item",
 				"access_rules": [
+					"@Great Stairway Regions/Staircases"
 				],
 				"sections": [
 					{
@@ -993,6 +1044,7 @@
 			{
 				"name": "Central Upper",
 				"access_rules": [
+					"@Great Stairway Regions/Upper"
 				],
 				"sections": [
 					{
@@ -1010,6 +1062,7 @@
 			{
 				"name": "Right Loft",
 				"access_rules": [
+					"@Great Stairway Regions/Upper"
 				],
 				"sections": [
 					{
@@ -1032,6 +1085,7 @@
 			{
 				"name": "Lower Passage Hidden Item",
 				"access_rules": [
+					"@Tower of Death Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -1049,6 +1103,7 @@
 			{
 				"name": "Stella Item",
 				"access_rules": [
+					"@Tower of Death Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -1066,6 +1121,7 @@
 			{
 				"name": "Lower Gears Room Spike Shaft",
 				"access_rules": [
+					"@Tower of Death Regions/First Gear Room"
 				],
 				"sections": [
 					{
@@ -1083,6 +1139,7 @@
 			{
 				"name": "Above Motorcycles",
 				"access_rules": [
+					"@Tower of Death Regions/Motorcycles"
 				],
 				"sections": [
 					{
@@ -1100,6 +1157,7 @@
 			{
 				"name": "Rampart Room",
 				"access_rules": [
+					"@Tower of Death Regions/Belt Area"
 				],
 				"sections": [
 					{
@@ -1117,6 +1175,7 @@
 			{
 				"name": "Hidden Room",
 				"access_rules": [
+					"@Tower of Death Regions/Belt Area"
 				],
 				"sections": [
 					{
@@ -1134,6 +1193,7 @@
 			{
 				"name": "Gear Belt Room",
 				"access_rules": [
+					"@Tower of Death Regions/Belt Area"
 				],
 				"sections": [
 					{
@@ -1151,6 +1211,7 @@
 			{
 				"name": "Secret Room",
 				"access_rules": [
+					"@Tower of Death Regions/Elevator Room"
 				],
 				"sections": [
 					{
@@ -1168,6 +1229,7 @@
 			{
 				"name": "Elevator Room Lower",
 				"access_rules": [
+					"@Tower of Death Regions/Elevator Room"
 				],
 				"sections": [
 					{
@@ -1185,6 +1247,7 @@
 			{
 				"name": "Elevator Room Middle",
 				"access_rules": [
+					"@Tower of Death Regions/Elevator Room"
 				],
 				"sections": [
 					{
@@ -1202,6 +1265,7 @@
 			{
 				"name": "Elevator Room Top",
 				"access_rules": [
+					"@Tower of Death Regions/Elevator Room"
 				],
 				"sections": [
 					{
@@ -1219,6 +1283,7 @@
 			{
 				"name": "Second Gears Room Left",
 				"access_rules": [
+					"@Tower of Death Regions/Second Gear Room"
 				],
 				"sections": [
 					{
@@ -1236,6 +1301,7 @@
 			{
 				"name": "Passage Hidden Item",
 				"access_rules": [
+					"@Tower of Death Regions/Second Gear Room"
 				],
 				"sections": [
 					{
@@ -1253,6 +1319,7 @@
 			{
 				"name": "Second Gears Room Right",
 				"access_rules": [
+					"@Tower of Death Regions/Second Gear Room"
 				],
 				"sections": [
 					{
@@ -1270,6 +1337,7 @@
 			{
 				"name": "Top Gears Room",
 				"access_rules": [
+					"@Tower of Death Regions/Second Gear Room"
 				],
 				"sections": [
 					{
@@ -1287,6 +1355,7 @@
 			{
 				"name": "Third Gears Room",
 				"access_rules": [
+					"@Tower of Death Regions/Second Gear Room"
 				],
 				"sections": [
 					{
@@ -1304,6 +1373,7 @@
 			{
 				"name": "Top of the Tower",
 				"access_rules": [
+					"@Tower of Death Regions/Top of the Tower"
 				],
 				"sections": [
 					{
@@ -1326,6 +1396,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
+					"@Master's Keep Regions/Lower"
 				],
 				"sections": [
 					{
@@ -1343,6 +1414,7 @@
 			{
 				"name": "Hidden Room",
 				"access_rules": [
+					"@Master's Keep Regions/Main"
 				],
 				"sections": [
 					{
@@ -1360,6 +1432,7 @@
 			{
 				"name": "Right Square Room",
 				"access_rules": [
+					"@Master's Keep Regions/Main"
 				],
 				"sections": [
 					{
@@ -1377,6 +1450,7 @@
 			{
 				"name": "Whip Trial",
 				"access_rules": [
+					"@Master's Keep Regions/Portrait Room"
 				],
 				"sections": [
 					{
@@ -1399,6 +1473,7 @@
 			{
 				"name": "Above Throne",
 				"access_rules": [
+					"@The Throne Room Region"
 				],
 				"sections": [
 					{
@@ -1419,6 +1494,7 @@
 			{
 				"name": "Great Stairs Under Stairs",
 				"access_rules": [
+					"@The Throne Room Region"
 				],
 				"sections": [
 					{
@@ -1436,6 +1512,7 @@
 			{
 				"name": "Great Stairs Center",
 				"access_rules": [
+					"@The Throne Room Region"
 				],
 				"sections": [
 					{
@@ -1453,6 +1530,7 @@
 			{
 				"name": "Great Stairs Hidden",
 				"access_rules": [
+					"@The Throne Room Region"
 				],
 				"sections": [
 					{
@@ -1470,6 +1548,7 @@
 			{
 				"name": "Great Stairs Left",
 				"access_rules": [
+					"@The Throne Room Region"
 				],
 				"sections": [
 					{
@@ -1492,6 +1571,7 @@
 			{
 				"name": "Meat Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1509,6 +1589,7 @@
 			{
 				"name": "First Passage",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1526,6 +1607,7 @@
 			{
 				"name": "First Big Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1543,6 +1625,7 @@
 			{
 				"name": "Corner Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1560,6 +1643,7 @@
 			{
 				"name": "Winding Rooms",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1577,6 +1661,7 @@
 			{
 				"name": "Chunky Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1594,6 +1679,7 @@
 			{
 				"name": "Right Corner Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1611,6 +1697,7 @@
 			{
 				"name": "Bar",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1631,6 +1718,7 @@
 			{
 				"name": "Register Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1648,6 +1736,7 @@
 			{
 				"name": "Axe Armor Item",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1665,6 +1754,7 @@
 			{
 				"name": "Center Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1685,6 +1775,7 @@
 			{
 				"name": "Bread Shelf",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1702,6 +1793,7 @@
 			{
 				"name": "Left Plaza",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1719,6 +1811,7 @@
 			{
 				"name": "Before Cart Room",
 				"access_rules": [
+					"@City of Haze Regions/Main"
 				],
 				"sections": [
 					{
@@ -1736,6 +1829,7 @@
 			{
 				"name": "Cart Secret Left",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1753,6 +1847,7 @@
 			{
 				"name": "Cart Secret Right",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1770,6 +1865,7 @@
 			{
 				"name": "Church Hallway",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1787,6 +1883,7 @@
 			{
 				"name": "Central Hallway",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1807,6 +1904,7 @@
 			{
 				"name": "Heavy Cart Item",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1824,6 +1922,7 @@
 			{
 				"name": "Axe Courtyard",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1841,6 +1940,7 @@
 			{
 				"name": "Left Dance Hall Left Item",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1858,6 +1958,7 @@
 			{
 				"name": "Left Dance Hall Right Item",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1875,6 +1976,7 @@
 			{
 				"name": "Dance Halls Basement",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1892,6 +1994,7 @@
 			{
 				"name": "Right Dance Hall Item",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1909,6 +2012,7 @@
 			{
 				"name": "Right Dance Hall Secret Room",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1926,6 +2030,7 @@
 			{
 				"name": "Post-Boss Room",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1943,6 +2048,7 @@
 			{
 				"name": "Tunnel Room Right",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1960,6 +2066,7 @@
 			{
 				"name": "Tunnel Room Left",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1977,6 +2084,7 @@
 			{
 				"name": "Dance Halls Vertical Hallway",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -1994,6 +2102,7 @@
 			{
 				"name": "Underground Square Right",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -2011,6 +2120,7 @@
 			{
 				"name": "Underground Secret Room",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -2028,6 +2138,7 @@
 			{
 				"name": "Underground Square Left",
 				"access_rules": [
+					"@City of Haze Regions/East"
 				],
 				"sections": [
 					{
@@ -2050,6 +2161,7 @@
 			{
 				"name": "Triple Moth Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2067,6 +2179,7 @@
 			{
 				"name": "Behind Final Guard",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2084,6 +2197,7 @@
 			{
 				"name": "Three Amalaric Snipers",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2101,6 +2215,7 @@
 			{
 				"name": "Many Nyxes Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2118,6 +2233,7 @@
 			{
 				"name": "Train Room Secret Right",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2135,6 +2251,7 @@
 			{
 				"name": "Underground Secret Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2152,6 +2269,7 @@
 			{
 				"name": "Underground Demon Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2169,6 +2287,7 @@
 			{
 				"name": "Left Big Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2186,6 +2305,7 @@
 			{
 				"name": "Secret Floor Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2203,6 +2323,7 @@
 			{
 				"name": "East Courtyard",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2220,6 +2341,7 @@
 			{
 				"name": "Near Big Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2237,6 +2359,7 @@
 			{
 				"name": "Bakery",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2260,6 +2383,7 @@
 			{
 				"name": "Right Dance Hall Top Right",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2277,6 +2401,7 @@
 			{
 				"name": "Square Room",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2294,6 +2419,7 @@
 			{
 				"name": "Right Dance Hall Top Left",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2311,6 +2437,7 @@
 			{
 				"name": "Train Room Secret Left",
 				"access_rules": [
+					"@13th Street Regions/Main"
 				],
 				"sections": [
 					{
@@ -2333,6 +2460,7 @@
 			{
 				"name": "Sandworm Stomach",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2350,6 +2478,7 @@
 			{
 				"name": "On Statue",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2367,6 +2496,7 @@
 			{
 				"name": "Behind Bricks",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2384,6 +2514,7 @@
 			{
 				"name": "Left Trap",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2401,6 +2532,7 @@
 			{
 				"name": "Right Trap",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2418,6 +2550,7 @@
 			{
 				"name": "Bottom Right Room",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2435,6 +2568,7 @@
 			{
 				"name": "Lower Big Underground Room Bottom",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2452,6 +2586,7 @@
 			{
 				"name": "Lower Big Underground Room Top",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2469,6 +2604,7 @@
 			{
 				"name": "Lonely Mimic Alcove",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2486,6 +2622,7 @@
 			{
 				"name": "Boulder Room Corner Alcove",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2503,6 +2640,7 @@
 			{
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2520,6 +2658,7 @@
 			{
 				"name": "Upper Big Underground Top Right",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2537,6 +2676,7 @@
 			{
 				"name": "Upper Big Underground Top Left",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2554,6 +2694,7 @@
 			{
 				"name": "Eastmost Item",
 				"access_rules": [
+					"@Sandy Grave Regions/Main"
 				],
 				"sections": [
 					{
@@ -2571,6 +2712,7 @@
 			{
 				"name": "Pyramid East 1F",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2588,6 +2730,7 @@
 			{
 				"name": "Giant Shaft Upper Item",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2605,6 +2748,7 @@
 			{
 				"name": "Giant Shaft Middle Item",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2622,6 +2766,7 @@
 			{
 				"name": "Giant Shaft Low Item",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2639,6 +2784,7 @@
 			{
 				"name": "Pyramid 3F Lower",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2656,6 +2802,7 @@
 			{
 				"name": "Pyramid 3F Upper",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2673,6 +2820,7 @@
 			{
 				"name": "Pyramid East 5F",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2690,6 +2838,7 @@
 			{
 				"name": "Fleaman Pit",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2707,6 +2856,7 @@
 			{
 				"name": "Mega Ghost Room Upper",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2724,6 +2874,7 @@
 			{
 				"name": "Mega Ghost Room Lower",
 				"access_rules": [
+					"@Sandy Grave Regions/Upper Pyramid"
 				],
 				"sections": [
 					{
@@ -2741,6 +2892,7 @@
 			{
 				"name": "Pyramid 5F Nook",
 				"access_rules": [
+					"@Sandy Grave Regions/Pyramid Top"
 				],
 				"sections": [
 					{
@@ -2763,6 +2915,7 @@
 			{
 				"name": "Outside Left",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2780,6 +2933,7 @@
 			{
 				"name": "Pyramid East 5F",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2797,6 +2951,7 @@
 			{
 				"name": "Armored Fleaman Pit",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2814,6 +2969,7 @@
 			{
 				"name": "Pyramid East 3F",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2831,6 +2987,7 @@
 			{
 				"name": "Pyramid West 5F",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2848,6 +3005,7 @@
 			{
 				"name": "Pyramid 1F Bricks",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2865,6 +3023,7 @@
 			{
 				"name": "Lower Boulder Room Tunnel Alcove",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2882,6 +3041,7 @@
 			{
 				"name": "Lower Boulder Room Upper Alcove",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2899,6 +3059,7 @@
 			{
 				"name": "Gorgon Room",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2916,6 +3077,7 @@
 			{
 				"name": "Bottom Chamber",
 				"access_rules": [
+					"@Forgotten City Regions/Main"
 				],
 				"sections": [
 					{
@@ -2933,6 +3095,7 @@
 			{
 				"name": "Lower Underground Square Lower Item",
 				"access_rules": [
+					"@Forgotten City Regions/Inner"
 				],
 				"sections": [
 					{
@@ -2950,6 +3113,7 @@
 			{
 				"name": "Lower Underground Square Upper Item",
 				"access_rules": [
+					"@Forgotten City Regions/Inner"
 				],
 				"sections": [
 					{
@@ -2967,6 +3131,7 @@
 			{
 				"name": "Upper Underground Square",
 				"access_rules": [
+					"@Forgotten City Regions/Inner"
 				],
 				"sections": [
 					{
@@ -2984,6 +3149,7 @@
 			{
 				"name": "Pyramid East 1F",
 				"access_rules": [
+					"@Forgotten City Regions/Inner Upper"
 				],
 				"sections": [
 					{
@@ -3001,6 +3167,7 @@
 			{
 				"name": "Big Shaft Room",
 				"access_rules": [
+					"@Forgotten City Regions/Inner Upper"
 				],
 				"sections": [
 					{
@@ -3021,6 +3188,7 @@
 			{
 				"name": "Post-Boss Item",
 				"access_rules": [
+					"@Forgotten City Regions/Inner Upper"
 				],
 				"sections": [
 					{
@@ -3043,6 +3211,7 @@
 			{
 				"name": "Bottom Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Right Lower"
 				],
 				"sections": [
 					{
@@ -3060,6 +3229,7 @@
 			{
 				"name": "Bottom-Right Room Left Building",
 				"access_rules": [
+					"@Nation of Fools Regions/Right Lower"
 				],
 				"sections": [
 					{
@@ -3077,6 +3247,7 @@
 			{
 				"name": "Bottom-Right Room Middle Building",
 				"access_rules": [
+					"@Nation of Fools Regions/Right Lower"
 				],
 				"sections": [
 					{
@@ -3094,6 +3265,7 @@
 			{
 				"name": "Central Top Shaft",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3111,6 +3283,7 @@
 			{
 				"name": "Legion Arena",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3128,6 +3301,7 @@
 			{
 				"name": "Mid-Right Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3145,6 +3319,7 @@
 			{
 				"name": "Left Upper Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3162,6 +3337,7 @@
 			{
 				"name": "Right Horizontal Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3179,6 +3355,7 @@
 			{
 				"name": "Right Bottom Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3196,6 +3373,7 @@
 			{
 				"name": "Top Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3213,6 +3391,7 @@
 			{
 				"name": "Bottom-Left Room Building",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3230,6 +3409,7 @@
 			{
 				"name": "Upper Upside Down",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3247,6 +3427,7 @@
 			{
 				"name": "Bottom Left Medium Square On Wall",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3264,6 +3445,7 @@
 			{
 				"name": "Crevice Item",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3281,6 +3463,7 @@
 			{
 				"name": "Top-Right Room Axe Item",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3298,6 +3481,7 @@
 			{
 				"name": "Left Bottom Corner Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3315,6 +3499,7 @@
 			{
 				"name": "Bottom Right Medium Square On Wall",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3332,6 +3517,7 @@
 			{
 				"name": "Right Vertical Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3349,6 +3535,7 @@
 			{
 				"name": "Top-Right Room Bottom Item",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3366,6 +3553,7 @@
 			{
 				"name": "Top-Left Room Right Building",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3383,6 +3571,7 @@
 			{
 				"name": "Top-Right Room Breakable Wall",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3400,6 +3589,7 @@
 			{
 				"name": "Right Center Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3417,6 +3607,7 @@
 			{
 				"name": "Left Center Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3434,6 +3625,7 @@
 			{
 				"name": "Upside Down Building",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3451,6 +3643,7 @@
 			{
 				"name": "Secret Room",
 				"access_rules": [
+					"@Nation of Fools Regions/Main"
 				],
 				"sections": [
 					{
@@ -3473,6 +3666,7 @@
 			{
 				"name": "Left Lower Isolated Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3490,6 +3684,7 @@
 			{
 				"name": "Right Lower Isolated Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3507,6 +3702,7 @@
 			{
 				"name": "Left Upper Isolated Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3524,6 +3720,7 @@
 			{
 				"name": "Right Upper Isolated Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3541,6 +3738,7 @@
 			{
 				"name": "Left Upper Big Corner",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3558,6 +3756,7 @@
 			{
 				"name": "Upper Left Big Room Middle Building",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3575,6 +3774,7 @@
 			{
 				"name": "Upper Right Big Room Right Side",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3592,6 +3792,7 @@
 			{
 				"name": "Upper Left Big Room Left Building",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3609,6 +3810,7 @@
 			{
 				"name": "Upper Left Lower Corner Upright Building",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3626,6 +3828,7 @@
 			{
 				"name": "Right Upper Big Corner On Wall",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3643,6 +3846,7 @@
 			{
 				"name": "Upper Right Big Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -3660,6 +3864,7 @@
 			{
 				"name": "Left Big Corner",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3677,6 +3882,7 @@
 			{
 				"name": "Lower Left Big Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3694,6 +3900,7 @@
 			{
 				"name": "Lower Vertical Hall",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3711,6 +3918,7 @@
 			{
 				"name": "Bottom Corner",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3728,6 +3936,7 @@
 			{
 				"name": "Bottom Right Breakable Wall",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3745,6 +3954,7 @@
 			{
 				"name": "Bottom Right Big Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3762,6 +3972,7 @@
 			{
 				"name": "Bottom Right Corner Room",
 				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
 				],
 				"sections": [
 					{
@@ -3784,6 +3995,7 @@
 			{
 				"name": "Left Atrium Big Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3801,6 +4013,7 @@
 			{
 				"name": "Right Atrium East Square Room Right",
 				"access_rules": [
+					"@Forest of Doom Regions/Cave"
 				],
 				"sections": [
 					{
@@ -3818,6 +4031,7 @@
 			{
 				"name": "Left Atrium Top",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3835,6 +4049,7 @@
 			{
 				"name": "Right Atrium East Top Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3852,6 +4067,7 @@
 			{
 				"name": "Right Atrium East Square Room Left",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3869,6 +4085,7 @@
 			{
 				"name": "Right Atrium West Top Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3886,6 +4103,7 @@
 			{
 				"name": "Left Atrium Breakable Wall",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3903,6 +4121,7 @@
 			{
 				"name": "Left Atrium Middle Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3920,6 +4139,7 @@
 			{
 				"name": "Left Atrium Upper Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Main"
 				],
 				"sections": [
 					{
@@ -3937,6 +4157,7 @@
 			{
 				"name": "Secret Cave Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Cave"
 				],
 				"sections": [
 					{
@@ -3954,6 +4175,7 @@
 			{
 				"name": "Near Cave Save Breakable Wall",
 				"access_rules": [
+					"@Forest of Doom Regions/Cave"
 				],
 				"sections": [
 					{
@@ -3971,6 +4193,7 @@
 			{
 				"name": "Post-Boss Room",
 				"access_rules": [
+					"@Forest of Doom Regions/Cave"
 				],
 				"sections": [
 					{
@@ -3993,6 +4216,7 @@
 			{
 				"name": "Right Building Center Room",
 				"access_rules": [
+					"@Dark Academy Region/Right Building"
 				],
 				"sections": [
 					{
@@ -4010,6 +4234,7 @@
 			{
 				"name": "Right Building Top Floor",
 				"access_rules": [
+					"@Dark Academy Region/Right Building"
 				],
 				"sections": [
 					{
@@ -4027,6 +4252,7 @@
 			{
 				"name": "Main Building Ghoul Room",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4044,6 +4270,7 @@
 			{
 				"name": "Main Building Three Toads",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4061,6 +4288,7 @@
 			{
 				"name": "Main Building Secret Ceiling",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4078,6 +4306,7 @@
 			{
 				"name": "Main Building Entrance",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4095,6 +4324,7 @@
 			{
 				"name": "Main Building Secret Malphas Room",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4112,6 +4342,7 @@
 			{
 				"name": "West Building Breakable Wall",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4129,6 +4360,7 @@
 			{
 				"name": "Main Building Square Room Breakable Wall",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4146,6 +4378,7 @@
 			{
 				"name": "Main Building Minotaur Room",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4163,6 +4396,7 @@
 			{
 				"name": "West Building Top Floor",
 				"access_rules": [
+					"@Dark Academy Region/Main"
 				],
 				"sections": [
 					{
@@ -4188,6 +4422,7 @@
 			{
 				"name": "Doppelganger Reward",
 				"access_rules": [
+					"@Nest of Evil Regions/Main"
 				],
 				"sections": [
 					{
@@ -4205,6 +4440,7 @@
 			{
 				"name": "First Item",
 				"access_rules": [
+					"@Nest of Evil Regions/Main"
 				],
 				"sections": [
 					{
@@ -4222,6 +4458,7 @@
 			{
 				"name": "Second Item",
 				"access_rules": [
+					"@Nest of Evil Regions/Main"
 				],
 				"sections": [
 					{
