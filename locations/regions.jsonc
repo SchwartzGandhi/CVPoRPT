@@ -1,0 +1,400 @@
+[
+    {
+        "name": "Entrance Regions",
+        "children": [
+            {
+                "name": "Hub",
+                "access_rules": [
+                    "", // starting region
+                    "@Entrance Regions/Hub Painting Room, $smol",
+                    "@Entrance Regions/Underground Passage, $smalluppies",
+                    "@Entrance Regions/Upper Area",
+                    "@Entrance Regions/Behemoth Area",
+                    "@Buried Chamber Regions/Main",
+                    "@Great Stairway Regions/Lower"
+                ]
+            },
+            {
+                "name": "Wind's Room",
+                "access_rules": [
+                    "@Entrance Regions/Hub"
+                ]
+            },
+            {
+                "name": "Behemoth Area",
+                "access_rules": [
+                    "@Entrance Regions/Hub, $smalluppies"
+                ]
+            },
+            {
+                "name": "Underground Passage",
+                "access_rules": [
+                    "@Entrance Regions/Hub" //get to nest options
+                ]
+            },
+            {
+                "name": "Hub Painting Room",
+                "access_rules": [
+                    "@Entrance Regions/Hub, $smol",
+                    "@Entrance Regions/Hub, puppet"
+                ]
+            },
+            {
+                "name": "Upper Area",
+                "access_rules": [
+                    "@Entrance Regions/Hub, $mario, djump",
+                    "@Entrance Regions/Hub, $biguppies",
+                    "@Great Stairway Regions/Entrance Connector"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Buried Chamber Regions",
+        "children": [
+            {
+                "name": "Main",
+                "access_rules": [
+                    "@Entrance Regions/Behemoth Area",
+                    "@Great Stairway Regions/Lower"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Great Stairway Regions",
+        "children": [
+            {
+                "name": "Lower",
+                "access_rules": [
+                    "@Entrance Regions/Behemoth Area, $strongies",
+                    "@Buried Chamber Regions/Main",
+                    "@Great Stairway Regions/Staircases"
+                ]
+            },
+            {
+                "name": "Staircases",
+                "access_rules": [
+                    "@Great Stairway Regions/Lower, $mediumuppies",
+                    "@Great Stairway Regions/Underground Painting",
+                    "@Great Stairway Regions/Entrance Connector",
+                    "@Great Stairway Regions/Upper"
+                ]
+            },
+            {
+                "name": "Entrance Connector",
+                "access_rules": [
+                    "@Entrance Regions/Upper Area",
+                    "@Great Stairway Regions/Upper"
+                ]
+            },
+            {
+                "name": "Upper",
+                "access_rules": [
+                    "@Great Stairway Regions/Staircases, $smalluppies",
+                    "@Great Stairway Regions/Staircases, puppet",
+                    "@Great Stairway Regions/Entrance Connector, $mario, puppet",
+                    "@Great Stairway Regions/Entrance Connector, $mediumuppies",
+                    "@Great Stairway Regions/Entrance Connector, $mario, $fast",
+                    "@Great Stairway Regions/Central Painting Area",
+                    "@Tower of Death Regions/Belt Area, $holes"
+                ]
+            },
+            {
+                "name": "Central Painting Area",
+                "access_rules": [
+                    "@Great Stairway Regions/Upper, $smalluppies"
+                ]
+            },
+            {
+                "name": "Underground Painting",
+                "access_rules": [
+                    "@Great Stairway Regions/Staircases"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tower of Death Regions",
+        "children": [
+            {
+                "name": "Bottom",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Motorcycles",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Belt Area",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Painting Room",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Elevator Room",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "First Gear Room",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Ascent",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Second Gear Room",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Top of the Tower",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Master's Keep Regions",
+        "children": [
+            {
+                "name": "Bridge",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Lower",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Upper Quarters",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Portrait Room",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Throne Room",
+        "access_rules": [
+
+        ]
+    },
+    {
+        "name": "City of Haze Regions",
+        "children": [
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "East",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "13th Street Regions",
+        "children": [
+            {
+                "name": "Entrance",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sandy Grave Regions",
+        "children": [
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Upper Pyramid",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Pyramid Top",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten City Regions",
+        "children": [
+            {
+                "name": "Outside",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Inner",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Inner Upper",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nation of Fools Regions",
+        "children": [
+            {
+                "name": "Entrance",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Right Lower",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Burnt Paradise Regions",
+        "children": [
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Entrance",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Bottom",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forest of Doom Regions",
+        "children": [
+            {
+                "name": "Entrance",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Cave",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dark Academy Regions",
+        "children": [
+            {
+                "name": "Entrance",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Right Building",
+                "access_rules": [
+                    
+                ]
+            },
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nest of Evil Regions",
+        "children": [
+            {
+                "name": "Main",
+                "access_rules": [
+                    
+                ]
+            }
+        ]
+    }
+]
