@@ -91,8 +91,7 @@
 			{
 				"name": "Upper",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases, $smalluppies",
-					"@Great Stairway Regions/Staircases, puppet",
+					"@Great Stairway Regions/Staircases, $tinyuppies",
 					"@Great Stairway Regions/Entrance Connector, $mario, puppet",
 					"@Great Stairway Regions/Entrance Connector, $mediumuppies",
 					"@Great Stairway Regions/Entrance Connector, $mario, $fast",
@@ -215,8 +214,7 @@
 				"name": "Upper Quarters",
 				"access_rules": [
 					"@Master's Keep Regions/Main, $mediumuppies",
-					"@Master's Keep Regions/Main, $smalluppies, puppet",
-					""
+					"@Master's Keep Regions/Main, $smalluppies, puppet"
 				]
 			},
 			{
@@ -330,8 +328,7 @@
 			{
 				"name": "Right Lower",
 				"access_rules": [
-					"@Nation of Fools Regions/Entrance, $smalluppies",
-					"@Nation of Fools Regions/Entrance, puppet"
+					"@Nation of Fools Regions/Entrance, $tinyuppies"
 				]
 			},
 			{
@@ -354,8 +351,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Burnt Paradise Regions/Main, $smalluppies",
-					"@Burnt Paradise Regions/Main, puppet"
+					"@Burnt Paradise Regions/Main, $tinyuppies"
 				]
 			},
 			{
@@ -401,8 +397,7 @@
 			{
 				"name": "Right Building",
 				"access_rules": [
-					"@Dark Academy Regions/Entrance, $smalluppies",
-					"@Dark Academy Regions/Entrance, puppet"
+					"@Dark Academy Regions/Entrance, $tinyuppies"
 				]
 			},
 			{

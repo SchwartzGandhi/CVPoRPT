@@ -41,7 +41,8 @@
 			{
 				"name": "Drawbridge Upper Item",
 				"access_rules": [
-					"@Entrance Regions/Hub"
+					"@Entrance Regions/Hub, $biguppies",
+					"@Entrance Regions/Hub, $mario, jdump, puppet"
 				],
 				"sections": [
 					{
@@ -278,7 +279,10 @@
 			{
 				"name": "Above Metal Block Room",
 				"access_rules": [
-					"@Entrance Regions/Upper Area"
+					"@Entrance Regions/Upper Area, $biguppies",
+					"@Entrance Regions/Upper Area, djump, puppet",
+					"@Entrance Regions/Upper Area, $strongies, djump",
+					"@Entrance Regions/Upper Area, $strongies, $mario"
 				],
 				"sections": [
 					{
@@ -681,7 +685,7 @@
 			{
 				"name": "Left Loft",
 				"access_rules": [
-					"@Great Stairway Regions/Central Painting Area"
+					"@Great Stairway Regions/Central Painting Area, $smalluppies"
 				],
 				"sections": [
 					{
@@ -699,7 +703,7 @@
 			{
 				"name": "Left Loft Lower",
 				"access_rules": [
-					"@Great Stairway Regions/Central Painting Area"
+					"@Great Stairway Regions/Central Painting Area, $smalluppies"
 				],
 				"sections": [
 					{
@@ -717,7 +721,7 @@
 			{
 				"name": "Central Nook",
 				"access_rules": [
-					"@Great Stairway Regions/Entrance Connector"
+					"@Great Stairway Regions/Entrance Connector, $mediumuppies"
 				],
 				"sections": [
 					{
@@ -753,7 +757,8 @@
 			{
 				"name": "Upper Grand Staircase Middle Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $mediumuppies",
+					"@Great Stairway Regions/Staircases, fast, puppet, $doubleup" //?
 				],
 				"sections": [
 					{
@@ -771,7 +776,7 @@
 			{
 				"name": "Upper Grand Staircase Lower Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -789,7 +794,9 @@
 			{
 				"name": "Upper Grand Staircase Upper Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $mediumuppies",
+					"@Great Stairway Regions/Staircases, puppet",
+					"@Great Stairway Regions/Staircases, $fast"
 				],
 				"sections": [
 					{
@@ -825,7 +832,7 @@
 			{
 				"name": "Lower Grand Staircase Lower Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -843,7 +850,8 @@
 			{
 				"name": "Lower Grand Staircase Middle Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $mediumuppies",
+					"@Great Stairway Regions/Staircases, dlink, fast, puppet"
 				],
 				"sections": [
 					{
@@ -861,7 +869,9 @@
 			{
 				"name": "Lower Grand Staircase Upper Alcove",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $mediumuppies",
+					"@Great Stairway Regions/Staircases, puppet",
+					"@Great Stairway Regions/Staircases, $fast"
 				],
 				"sections": [
 					{
@@ -1005,14 +1015,14 @@
 			{
 				"name": "Connector Pipe",
 				"access_rules": [
-					"@Great Stairway Regions/Upper"
+					"@Great Stairway Regions/Upper, $holes"
 				],
 				"sections": [
 					{
-						"name": "Left"
+						"name": "Left Item"
 					},
 					{
-						"name": "Right"
+						"name": "Right Item"
 					}
 				],
 				"map_locations": [
@@ -1026,7 +1036,8 @@
 			{
 				"name": "Upper Grand Staircase Top Left Item",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Staircases, $tinyuppies",
+					"@Great Stairway Regions/Staircases, $fast"
 				],
 				"sections": [
 					{
@@ -1062,7 +1073,7 @@
 			{
 				"name": "Right Loft",
 				"access_rules": [
-					"@Great Stairway Regions/Upper"
+					"@Great Stairway Regions/Upper, $smalluppies"
 				],
 				"sections": [
 					{
@@ -1139,7 +1150,8 @@
 			{
 				"name": "Above Motorcycles",
 				"access_rules": [
-					"@Tower of Death Regions/Motorcycles"
+					"@Tower of Death Regions/Motorcycles, $biguppies",
+					"@Tower of Death Regions/Motorcycles, $mario, djump"
 				],
 				"sections": [
 					{
@@ -1211,7 +1223,8 @@
 			{
 				"name": "Secret Room",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room"
+					"@Tower of Death Regions/Elevator Room, $mediumuppies",
+					"@Tower of Death Regions/Elevator Room, $mario, puppet"
 				],
 				"sections": [
 					{
@@ -1229,7 +1242,7 @@
 			{
 				"name": "Elevator Room Lower",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room"
+					"@Tower of Death Regions/Elevator Room, $biguppies"
 				],
 				"sections": [
 					{
@@ -1247,7 +1260,7 @@
 			{
 				"name": "Elevator Room Middle",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room"
+					"@Tower of Death Regions/Elevator Room" // elevator
 				],
 				"sections": [
 					{
@@ -1265,7 +1278,7 @@
 			{
 				"name": "Elevator Room Top",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room"
+					"@Tower of Death Regions/Elevator Room" // elevator
 				],
 				"sections": [
 					{
@@ -1473,7 +1486,7 @@
 			{
 				"name": "Above Throne",
 				"access_rules": [
-					"@The Throne Room Region"
+					"@The Throne Room Region, $biguppies"
 				],
 				"sections": [
 					{
@@ -1494,7 +1507,8 @@
 			{
 				"name": "Great Stairs Under Stairs",
 				"access_rules": [
-					"@The Throne Room Region"
+					"@The Throne Room Region, $mediumuppies",
+					"@The Throne Room Region, $mario, puppet"
 				],
 				"sections": [
 					{
@@ -1512,7 +1526,7 @@
 			{
 				"name": "Great Stairs Center",
 				"access_rules": [
-					"@The Throne Room Region"
+					"@The Throne Room Region, $biguppies"
 				],
 				"sections": [
 					{
@@ -1530,7 +1544,7 @@
 			{
 				"name": "Great Stairs Hidden",
 				"access_rules": [
-					"@The Throne Room Region"
+					"@The Throne Room Region, $biguppies"
 				],
 				"sections": [
 					{
@@ -1548,7 +1562,7 @@
 			{
 				"name": "Great Stairs Left",
 				"access_rules": [
-					"@The Throne Room Region"
+					"@The Throne Room Region, $biguppies"
 				],
 				"sections": [
 					{
@@ -1829,7 +1843,7 @@
 			{
 				"name": "Cart Secret Left",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $biguppies"
 				],
 				"sections": [
 					{
@@ -1847,7 +1861,7 @@
 			{
 				"name": "Cart Secret Right",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $biguppies"
 				],
 				"sections": [
 					{
@@ -1890,7 +1904,10 @@
 						"name": "Stairs Item"
 					},
 					{
-						"name": "Lower Item"
+						"name": "Lower Item",
+						"access_rules": [
+							"$smol"
+						]
 					}
 				],
 				"map_locations": [
@@ -1940,7 +1957,7 @@
 			{
 				"name": "Left Dance Hall Left Item",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -1958,7 +1975,7 @@
 			{
 				"name": "Left Dance Hall Right Item",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -1994,7 +2011,7 @@
 			{
 				"name": "Right Dance Hall Item",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -2066,7 +2083,8 @@
 			{
 				"name": "Tunnel Room Left",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $holes",
+					"@City of Haze Regions/East, puppet"
 				],
 				"sections": [
 					{
@@ -2215,7 +2233,10 @@
 			{
 				"name": "Many Nyxes Room",
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $mediumuppies, puppet, slide",
+					"@13th Street Regions/Main, $mediumuppies, $holes",
+					"@13th Street Regions/Main, $mario, puppet, slide",
+					"@13th Street Regions/Main, $mario, puppet, $holes"
 				],
 				"sections": [
 					{
@@ -2233,7 +2254,7 @@
 			{
 				"name": "Train Room Secret Right",
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -2383,7 +2404,7 @@
 			{
 				"name": "Right Dance Hall Top Right",
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $smalluppies"
 				],
 				"sections": [
 					{
@@ -2419,7 +2440,7 @@
 			{
 				"name": "Right Dance Hall Top Left",
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $smalluppies"
 				],
 				"sections": [
 					{
@@ -2437,7 +2458,7 @@
 			{
 				"name": "Train Room Secret Left",
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -2496,7 +2517,7 @@
 			{
 				"name": "Behind Bricks",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -2586,7 +2607,7 @@
 			{
 				"name": "Lower Big Underground Room Top",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $mediumuppies"
 				],
 				"sections": [
 					{
@@ -2604,7 +2625,8 @@
 			{
 				"name": "Lonely Mimic Alcove",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $mediumuppies",
+					"@Sandy Grave Regions/Main, $mario, puppet"
 				],
 				"sections": [
 					{
@@ -2622,7 +2644,7 @@
 			{
 				"name": "Boulder Room Corner Alcove",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -2640,7 +2662,7 @@
 			{
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $holes"
 				],
 				"sections": [
 					{
@@ -2658,7 +2680,7 @@
 			{
 				"name": "Upper Big Underground Top Right",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -2676,7 +2698,7 @@
 			{
 				"name": "Upper Big Underground Top Left",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -2694,7 +2716,7 @@
 			{
 				"name": "Eastmost Item",
 				"access_rules": [
-					"@Sandy Grave Regions/Main"
+					"@Sandy Grave Regions/Main, $smalluppies"
 				],
 				"sections": [
 					{
@@ -2712,7 +2734,7 @@
 			{
 				"name": "Pyramid East 1F",
 				"access_rules": [
-					"@Sandy Grave Regions/Upper Pyramid"
+					"@Sandy Grave Regions/Upper Pyramid, $mediumuppies"
 				],
 				"sections": [
 					{
@@ -2933,7 +2955,7 @@
 			{
 				"name": "Pyramid East 5F",
 				"access_rules": [
-					"@Forgotten City Regions/Main"
+					"@Forgotten City Regions/Main, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -2969,7 +2991,9 @@
 			{
 				"name": "Pyramid East 3F",
 				"access_rules": [
-					"@Forgotten City Regions/Main"
+					"@Forgotten City Regions/Main, $mediumuppies",
+					"@Forgotten City Regions/Main, $mario, puppet",
+					"@Forgotten City Regions/Main, $fast, puppet"
 				],
 				"sections": [
 					{
@@ -3005,7 +3029,7 @@
 			{
 				"name": "Pyramid 1F Bricks",
 				"access_rules": [
-					"@Forgotten City Regions/Main"
+					"@Forgotten City Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -3023,7 +3047,7 @@
 			{
 				"name": "Lower Boulder Room Tunnel Alcove",
 				"access_rules": [
-					"@Forgotten City Regions/Main"
+					"@Forgotten City Regions/Main, $holes"
 				],
 				"sections": [
 					{
@@ -3041,7 +3065,7 @@
 			{
 				"name": "Lower Boulder Room Upper Alcove",
 				"access_rules": [
-					"@Forgotten City Regions/Main"
+					"@Forgotten City Regions/Main, $biguppies"
 				],
 				"sections": [
 					{
@@ -3113,7 +3137,8 @@
 			{
 				"name": "Lower Underground Square Upper Item",
 				"access_rules": [
-					"@Forgotten City Regions/Inner"
+					"@Forgotten City Regions/Inner, $mediumuppies",
+					"@Forgotten City Regions/Inner, $mario, puppet"
 				],
 				"sections": [
 					{
@@ -3149,7 +3174,8 @@
 			{
 				"name": "Pyramid East 1F",
 				"access_rules": [
-					"@Forgotten City Regions/Inner Upper"
+					"@Forgotten City Regions/Inner Upper, $biguppies",
+					"@Forgotten City Regions/Inner Upper, $mario, djump"
 				],
 				"sections": [
 					{
@@ -3167,7 +3193,7 @@
 			{
 				"name": "Big Shaft Room",
 				"access_rules": [
-					"@Forgotten City Regions/Inner Upper"
+					"@Forgotten City Regions/Inner Upper, $biguppies"
 				],
 				"sections": [
 					{
@@ -3427,7 +3453,9 @@
 			{
 				"name": "Bottom Left Medium Square On Wall",
 				"access_rules": [
-					"@Nation of Fools Regions/Main"
+					"@Nation of Fools Regions/Main, $biguppies",
+					"@Nation of Fools Regions/Main, $mario, djump",
+					"@Nation of Fools Regions/Main, djump, puppet"
 				],
 				"sections": [
 					{
@@ -3445,7 +3473,8 @@
 			{
 				"name": "Crevice Item",
 				"access_rules": [
-					"@Nation of Fools Regions/Main"
+					"@Nation of Fools Regions/Main, puppet",
+					"@Nation of Fools Regions/Main, $holes"
 				],
 				"sections": [
 					{
@@ -3828,7 +3857,9 @@
 			{
 				"name": "Right Upper Big Corner On Wall",
 				"access_rules": [
-					"@Burnt Paradise Regions/Entrance"
+					"@Burnt Paradise Regions/Entrance, $biguppies",
+					"@Burnt Paradise Regions/Entrance, $mario, djump",
+					"@Burnt Paradise Regions/Entrance, djump, puppet"
 				],
 				"sections": [
 					{
@@ -3900,7 +3931,8 @@
 			{
 				"name": "Lower Vertical Hall",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Bottom, puppet",
+					"@Burnt Paradise Regions/Bottom, $holes"
 				],
 				"sections": [
 					{
@@ -4157,7 +4189,7 @@
 			{
 				"name": "Secret Cave Room",
 				"access_rules": [
-					"@Forest of Doom Regions/Cave"
+					"@Forest of Doom Regions/Cave, $biguppies"
 				],
 				"sections": [
 					{
@@ -4216,7 +4248,7 @@
 			{
 				"name": "Right Building Center Room",
 				"access_rules": [
-					"@Dark Academy Region/Right Building"
+					"@Dark Academy Regions/Right Building"
 				],
 				"sections": [
 					{
@@ -4234,7 +4266,7 @@
 			{
 				"name": "Right Building Top Floor",
 				"access_rules": [
-					"@Dark Academy Region/Right Building"
+					"@Dark Academy Regions/Right Building"
 				],
 				"sections": [
 					{
@@ -4252,7 +4284,7 @@
 			{
 				"name": "Main Building Ghoul Room",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4270,7 +4302,7 @@
 			{
 				"name": "Main Building Three Toads",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4288,7 +4320,7 @@
 			{
 				"name": "Main Building Secret Ceiling",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4306,7 +4338,7 @@
 			{
 				"name": "Main Building Entrance",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4324,7 +4356,7 @@
 			{
 				"name": "Main Building Secret Malphas Room",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4342,7 +4374,7 @@
 			{
 				"name": "West Building Breakable Wall",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4360,7 +4392,7 @@
 			{
 				"name": "Main Building Square Room Breakable Wall",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4378,7 +4410,7 @@
 			{
 				"name": "Main Building Minotaur Room",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{
@@ -4396,7 +4428,7 @@
 			{
 				"name": "West Building Top Floor",
 				"access_rules": [
-					"@Dark Academy Region/Main"
+					"@Dark Academy Regions/Main"
 				],
 				"sections": [
 					{

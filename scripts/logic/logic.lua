@@ -72,9 +72,12 @@ end
 function smalluppies()
     return mediumuppies() or (has("doubleup") and has("mario"))
 end
+function tinyuppies()
+    return smalluppies or has("puppet")
+end
 
 function holes()
-    return frog() or birdie()
+    return frog() or birdie() -- We don't put Puppet Master here since holes in Portrait are typically tinier than Dawn's
 end
 function smol()
     return has("slide") or holes()
