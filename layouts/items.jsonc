@@ -26,7 +26,7 @@
 								"item_size": 96,
 								"rows": [
 									[
-										"tag", "doubleup", "subskill", "stay"
+										"tag", "doubleup", "dlink", "stay"
 									],
 									[
 										"mario", "powerglove", "slide", "djump"
