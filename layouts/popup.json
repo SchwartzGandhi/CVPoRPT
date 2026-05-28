@@ -17,12 +17,35 @@
                                     {
                                         "type": "itemgrid",
                                         "background": "#000000",
+                                        "item_margin": "16, 2",
+                                        "h_alignment": "center",
+                                        "item_h_alignment": "center",
+                                        "item_size": 272,
+                                        "rows": [
+                                            ["goal"]
+                                        ]
+                                    },
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
                                         "item_margin": "2, 2",
+                                        "h_alignment": "center",
+                                        "item_h_alignment": "center",
+                                        "item_size": 48,
+                                        "rows": [
+                                            [""]
+                                        ]
+                                    },
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
+                                        "item_margin": "2, 8",
                                         "h_alignment": "center",
                                         "item_h_alignment": "center",
                                         "item_size": 128,
                                         "rows": [
-                                            ["goal", "brauner", "braunercount", "countdracula", "nestcount"]
+                                            ["brauner", "braunercount"],
+                                            ["countdracula", "nestcount"]
                                         ]
                                     }
                                 ]
