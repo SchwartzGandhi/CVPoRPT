@@ -83,73 +83,73 @@
 		"name": "Cure Poison",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "dio"
+		"codes": "unpoisonma"
 	},
 	{
 		"name": "Cure Curse",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "dio"
+		"codes": "uncursema"
 	},
 	{
 		"name": "STR Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "dio"
+		"codes": "str"
 	},
 	{
 		"name": "CON Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "con"
 	},
 	{
 		"name": "INT Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "int"
 	},
 	{
 		"name": "MIND Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "mind"
 	},
 	{
 		"name": "ALL Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "all"
 	},
 	{
 		"name": "Gale Force",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "aero"
 	},
 	{
 		"name": "Rock Riot",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "stoning"
 	},
 	{
 		"name": "Raging Fire",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "burn"
 	},
 	{
 		"name": "Ice Fang",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "shadesoul"
 	},
 	{
 		"name": "Thunderbolt",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "thunder"
 	},
 	{
 		"name": "Spirit of Light",
@@ -185,7 +185,7 @@
 		"name": "Explosion",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "megumin"
 	},
 	{
 		"name": "Chain Lightning",
@@ -197,7 +197,7 @@
 		"name": "Piercing Beam",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "plasma"
 	},
 	{
 		"name": "Nightmare",
@@ -209,7 +209,7 @@
 		"name": "Summon Medusa",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "qinshihuang"
 	},
 	{
 		"name": "Acidic Bubbles",
@@ -251,24 +251,24 @@
 		"name": "Summon Skeleton",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "skelly"
 	},
 	{
 		"name": "Summon Ghost",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "boo"
 	},
 	{
 		"name": "Summon Gunman",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "snipermonkey"
 	},
 	{
 		"name": "Summong Frog",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "miepee"
 	}
 ]

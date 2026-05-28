@@ -1,0 +1,232 @@
+[
+    {
+        "name": "Wind's Quests",
+        "chest_unopened_img": "images/items/quests/wind.png",
+        "chest_opened_img": "images/items/quests/wind.png",
+        "access_rules": [
+            "@Entrance Regions/Wind's Room"
+        ],
+        "sections": [
+            {
+                "name": "Preparations"
+            },
+            {
+                "name": "Supersonic Punch",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Ghosts of the Desert",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Defender of the Stairs",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Spinning Art",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Art of the Zephyr",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Find the King of Birds",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Overcome the Curse",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Statue's Tear",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Martial Art",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Holy Appearance",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Number of Fortune",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Mental Training 1",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Mental Training 2",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Spear of Legend",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Mental Training 3",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Defeat the Ghoul King",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Abandon Greed",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "A Rank Hunter",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Mental Training 4",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "S Rank Hunter",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Gambler",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Hands of the Clock",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Poison vs. Poison",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Build Your Strength 1",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Build Your Strength 2",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Lonely Stage",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Build Your Strength 3",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Pray Before the Cross",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Build Your Strength 4",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Lost Page",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Hundred Tasks",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Master the Holy Power",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Almighty",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "The Great Sage",
+                "access_rules": [
+
+                ]
+            },
+            {
+                "name": "Kill Gergoth",
+                "access_rules": [
+
+                ]
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Dracula's Castle",
+                "x": 312,
+                "y": 632
+            }
+        ]
+    }
+]
