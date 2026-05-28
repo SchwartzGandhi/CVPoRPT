@@ -1,13 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "1.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.0/CVPoRPT.zip",
-            "sha256": "232b124700da407adf510032000388de0329d0fc3bdbc7f7aab87b78167ab4d2",
+            "package_version": "1.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.1/CVPoRPT.zip",
+            "sha256": "faa27b929952746b76571a1c05acc9ad5348821c72d6344a58d1a9354f028f9a",
             "changelog": [
-                "Added images for items (still a work in progress)",
-                "Added logic for all locations (doesnt account for settings or quests just yet)",
-                "Moved some locations that were in the incorrect places"
+                "Small logic hotfix"
             ]
         }
     ]
