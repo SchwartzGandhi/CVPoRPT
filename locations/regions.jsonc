@@ -244,8 +244,8 @@
 			{
 				"name": "East",
 				"access_rules": [
-					"@City of Haze Regions/East, puppet",
-					"@City of Haze Regions/East, $tag, $doubleup"
+					"@City of Haze Regions/Main, puppet",
+					"@City of Haze Regions/Main, $tag, $doubleup"
 				]
 			}
 		]

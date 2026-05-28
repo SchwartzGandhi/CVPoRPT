@@ -67,13 +67,13 @@ function biguppies()
     return has("zip") or (comcast() and has("birdie"))
 end
 function mediumuppies()
-    return biguppies or has("djump")
+    return biguppies() or has("djump")
 end
 function smalluppies()
     return mediumuppies() or (has("doubleup") and has("mario"))
 end
 function tinyuppies()
-    return smalluppies or has("puppet")
+    return smalluppies() or has("puppet")
 end
 
 function holes()
