@@ -4,14 +4,12 @@
 	"shared_item_grid": {
 		"type": "dock",
 		"dock": "left",
-		"v_alignment": "stretch",
 		"h_alignment": "stretch",
 		"content": [
 			{
 				"type": "group",
 				"header": "Relics",
 				"dock": "top",
-				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -22,8 +20,8 @@
 							{
 								"type": "itemgrid",
 								"item_margin": "10, 10",
-								"h_alignment": "left",
-								"item_size": 96,
+								"h_alignment": "center",
+								"item_size": 82,
 								"rows": [
 									[
 										"tag", "doubleup", "dlink", "stay"
@@ -43,11 +41,9 @@
 					}
 				]
 			},
-			
 			{
 				"type": "group",
 				"header": "Spells",
-				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -58,8 +54,8 @@
 							{
 								"type": "itemgrid",
 								"item_margin": "10, 10",
-								"h_alignment": "left",
-								"item_size": 64,
+								"h_alignment": "center",
+								"item_size": 76,
 								"rows": [
 									[
 										"froggy", "birdie", "longspell", "fast"
@@ -74,7 +70,6 @@
 			{
 				"type": "group",
 				"header": "Misc",
-				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -85,8 +80,8 @@
 							{
 								"type": "itemgrid",
 								"item_margin": "10, 10",
-								"h_alignment": "left",
-								"item_size": 64,
+								"h_alignment": "center",
+								"item_size": 96,
 								"rows": [
 									[
 										"locket", "toon", "puppet"
