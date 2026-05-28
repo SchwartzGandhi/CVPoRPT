@@ -2,25 +2,25 @@
 	{
 		"name": "Change Cube",
 		"type": "toggle",
-		"img": "images/items/cube.png",
+		"img": "images/items/charlotte/tag.png",
 		"codes": "tag"
 	},
 	{
 		"name": "Call Cube",
 		"type": "toggle",
-		"img": "images/items/cube.png",
+		"img": "images/items/jonathan/partner.png",
 		"codes": "doubleup"
 	},
 	{
 		"name": "Skill Cube",
 		"type": "toggle",
-		"img": "images/items/cube.png",
+		"img": "images/items/charlotte/skill.png",
 		"codes": "dlink"
 	},
 	{
 		"name": "Wait Cube",
 		"type": "toggle",
-		"img": "images/items/cube.png",
+		"img": "images/items/charlotte/wait.png",
 		"codes": "stay"
 	},
 	{
@@ -74,7 +74,7 @@
 	{
 		"name": "Critical Art",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/jonathan/crit.png",
 		"codes": "kh2"
 	},
 	{

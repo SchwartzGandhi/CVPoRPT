@@ -20,7 +20,7 @@
 	{
 		"name": "Speed Up",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/panther.png",
 		"codes": "fast"
 	}
 ]

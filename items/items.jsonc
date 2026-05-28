@@ -2,7 +2,7 @@
 	{
 		"name": "Cog",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/gear.png",
 		"codes": "toon"
 	},
 	{
@@ -14,7 +14,7 @@
 	{
 		"name": "Puppet Master",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/puppet.png",
 		"codes": "puppet"
 	}
 ]
