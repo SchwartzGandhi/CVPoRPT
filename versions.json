@@ -1,11 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "1.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.1/CVPoRPT.zip",
-            "sha256": "faa27b929952746b76571a1c05acc9ad5348821c72d6344a58d1a9354f028f9a",
+            "package_version": "1.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.2/CVPoRPT.zip",
+            "sha256": "cec958c0ba242fcb3233c9c76c2fe29d3a23eabb6edf6be473aa2e9e9f8855dd",
             "changelog": [
-                "Small logic hotfix"
+                "Portrait shuffle is now supported",
+                "added settings popup, none of them work yet outside of portrait configuration",
+                "Toad Morph now works logically"
             ]
         }
     ]
