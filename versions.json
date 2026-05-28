@@ -1,14 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "0.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/0.2/CVPoRPT.zip",
-            "sha256": "d23eef65216adaec1f3cd7dd840e0a74cd99d4dc17e567b1a220ecc13d3936c6",
+            "package_version": "1.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.0/CVPoRPT.zip",
+            "sha256": "232b124700da407adf510032000388de0329d0fc3bdbc7f7aab87b78167ab4d2",
             "changelog": [
-                "Autotracking for all locations and items",
-                "Added missing progressional items",
-                "Added wind's quests",
-                "Horizontal variant is now actually horizontal"
+                "Added images for items (still a work in progress)",
+                "Added logic for all locations (doesnt account for settings or quests just yet)",
+                "Moved some locations that were in the incorrect places"
             ]
         }
     ]
