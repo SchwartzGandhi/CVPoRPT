@@ -101,7 +101,81 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	-- Goal Conditions
+	local goal = Tracker:FindObjectForCode("goal")
+	goal.CurrentStage = slot_data["goal"]
+
+	local braunercount = Tracker:FindObjectForCode("braunercount")
+	braunercount.AcquiredCount = slot_data["brauner_portraits"]
+
+	local countdracula = Tracker:FindObjectForCode("countdracula")
+	countdracula.AcquiredCount = slot_data["dracula_portraits"]
+
+	local neststate = Tracker:FindObjectForCode("neststate")
+	neststate.CurrentStage = slot_data["nest_of_evil"]
+
+	local nestcount = Tracker:FindObjectForCode("nestcount")
+	nestcount.AcquiredCount = slot_data["nest_portraits"]
+
+	-- Portrait Configuration
+	local ports = {
+		["hubport"] = "hub_portrait",
+		["undergroundport"] = "underground_portrait",
+		["stairsport"] = "stairs_portrait",
+		["towerport"] = "tower_portrait",
+		["brauner1port"] = "brauner_portrait_1",
+		["brauner2port"] = "brauner_portrait_2",
+		["brauner3port"] = "brauner_portrait_3",
+		["brauner4port"] = "brauner_portrait_4",
+		["passageport"] = "passage_portrait",
+	}
+	for code, slot in pairs(ports) do
+		local obj = Tracker:FindObjectForCode(code)
+		local area = slot_data[slot]
+		if area == "City of Haze" then
+			obj.CurrentStage = 0
+		elseif area == "13th Street" then
+			obj.CurrentStage = 1
+		elseif area == "Sandy Grave" then
+			obj.CurrentStage = 2
+		elseif area == "Forgotten City" then
+			obj.CurrentStage = 3
+		elseif area == "Nation of Fools" then
+			obj.CurrentStage = 4
+		elseif area == "Burnt Paradise" then
+			obj.CurrentStage = 5
+		elseif area == "Forest of Doom" then
+			obj.CurrentStage = 6
+		elseif area == "Dark Academy" then
+			obj.CurrentStage = 7
+		elseif area == "Nest of Evil" then
+			obj.CurrentStage = 8
+		end
+	end
+
+	-- Logic Settings
+	if slot_data["start_with_change_cube"] then
+		local tag = Tracker:FindObjectForCode("tag")
+		local tagstart = Tracker:FindObjectForCode("taganywhere")
+		tag.Active = true
+		tagstart.Active = true
+	end
+	if slot_data["start_with_call_cube"] then
+		local doubleup = Tracker:FindObjectForCode("doubleup")
+		local callstart = Tracker:FindObjectForCode("shiwakeanywhere")
+		doubleup.Active = true
+		callstart.Active = true
+	end
+	if slot_data["stronger_glove"] then
+		local solomitt = Tracker:FindObjectForCode("solomitt")
+		solomitt.Active = true
+	end
+
+	-- Quests TODO include/exclude quests
+	if slot_data["unlock_all_quests"] then
+		local allquests = Tracker:FindObjectForCode("allquests")
+		allquests.Active = true
+	end
 end
 
 -- called right after an AP slot is connected
