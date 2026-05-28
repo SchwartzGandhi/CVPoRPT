@@ -27,22 +27,29 @@ Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/spells.jsonc")
 Tracker:AddItems("items/subweapons.jsonc")
 
+-- Settings
+Tracker:AddItems("settings/settings.json")
+Tracker:AddItems("settings/portraits.json")
+
 if not IS_ITEMS_ONLY then
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
     Tracker:AddLocations("locations/regions.jsonc")
     Tracker:AddLocations("locations/locations.jsonc")
+    Tracker:AddLocations("locations/quests.jsonc")
 end
 
 -- Layout
 if IS_HORIZONTAL then
     Tracker:AddLayouts("var_horizontal/layouts/items.jsonc")
     Tracker:AddLayouts("var_horizontal/layouts/tracker.jsonc")
+    Tracker:AddLayouts("layouts/popup.json")
     Tracker:AddLayouts("var_horizontal/layouts/broadcast.jsonc")
 else
     Tracker:AddLayouts("layouts/items.jsonc")
     Tracker:AddLayouts("layouts/tracker.jsonc")
+    Tracker:AddLayouts("layouts/popup.json")
     Tracker:AddLayouts("layouts/broadcast.jsonc")
 end
 

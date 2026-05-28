@@ -238,7 +238,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Entrance Regions/Hub Painting Room"
+					"$ConnectPortrait|coh"
 				]
 			},
 			{
@@ -256,7 +256,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room"
+					"^$ConnectPortrait|13s"
 				]
 			},
 			{
@@ -273,7 +273,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Great Stairway Regions/Underground Painting"
+					"^$ConnectPortrait|sg"
 				]
 			},
 			{
@@ -297,7 +297,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room"
+					"^$ConnectPortrait|fc"
 				]
 			},
 			{
@@ -322,7 +322,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Great Stairway Regions/Central Painting Area"
+					"^$ConnectPortrait|nof"
 				]
 			},
 			{
@@ -345,7 +345,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room"
+					"^$ConnectPortrait|bp"
 				]
 			},
 			{
@@ -368,7 +368,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Tower of Death Regions/Painting Room, locket"
+					"^$ConnectPortrait|fod, locket"
 				]
 			},
 			{
@@ -391,7 +391,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room"
+					"^$ConnectPortrait|da"
 				]
 			},
 			{
@@ -414,7 +414,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Entrance Regions/Underground Passage"
+					"^$ConnectPortrait|noe"
 				]
 			}
 		]
