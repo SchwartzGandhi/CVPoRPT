@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "",
+                "codes": "goal, goalbrauner",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "goal, goaldracula",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Start with Change Cube",
+        "img": "",
+        "type": "toggle",
+        "codes": "taganywhere"
+    },
+    {
+        "name": "Start with Call Cube",
+        "img": "",
+        "type": "toggle",
+        "codes": "shiwakeanywhere"
+    },
+    {
+        "name": "Brauner Portraits",
+        "type": "consumable",
+        "codes": "braunercount"
+    },
+    {
+        "name": "Dracula Portraits",
+        "type": "consumable",
+        "codes": "countdracula"
+    },
+    {
+        "name": "Nest of Evil Portraits",
+        "type": "consumable",
+        "codes": "nestcount"
+    },
+    {
+        "name": "Nest of Evil State",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "",
+                "codes": "neststate",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brauner Required",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/portraits/locked.png",
+                "codes": "brauner, braunerno",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/studio.png",
+                "codes": "brauner, brauneryes",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Stronger Glove",
+        "img": "",
+        "type": "toggle",
+        "codes": "solomitt"
+    },
+    {
+        "name": "Unlock All Quests",
+        "img": "",
+        "type": "toggle",
+        "codes": "allquests"
+    }
+]

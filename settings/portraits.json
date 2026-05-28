@@ -1,0 +1,488 @@
+[
+    {
+        "name": "Hub Portrait",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/portraits/gold/city.png",
+                "codes": "hubport, hubportcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/13th.png",
+                "codes": "hubport, hubport13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/sandy.png",
+                "codes": "hubport, hubportsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forgotten.png",
+                "codes": "hubport, hubportfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nation.png",
+                "codes": "hubport, hubportnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/burnt.png",
+                "codes": "hubport, hubportbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forest.png",
+                "codes": "hubport, hubportfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/dark.png",
+                "codes": "hubport, hubportda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nest.png",
+                "codes": "hubport, hubportnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Underground Portrait",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/portraits/gold/city.png",
+                "codes": "undergroundport, undergroundportcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/13th.png",
+                "codes": "undergroundport, undergroundport13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/sandy.png",
+                "codes": "undergroundport, undergroundportsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forgotten.png",
+                "codes": "undergroundport, undergroundportfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nation.png",
+                "codes": "undergroundport, undergroundportnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/burnt.png",
+                "codes": "undergroundport, undergroundportbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forest.png",
+                "codes": "undergroundport, undergroundportfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/dark.png",
+                "codes": "undergroundport, undergroundportda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nest.png",
+                "codes": "undergroundport, undergroundportnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Stairs Portrait",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 4,
+        "stages": [
+            {
+                "img": "images/portraits/gold/city.png",
+                "codes": "stairsport, stairsportcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/13th.png",
+                "codes": "stairsport, stairsport13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/sandy.png",
+                "codes": "stairsport, stairsportsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forgotten.png",
+                "codes": "stairsport, stairsportfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nation.png",
+                "codes": "stairsport, stairsportnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/burnt.png",
+                "codes": "stairsport, stairsportbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forest.png",
+                "codes": "stairsport, stairsportfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/dark.png",
+                "codes": "stairsport, stairsportda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nest.png",
+                "codes": "stairsport, stairsportnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tower Portrait",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 6,
+        "stages": [
+            {
+                "img": "images/portraits/gold/city.png",
+                "codes": "towerport, towerportcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/13th.png",
+                "codes": "towerport, towerport13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/sandy.png",
+                "codes": "towerport, towerportsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forgotten.png",
+                "codes": "towerport, towerportfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nation.png",
+                "codes": "towerport, towerportnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/burnt.png",
+                "codes": "towerport, towerportbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forest.png",
+                "codes": "towerport, towerportfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/dark.png",
+                "codes": "towerport, towerportda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nest.png",
+                "codes": "towerport, towerportnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brauner Portrait 1",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 3,
+        "stages": [
+            {
+                "img": "images/portraits/grey/haze.png",
+                "codes": "brauner1port, brauner1portcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/street.png",
+                "codes": "brauner1port, brauner1port13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/grave.png",
+                "codes": "brauner1port, brauner1portsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/city.png",
+                "codes": "brauner1port, brauner1portfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/fools.png",
+                "codes": "brauner1port, brauner1portnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/paradise.png",
+                "codes": "brauner1port, brauner1portbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/doom.png",
+                "codes": "brauner1port, brauner1portfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/academy.png",
+                "codes": "brauner1port, brauner1portda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/evil.png",
+                "codes": "brauner1port, brauner1portnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brauner Portrait 2",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/portraits/grey/haze.png",
+                "codes": "brauner2port, brauner2portcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/street.png",
+                "codes": "brauner2port, brauner2port13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/grave.png",
+                "codes": "brauner2port, brauner2portsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/city.png",
+                "codes": "brauner2port, brauner2portfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/fools.png",
+                "codes": "brauner2port, brauner2portnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/paradise.png",
+                "codes": "brauner2port, brauner2portbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/doom.png",
+                "codes": "brauner2port, brauner2portfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/academy.png",
+                "codes": "brauner2port, brauner2portda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/evil.png",
+                "codes": "brauner2port, brauner2portnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brauner Portrait 3",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 5,
+        "stages": [
+            {
+                "img": "images/portraits/grey/haze.png",
+                "codes": "brauner3port, brauner3portcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/street.png",
+                "codes": "brauner3port, brauner3port13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/grave.png",
+                "codes": "brauner3port, brauner3portsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/city.png",
+                "codes": "brauner3port, brauner3portfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/fools.png",
+                "codes": "brauner3port, brauner3portnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/paradise.png",
+                "codes": "brauner3port, brauner3portbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/doom.png",
+                "codes": "brauner3port, brauner3portfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/academy.png",
+                "codes": "brauner3port, brauner3portda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/evil.png",
+                "codes": "brauner3port, brauner3portnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brauner Portrait 4",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 7,
+        "stages": [
+            {
+                "img": "images/portraits/grey/haze.png",
+                "codes": "brauner4port, brauner4portcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/street.png",
+                "codes": "brauner4port, brauner4port13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/grave.png",
+                "codes": "brauner4port, brauner4portsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/city.png",
+                "codes": "brauner4port, brauner4portfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/fools.png",
+                "codes": "brauner4port, brauner4portnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/paradise.png",
+                "codes": "brauner4port, brauner4portbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/doom.png",
+                "codes": "brauner4port, brauner4portfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/academy.png",
+                "codes": "brauner4port, brauner4portda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/grey/evil.png",
+                "codes": "brauner4port, brauner4portnoe",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Passage Portrait",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 8,
+        "stages": [
+            {
+                "img": "images/portraits/gold/city.png",
+                "codes": "passageport, passageportcoh",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/13th.png",
+                "codes": "passageport, passageport13s",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/sandy.png",
+                "codes": "passageport, passageportsg",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forgotten.png",
+                "codes": "passageport, passageportfc",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nation.png",
+                "codes": "passageport, passageportnof",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/burnt.png",
+                "codes": "passageport, passageportbp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/forest.png",
+                "codes": "passageport, passageportfod",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/dark.png",
+                "codes": "passageport, passageportda",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/portraits/gold/nest.png",
+                "codes": "passageport, passageportnoe",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
