@@ -220,8 +220,8 @@
 			{
 				"name": "Portrait Room",
 				"access_rules": [
-					"@Master's Keep Regions/Upper Quarters, longspell, dlink",
-					"@Master's Keep Regions/Upper Quarters, longspell, $tag, $doubleup"
+					"@Master's Keep Regions/Upper Quarters, fortress, dlink",
+					"@Master's Keep Regions/Upper Quarters, fortress, $tag, $doubleup"
 				]
 			}
 		]

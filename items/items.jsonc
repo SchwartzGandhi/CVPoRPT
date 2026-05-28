@@ -16,5 +16,157 @@
 		"type": "toggle",
 		"img": "images/items/puppet.png",
 		"codes": "puppet"
+	},
+	// Quest Items
+	{
+		"name": "Ground Meat",
+		"type": "toggle",
+		"img": "images/items/puppet.png",
+		"codes": "mincedmeat"
+	},
+	{
+		"name": "Skull Ring",
+		"type": "toggle",
+		"img": "images/items/puppet.png",
+		"codes": "puppet"
+	},
+	{
+		"name": "Nun's Habit",
+		"type": "toggle",
+		"img": "images/items/quests/head.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Nun's Robes",
+		"type": "toggle",
+		"img": "images/items/quests/robe.png",
+		"codes": "nundress"
+	},
+	{
+		"name": "Nun's Shoes",
+		"type": "toggle",
+		"img": "images/items/quests/shoe.png",
+		"codes": "nunshoe"
+	},
+	{
+		"name": "Thick Glasses",
+		"type": "toggle",
+		"img": "images/items/puppet.png",
+		"codes": "puppet"
+	},
+	{
+		"name": "Spade",
+		"type": "toggle",
+		"img": "images/items/quests/spade.png",
+		"codes": "david"
+	},
+	{
+		"name": "Diamond",
+		"type": "toggle",
+		"img": "images/items/quests/diamond.png",
+		"codes": "coal"
+	},
+	{
+		"name": "Heart",
+		"type": "toggle",
+		"img": "images/items/quests/heart.png",
+		"codes": "soul"
+	},
+	{
+		"name": "Club",
+		"type": "toggle",
+		"img": "images/items/quests/club.png",
+		"codes": "bar"
+	},
+	{
+		"name": "Joker",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "persona5"
+	},
+	{
+		"name": "Moldy Bread",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "cookie"
+	},
+	{
+		"name": "Amanita",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "marisa"
+	},
+	{
+		"name": "Long Sword",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "persona5"
+	},
+	{
+		"name": "Beehive",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "fiftythousandbees"
+	},
+	{
+		"name": "New York Steak",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "nysteak"
+	},
+	{
+		"name": "Cake",
+		"type": "consumable",
+		"img": "images/items/quests/joker.png",
+		"codes": "keiki"
+	},
+	{
+		"name": "Gold Ring",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
+	},
+	{
+		"name": "Tome of Arms p1",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt1"
+	},
+	{
+		"name": "Tome of Arms p2",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
+	}
+	// Cakes
+	{
+		"name": "Pancake",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "akechi"
+	},
+	{
+		"name": "Wheat Roll",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
+	},
+	{
+		"name": "Sachertorte",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
+	},
+	{
+		"name": "NY Cheesecake",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
+	},
+	{
+		"name": "Mille-feuille",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "xpt2"
 	}
 ]

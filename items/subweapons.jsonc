@@ -1,0 +1,176 @@
+[
+	{
+		"name": "Knife",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "knife"
+	},
+	{
+		"name": "Axe",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "axe"
+	},
+	{
+		"name": "Cross",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "crucifix"
+	},
+	{
+		"name": "Holy Water",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "baptism"
+	},
+	{
+		"name": "Bible",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "scripture"
+	},
+	{
+		"name": "Javelin",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "spear"
+	},
+	{
+		"name": "Ricochet Rock",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "rock"
+	},
+	{
+		"name": "Boomerang",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "ty"
+	},
+	{
+		"name": "Bwaka Knife",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "knife2"
+	},
+	{
+		"name": "Shuriken",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "shuriken"
+	},
+	{
+		"name": "Yagyu Shuriken",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "shuriken2"
+	},
+	{
+		"name": "Discus",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "frisbee"
+	},
+	{
+		"name": "Kunimitsu",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "tekken"
+	},
+	{
+		"name": "Kunai",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "kunai"
+	},
+	{
+		"name": "Paper Airplane",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "papercity"
+	},
+	{
+		"name": "Cream Pie",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "metoyourmom"
+	},
+	{
+		"name": "Crossbow",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "bow"
+	},
+	{
+		"name": "Dart",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "joint"
+	},
+	{
+		"name": "Grenade",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "granatu"
+	},
+	{
+		"name": "Steel Ball",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "part7"
+	},
+	{
+		"name": "Stonewall",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "spear"
+	},
+	{
+		"name": "Offensive Form",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "off"
+	},
+	{
+		"name": "Defensive Form",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "def"
+	},
+	{
+		"name": "Taunt",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "taunt"
+	},
+	{
+		"name": "Wrecking Ball",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "miley"
+	},
+	{
+		"name": "Rampage",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "spear"
+	},
+	{
+		"name": "Knee Strike",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "snakeftilt"
+	},
+	{
+		"name": "Aura Blast",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "lucario"
+	},
+	{
+		"name": "Rocket Slash",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "rocket"
+	}
+]

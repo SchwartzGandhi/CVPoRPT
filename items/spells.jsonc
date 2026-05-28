@@ -1,26 +1,274 @@
 [
+	// Progression Spells
 	{
 		"name": "Toad Morph",
 		"type": "toggle",
 		"img": "images/items/charlotte/frog.png",
-		"codes": "froggy"
+		"codes": "froggy, progfrog"
 	},
 	{
 		"name": "Owl Morph",
 		"type": "toggle",
 		"img": "images/items/owl.png",
-		"codes": "birdie"
+		"codes": "birdie, progbird"
 	},
 	{
 		"name": "Sanctuary",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "longspell"
+		"codes": "fortress, progsanc"
 	},
 	{
 		"name": "Speed Up",
 		"type": "toggle",
 		"img": "images/items/panther.png",
-		"codes": "fast"
+		"codes": "fast, progfast"
+	},
+	// Quest Spells
+	{
+		"name": "Toad Morph",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "froggy, questfrog"
+	},
+	{
+		"name": "Owl Morph",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "birdie, questowl"
+	},
+	{
+		"name": "Sanctuary",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "fortress, questsanc"
+	},
+	{
+		"name": "Speed Up",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "fast, questfast"
+	},
+	{
+		"name": "Berserker",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "basilio"
+	},
+	{
+		"name": "Eye for an Eye",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "Clear Skies",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "Time Stop",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "Heal",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "medkit"
+	},
+	{
+		"name": "Cure Poison",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "Cure Curse",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "STR Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "dio"
+	},
+	{
+		"name": "CON Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "INT Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "MIND Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "ALL Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Gale Force",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Rock Riot",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Raging Fire",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Ice Fang",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Thunderbolt",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Spirit of Light",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Dark Rift",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Tempest",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "fishron"
+	},
+	{
+		"name": "Stone Circle",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Ice Needle",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Explosion",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Chain Lightning",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Piercing Beam",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Nightmare",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "gravitysuit"
+	},
+	{
+		"name": "Summon Medusa",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Acidic Bubbles",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Hex",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Salamander",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Cocytus",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Thor's Bellow",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Summon Crow",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "aya"
+	},
+	{
+		"name": "Summon Skeleton",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Summon Ghost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Summon Gunman",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Summong Frog",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "nunhat"
 	}
 ]

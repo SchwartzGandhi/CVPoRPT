@@ -52,11 +52,11 @@ end
 function birdie()
     return comcast() and has("birdie")
 end
-function frog()
-    return comcast() and has("frog")
+function froggy()
+    return comcast() and has("froggy")
 end
-function longspell()
-    return comcast() and has("longspell")
+function fortress()
+    return comcast() and has("fortress")
 end
 function fast()
     return comcast() and has("fast")
@@ -77,7 +77,7 @@ function tinyuppies()
 end
 
 function holes()
-    return frog() or birdie() -- We don't put Puppet Master here since holes in Portrait are typically tinier than Dawn's
+    return froggy() or birdie() -- We don't put Puppet Master here since holes in Portrait are typically tinier than Dawn's
 end
 function smol()
     return has("slide") or holes()
