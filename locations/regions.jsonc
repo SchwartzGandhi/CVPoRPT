@@ -134,7 +134,7 @@
 				"name": "Belt Area",
 				"access_rules": [
 					"@Great Stairway Regions/Upper, $holes",
-					"@Tower of Death Regions/Motorcycles, $stay, $tag",
+					"@Tower of Death Regions/Motorcycles, $stay, tag",
 					"@Tower of Death Regions/Painting Room",
 					"@Master's Keep Regions/Bridge"
 				]
@@ -221,7 +221,7 @@
 				"name": "Portrait Room",
 				"access_rules": [
 					"@Master's Keep Regions/Upper Quarters, fortress, dlink",
-					"@Master's Keep Regions/Upper Quarters, fortress, $tag, $doubleup"
+					"@Master's Keep Regions/Upper Quarters, fortress, tag, doubleup"
 				]
 			}
 		]
@@ -245,7 +245,7 @@
 				"name": "East",
 				"access_rules": [
 					"@City of Haze Regions/Main, puppet",
-					"@City of Haze Regions/Main, $tag, $doubleup"
+					"@City of Haze Regions/Main, tag, doubleup"
 				]
 			}
 		]
@@ -262,7 +262,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@13th Street Regions/Entrance, $doubleup, powerglove, titansmitt"
+					"@13th Street Regions/Entrance, doubleup, powerglove, titansmitt"
 				]
 			}
 		]

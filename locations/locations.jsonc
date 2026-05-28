@@ -635,7 +635,7 @@
 				"name": "Upper Grand Staircase Middle Alcove",
 				"access_rules": [
 					"@Great Stairway Regions/Staircases, $mediumuppies",
-					"@Great Stairway Regions/Staircases, fast, puppet, $doubleup" //?
+					"@Great Stairway Regions/Staircases, fast, puppet, doubleup" //?
 				],
 				"sections": [
 					{

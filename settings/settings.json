@@ -19,18 +19,6 @@
         ]
     },
     {
-        "name": "Start with Change Cube",
-        "img": "images/settings/changestart.png",
-        "type": "toggle",
-        "codes": "taganywhere"
-    },
-    {
-        "name": "Start with Call Cube",
-        "img": "images/settings/callstart.png",
-        "type": "toggle",
-        "codes": "shiwakeanywhere"
-    },
-    {
         "name": "Brauner Portraits",
         "type": "consumable",
         "min_quantity": 0,
@@ -81,6 +69,18 @@
         "disabled_img": "images/portraits/locked.png",
         "disabled_img_mods": "grey",
         "codes": "brauner"
+    },
+    {
+        "name": "Start with Change Cube",
+        "img": "images/settings/changestart.png",
+        "type": "toggle",
+        "codes": "taganywhere"
+    },
+    {
+        "name": "Start with Call Cube",
+        "img": "images/settings/callstart.png",
+        "type": "toggle",
+        "codes": "shiwakeanywhere"
     },
     {
         "name": "Stronger Glove",

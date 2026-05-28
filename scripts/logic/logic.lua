@@ -25,29 +25,22 @@ local function has(item, amount)
 end
 
 -- Move Macros
--- These cubes can be started with via yaml settings TODO maybe just give the player the item in slot_data
-function doubleup()
-    return has("doubleup") or false -- settings
-end
-function tag()
-    return has("tag") or false -- settings
-end
 -- Moves that involve your partner need to do be able to summon them in the first place
 function mario()
-    return has("mario") and doubleup()
+    return has("mario") and has("doubleup")
 end
 function stay()
-    return has("stay") and doubleup()
+    return has("stay") and has("doubleup")
 end
 function strongies()
     if has("titansmitt") then
-        return (has("powerglove") and doubleup()) or false -- settings
+        return has("powerglove") and has("doubleup")
     end
 end
 
 -- Every spell needs access to Charlotte to use
 function comcast()
-    return has("dlink") or tag()
+    return has("dlink") or has("tag")
 end
 function birdie()
     return comcast() and has("birdie")
@@ -86,38 +79,34 @@ end
 -- Checks for portrait configuration and links the given portrait accordingly
 function ConnectPortrait(area)
     local ports = {
-        {code = "hubport", region = "@Entrance Regions/Hub Painting Room"},
-        {code = "undergroundport", region = "@Great Stairway Regions/Underground Painting"},
-        {code = "stairsport", region = "@Great Stairway Regions/Central Painting Area"},
-        {code = "towerport", region = "@Tower of Death Regions/Painting Room"},
-        {code = "brauner1port", region = "@Master's Keep Regions/Portrait Room"},
-        {code = "brauner2port", region = "@Master's Keep Regions/Portrait Room"},
-        {code = "brauner3port", region = "@Master's Keep Regions/Portrait Room"},
-        {code = "brauner4port", region = "@Master's Keep Regions/Portrait Room"},
-        {code = "passageport", region = "@Entrance Regions/Underground Passage"},
+        ["hubport"] = "@Entrance Regions/Hub Painting Room",
+        ["undergroundport"] = "@Great Stairway Regions/Underground Painting",
+        ["stairsport"] = "@Great Stairway Regions/Central Painting Area",
+        ["towerport"] = "@Tower of Death Regions/Painting Room",
+        ["brauner1port"] = "@Master's Keep Regions/Portrait Room",
+        ["brauner2port"] = "@Master's Keep Regions/Portrait Room",
+        ["brauner3port"] = "@Master's Keep Regions/Portrait Room",
+        ["brauner4port"] = "@Master's Keep Regions/Portrait Room",
+        ["passageport"] = "@Entrance Regions/Underground Passage",
     }
     local area_idx = {
-        {code = "coh", idx = 0},
-        {code = "13s", idx = 1},
-        {code = "sg", idx = 2},
-        {code = "fc", idx = 3},
-        {code = "nof", idx = 4},
-        {code = "bp", idx = 5},
-        {code = "fod", idx = 6},
-        {code = "da", idx = 7},
-        {code = "noe", idx = 8},
+        "coh", "13s",
+        "sg", "fc",
+        "nof", "bp",
+        "fod", "da",
+        "noe",
     }
     -- Turn the provided code into a number
-    for _, idx in ipairs(area_idx) do
-        if idx.code == area then
-            index_to_use = idx.idx
+    for i, code in ipairs(area_idx) do
+        if code == area then
+            idx = i - 1
         end
     end
     -- Find which portrait has the index and return the correlating region
-    for _, port in ipairs(ports) do
-        stage = Tracker:FindObjectForCode(port.code).CurrentStage
-        if stage == index_to_use then
-            return Tracker:FindObjectForCode(port.region).AccessibilityLevel
+    for code, region in pairs(ports) do
+        stage = Tracker:FindObjectForCode(code).CurrentStage
+        if stage == idx then
+            return Tracker:FindObjectForCode(region).AccessibilityLevel
         end
     end
     -- If it hasn't returned yet, there's a duplicate portrait in the config
