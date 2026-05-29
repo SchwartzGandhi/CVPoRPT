@@ -154,28 +154,22 @@ function apply_slot_data(slot_data)
 	end
 
 	-- Logic Settings
-	if slot_data["start_with_change_cube"] then
-		local tag = Tracker:FindObjectForCode("tag")
-		local tagstart = Tracker:FindObjectForCode("taganywhere")
-		tag.Active = true
-		tagstart.Active = true
-	end
-	if slot_data["start_with_call_cube"] then
-		local doubleup = Tracker:FindObjectForCode("doubleup")
-		local callstart = Tracker:FindObjectForCode("shiwakeanywhere")
-		doubleup.Active = true
-		callstart.Active = true
-	end
-	if slot_data["stronger_glove"] then
-		local solomitt = Tracker:FindObjectForCode("solomitt")
-		solomitt.Active = true
-	end
+	local tag = Tracker:FindObjectForCode("tag")
+	local tagstart = Tracker:FindObjectForCode("taganywhere")
+	tag.Active = slot_data["start_with_change_cube"]
+	tagstart.Active = slot_data["start_with_change_cube"]
+
+	local doubleup = Tracker:FindObjectForCode("doubleup")
+	local callstart = Tracker:FindObjectForCode("shiwakeanywhere")
+	doubleup.Active = slot_data["start_with_call_cube"]
+	callstart.Active = slot_data["start_with_call_cube"]
+
+	local solomitt = Tracker:FindObjectForCode("solomitt")
+	solomitt.Active = slot_data["stronger_glove"]
 
 	-- Quests TODO include/exclude quests
-	if slot_data["unlock_all_quests"] then
 		local allquests = Tracker:FindObjectForCode("allquests")
-		allquests.Active = true
-	end
+		allquests.Active = slot_data["unlock_all_quests"]
 end
 
 -- called right after an AP slot is connected
