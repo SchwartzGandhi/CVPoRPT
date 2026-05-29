@@ -3,7 +3,7 @@
         {
             "package_version": "1.3",
             "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.3/CVPoRPT.zip",
-            "sha256": "5acb447e89335547660c76d61e788ea7875fab844cd693e30587163963312698",
+            "sha256": "db84c85040016a7031a412ea4d29ae96e440f0da2a42b9f02b2f096b405f86b2",
             "changelog": [
                 "Slot data settings are now autotracked upon connecting to AP (some of these still dont work yet)",
                 "Added locations for final bosses",
