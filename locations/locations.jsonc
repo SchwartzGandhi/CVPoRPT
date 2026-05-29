@@ -2114,6 +2114,24 @@
 						"y": 472
 					}
 				]
+			},
+			{
+				"name": "Disembodied Head Guy",
+				"access_rules": [
+					"@City of Haze Regions/East"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "City of Haze",
+						"x": 1022,
+						"y": 412
+					}
+				]
 			}
 		]
 	},
@@ -2414,6 +2432,24 @@
 						"map": "13th Street",
 						"x": 852,
 						"y": 492
+					}
+				]
+			},
+			{
+				"name": "Lycangrok",
+				"access_rules": [
+					"@13th Street Regions/Main"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "13th Street",
+						"x": 222,
+						"y": 412
 					}
 				]
 			}
@@ -2872,6 +2908,24 @@
 						"y": 332
 					}
 				]
+			},
+			{
+				"name": "Astarte",
+				"access_rules": [
+					"@Sandy Grave Regions/Pyramid Top"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Sandy Grave",
+						"x": 702,
+						"y": 272
+					}
+				]
 			}
 		]
 	},
@@ -3169,6 +3223,24 @@
 					{
 						"map": "Forgotten City",
 						"x": 452,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "Evil Mummy",
+				"access_rules": [
+					"@Forgotten City Regions/Inner Upper"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Forgotten City",
+						"x": 532,
 						"y": 492
 					}
 				]
@@ -3630,6 +3702,24 @@
 						"y": 292
 					}
 				]
+			},
+			{
+				"name": "Legion",
+				"access_rules": [
+					"@Nation of Fools Regions/Main"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nation of Fools",
+						"x": 632,
+						"y": 452
+					}
+				]
 			}
 		]
 	},
@@ -3962,6 +4052,24 @@
 						"y": 592
 					}
 				]
+			},
+			{
+				"name": "Medusa",
+				"access_rules": [
+					"@Burnt Paradise Regions/Bottom"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Burnt Paradise",
+						"x": 622,
+						"y": 692
+					}
+				]
 			}
 		]
 	},
@@ -4183,6 +4291,24 @@
 						"y": 492
 					}
 				]
+			},
+			{
+				"name": "Vore Frog",
+				"access_rules": [
+					"@Forest of Doom Regions/Cave"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Forest of Doom",
+						"x": 1012,
+						"y": 502
+					}
+				]
 			}
 		]
 	},
@@ -4389,6 +4515,24 @@
 						"y": 452
 					}
 				]
+			},
+			{
+				"name": "The Creature",
+				"access_rules": [
+					"@Dark Academy Regions/Main"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dark Academy",
+						"x": 242,
+						"y": 492
+					}
+				]
 			}
 		]
 	},
@@ -4452,6 +4596,27 @@
 						"map": "Nest of Evil",
 						"x": 552,
 						"y": 672,
+						"force_invisibility_rules": [
+							"nonest"
+						]
+					}
+				]
+			},
+			{
+				"name": "Doppelganger",
+				"access_rules": [
+					"@Nest of Evil Regions/Main"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Nest of Evil",
+						"x": 662,
+						"y": 712,
 						"force_invisibility_rules": [
 							"nonest"
 						]
