@@ -1,13 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "1.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.2/CVPoRPT.zip",
-            "sha256": "cec958c0ba242fcb3233c9c76c2fe29d3a23eabb6edf6be473aa2e9e9f8855dd",
+            "package_version": "1.3",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.3/CVPoRPT.zip",
+            "sha256": "5acb447e89335547660c76d61e788ea7875fab844cd693e30587163963312698",
             "changelog": [
-                "Portrait shuffle is now supported",
-                "added settings popup, none of them work yet outside of portrait configuration",
-                "Toad Morph now works logically"
+                "Slot data settings are now autotracked upon connecting to AP (some of these still dont work yet)",
+                "Added locations for final bosses",
+                "the throne room, brauner, and nest of evil are now only visible if the locations are in the pool"
             ]
         }
     ]
