@@ -113,6 +113,12 @@ function ConnectPortrait(area)
     return false
 end
 
+-- Checks if the given portrait requirement is met based on settings
+function GetPortraitAmount(code)
+    local obj = Tracker:FindObjectForCode(code)
+    -- TODO make boss locations
+end
+
 -- Returns the location of the given boss for quest logic
 function QuestRequirement(boss)
 

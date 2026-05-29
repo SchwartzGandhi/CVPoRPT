@@ -42,7 +42,7 @@
 				"name": "Drawbridge Upper Item",
 				"access_rules": [
 					"@Entrance Regions/Hub, $biguppies",
-					"@Entrance Regions/Hub, $mario, jdump, puppet"
+					"@Entrance Regions/Hub, $mario, djump, puppet"
 				],
 				"sections": [
 					{
@@ -1277,6 +1277,24 @@
 						"y": 172
 					}
 				]
+			},
+			{
+				"name": "Elevator Switch",
+				"access_rules": [
+					"@Tower of Death Regions/Top of the Tower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 1052,
+						"y": 172
+					}
+				]
 			}
 		]
 	},
@@ -1354,11 +1372,39 @@
 						"y": 192
 					}
 				]
+			},
+			{
+				"name": "Defeat Brauner",
+				"chest_unopened_img": "images/settings/brauner.png",
+				"chest_opened_img": "images/settings/braunerouch.png",
+				"visibility_rules": [
+					"goalbrauner",
+					"goaldracula, brauner"
+				],
+				"access_rules": [
+					"@Master's Keep Regions/Portrait Room"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 882,
+						"y": 192,
+						"size": 24
+					}
+				]
 			}
 		]
 	},
 	{
 		"name": "The Throne Room",
+		"visibility_rules": [
+			"goaldracula"
+		],
 		"children": [
 			{
 				"name": "Above Throne",
@@ -1451,6 +1497,27 @@
 						"map": "Dracula's Castle",
 						"x": 912,
 						"y": 112
+					}
+				]
+			},
+			{
+				"name": "Defeat Dracula",
+				"chest_unopened_img": "images/settings/dracula.png",
+				"chest_opened_img": "images/settings/draculaouch.png",
+				"access_rules": [
+					"@The Throne Room Region"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 852,
+						"y": 132,
+						"size": 24
 					}
 				]
 			}
@@ -4342,7 +4409,10 @@
 					{
 						"map": "Nest of Evil",
 						"x": 632,
-						"y": 712
+						"y": 712,
+						"force_invisibility_rules": [
+							"nonest"
+						]
 					}
 				]
 			},
@@ -4360,7 +4430,10 @@
 					{
 						"map": "Nest of Evil",
 						"x": 552,
-						"y": 432
+						"y": 432,
+						"force_invisibility_rules": [
+							"nonest"
+						]
 					}
 				]
 			},
@@ -4378,7 +4451,10 @@
 					{
 						"map": "Nest of Evil",
 						"x": 552,
-						"y": 672
+						"y": 672,
+						"force_invisibility_rules": [
+							"nonest"
+						]
 					}
 				]
 			}
