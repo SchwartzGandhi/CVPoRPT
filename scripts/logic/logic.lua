@@ -120,7 +120,29 @@ function GetPortraitAmount(code)
     -- TODO make boss locations
 end
 
--- Returns the location of the given boss for quest logic
-function QuestRequirement(boss)
-
+-- Returns the location of the given boss for quest logic, if 
+function QuestBossLocation(x)
+    if has("allquests") then
+        return true
+    end
+    local bossregions = {
+        ["Keremet"] = "Great Stairway",
+        ["Stella & Loretta"] = "Master's Keep",
+        ["Dullahan"] = "City of Haze",
+        ["Werewolf"] = "13th Street",
+        ["Astarte"] = "Sandy Grave",
+        ["Mummy Man"] = "Forgotten City",
+        ["Legion"] = "Nation of Fools",
+        ["Medusa"] = "Burnt Paradise",
+        ["Dagon"] = "Forest of Doom",
+        ["The Creature"] = "Dark Academy",
+    }
+    if x == "Stella & Loretta" then
+        return Tracker:FindObjectForCode("@Master's Keep/Banquet Room/Stella & Loretta").AccessibilityLevel
+    end
+    for boss, region in pairs(bossregions) do
+        if boss == x then
+            return Tracker:FindObjectForCode(string.format("@%s/%s/", region, boss)).AccessibilityLevel
+        end
+    end
 end

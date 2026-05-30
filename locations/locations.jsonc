@@ -1295,6 +1295,24 @@
 						"y": 172
 					}
 				]
+			},
+			{
+				"name": "Keremet",
+				"access_rules": [
+					"@Great Stairway Regions/Lower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 922,
+						"y": 632
+					}
+				]
 			}
 		]
 	},
@@ -1356,13 +1374,16 @@
 				]
 			},
 			{
-				"name": "Whip Trial",
+				"name": "Banquet Room",
 				"access_rules": [
 					"@Master's Keep Regions/Portrait Room"
 				],
 				"sections": [
 					{
-						"name": ""
+						"name": "Stella & Loretta"
+					},
+					{
+						"name": "Whip Trail"
 					}
 				],
 				"map_locations": [
@@ -2116,7 +2137,7 @@
 				]
 			},
 			{
-				"name": "Disembodied Head Guy",
+				"name": "Dullahan",
 				"access_rules": [
 					"@City of Haze Regions/East"
 				],
@@ -2436,7 +2457,7 @@
 				]
 			},
 			{
-				"name": "Lycangrok",
+				"name": "Werewolf",
 				"access_rules": [
 					"@13th Street Regions/Main"
 				],
@@ -3228,7 +3249,7 @@
 				]
 			},
 			{
-				"name": "Evil Mummy",
+				"name": "Mummy Man",
 				"access_rules": [
 					"@Forgotten City Regions/Inner Upper"
 				],
@@ -4293,7 +4314,7 @@
 				]
 			},
 			{
-				"name": "Vore Frog",
+				"name": "Dagon",
 				"access_rules": [
 					"@Forest of Doom Regions/Cave"
 				],
