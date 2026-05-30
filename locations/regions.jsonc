@@ -262,7 +262,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@13th Street Regions/Entrance, doubleup, powerglove, titansmitt"
+					"@13th Street Regions/Entrance, $powerglove, titansmitt"
 				]
 			}
 		]

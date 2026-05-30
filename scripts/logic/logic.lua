@@ -32,10 +32,11 @@ end
 function stay()
     return has("stay") and has("doubleup")
 end
+function powerglove()
+    return has("powerglove") and has("doubleup")
+end
 function strongies()
-    if has("titansmitt") then
-        return has("powerglove") and has("doubleup")
-    end
+    return has("titansmitt") and (powerglove() or has("solomitt"))
 end
 
 -- Every spell needs access to Charlotte to use
