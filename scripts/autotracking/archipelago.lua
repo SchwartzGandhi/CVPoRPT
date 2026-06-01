@@ -21,6 +21,8 @@ end
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+INCLUDED_QUESTS = {}
+EXCLUDED_QUESTS = {}
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -167,9 +169,16 @@ function apply_slot_data(slot_data)
 	local solomitt = Tracker:FindObjectForCode("solomitt")
 	solomitt.Active = slot_data["stronger_glove"]
 
-	-- Quests TODO include/exclude quests
-		local allquests = Tracker:FindObjectForCode("allquests")
-		allquests.Active = slot_data["unlock_all_quests"]
+	-- Quests
+	local allquests = Tracker:FindObjectForCode("allquests")
+	allquests.Active = slot_data["unlock_all_quests"]
+
+	for _, quest in ipairs(slot_data["active_quests"]) do
+		table.insert(INCLUDED_QUESTS, quest)
+	end
+	for _, quest in ipairs(slot_data["excluded_quests"]) do
+		table.insert(EXCLUDED_QUESTS, quest)
+	end
 end
 
 -- called right after an AP slot is connected

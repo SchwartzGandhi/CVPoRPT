@@ -84,3 +84,18 @@ function Cakes(mode)
         end
     end
 end
+
+-- Search for if the quest is included or excluded
+function ShowQuest(quest)
+    for _, inc in ipairs(INCLUDED_QUESTS) do
+        if inc == quest then
+            return true
+        end
+    end
+    for _, exc in ipairs(EXCLUDED_QUESTS) do
+        if exc == quest then
+            return false
+        end
+    end
+    -- Should unrelated quests be shown? TODO make this a meta option
+end

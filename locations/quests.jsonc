@@ -15,12 +15,18 @@
 				"access_rules": [
 					"^$QuestBossLocation|Dullahan, @City of Haze Regions/Main",
 					"^$QuestBossLocation|Dullahan, mincedmeat"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Supersonic Punch"
 				]
 			},
 			{
 				"name": "Ghosts of the Desert",
 				"access_rules": [
 					"^$QuestBossLocation|Keremet, @Sandy Grave Regions/Upper Pyramid"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Ghosts of the Desert"
 				]
 			},
 			{
@@ -28,24 +34,36 @@
 				"access_rules": [
 					"^$QuestBossLocation|Keremet, @Great Stairway Regions/Staircases",
 					"^$QuestBossLocation|Keremet, @Entrance Regions/Upper Area"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Defender of the Stairs"
 				]
 			},
 			{
 				"name": "The Spinning Art",
 				"access_rules": [
 					"^$QuestBossLocation|Astarte"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Spinning Art"
 				]
 			},
 			{
 				"name": "Art of the Zephyr",
 				"access_rules": [
 					"^$QuestBossLocation|Legion, $PrevQuest|zephyr, roll"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Art of the Zephyr"
 				]
 			},
 			{
 				"name": "Find the King of Birds",
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, @Forgotten City Regions/Main, $comcast, dio"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Find the King of Birds"
 				]
 			},
 			{
@@ -56,6 +74,9 @@
 					"^$QuestBossLocation|Astarte, @Tower of Death/Rampart Room",
 					"^$QuestBossLocation|Astarte, @Tower of Death Regions/Ascent",
 					"^$QuestBossLocation|Astarte, @Sandy Grave Regions/Main"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Overcome the Curse"
 				]
 			},
 			{
@@ -63,42 +84,63 @@
 				"access_rules": [
 					"^$QuestBossLocation|Legion, @Nation of Fools Regions/Main",
 					"^$QuestBossLocation|Legion, tear"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Statue's Tear"
 				]
 			},
 			{
 				"name": "The Martial Art",
 				"access_rules": [
 					"^$QuestBossLocation|Legion"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Martial Art"
 				]
 			},
 			{
 				"name": "Holy Appearance",
 				"access_rules": [
 					"^$QuestBossLocation|Stella, nunhat, nundress, nunshoe"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Holy Appearance"
 				]
 			},
 			{
 				"name": "Number of Fortune",
 				"access_rules": [
 					"^$QuestBossLocation|Stella"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Number of Fortune"
 				]
 			},
 			{
 				"name": "Mental Training 1",
 				"access_rules": [
 					"^$QuestBossLocation|Stella"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Mental Training 1"
 				]
 			},
 			{
 				"name": "Mental Training 2",
 				"access_rules": [
 					"^$QuestBossLocation|Stella, ^$PrevQuest|m2, nerd"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Mental Training 2"
 				]
 			},
 			{
 				"name": "The Spear of Legend",
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, $PortraitClear|2, spear"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Spear of Legend"
 				]
 			},
 			{
@@ -106,24 +148,36 @@
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|m3, $PortraitClear|5",
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|m3, $PortraitClear|3, tag, int"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Mental Training 3"
 				]
 			},
 			{
 				"name": "Defeat the Ghoul King",
 				"access_rules": [
 					"^$QuestBossLocation|Stella & Loretta, @13th Street Regions/Main"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Defeat the Ghoul King"
 				]
 			},
 			{
 				"name": "Abandon Greed",
 				"access_rules": [
 					"^$QuestBossLocation|Stella & Loretta"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Abandon Greed"
 				]
 			},
 			{
 				"name": "A Rank Hunter",
 				"access_rules": [
 					"^$QuestBossLocation|Dagon, $PortraitClear|5"
+				],
+				"visibility_rules": [
+					"$ShowQuest|A Rank Hunter"
 				]
 			},
 			{
@@ -131,48 +185,72 @@
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|m4, $PortraitClear|5",
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|m4, $PortraitClear|3, tag, mind"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Mental Training 4"
 				]
 			},
 			{
 				"name": "S Rank Hunter",
 				"access_rules": [
 					"^$QuestBossLocation|Werewolf, ^$PrevQuest|s, $PortraitClear|7"
+				],
+				"visibility_rules": [
+					"$ShowQuest|S Rank Hunter"
 				]
 			},
 			{
 				"name": "The Gambler",
 				"access_rules": [
 					"^$QuestBossLocation|Dagon, david, coal, soul, bar, persona5"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Gambler"
 				]
 			},
 			{
 				"name": "Hands of the Clock",
 				"access_rules": [
 					"^$QuestBossLocation|Death"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Hands of the Clock"
 				]
 			},
 			{
 				"name": "Poison vs. Poison",
 				"access_rules": [
 					"^$QuestBossLocation|Legion, cookie, marisa, long"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Poison vs. Poison"
 				]
 			},
 			{
 				"name": "Build Your Strength 1",
 				"access_rules": [
 					"^$QuestBossLocation|Death, fiftythousandbees"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Build Your Strength 1"
 				]
 			},
 			{
 				"name": "Build Your Strength 2",
 				"access_rules": [
 					"^$QuestBossLocation|Death, ^$PrevQuest|s2, nysteak"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Build Your Strength 2"
 				]
 			},
 			{
 				"name": "The Lonely Stage",
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, @Dark Academy Regions/Main"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Lonely Stage"
 				]
 			},
 			{
@@ -181,12 +259,18 @@
 					"^$QuestBossLocation|Death, ^$PrevQuest|s3, $Cakes|a",
 					"^$QuestBossLocation|Death, ^$PrevQuest|s3, @City of Haze Regions/Main, $Cakes|n",
 					"^$QuestBossLocation|Death, ^$PrevQuest|s3, @City of Haze Regions/Main, gold"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Build Your Strength 3"
 				]
 			},
 			{
 				"name": "Pray Before the Cross",
 				"access_rules": [
 					"^$QuestBossLocation|Werewolf, @13th Street Regions/Main"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Pray Before the Cross"
 				]
 			},
 			{
@@ -194,12 +278,18 @@
 				"access_rules": [
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|s4, $PortraitClear|5",
 					"^$QuestBossLocation|The Creature, ^$PrevQuest|s4, $PortraitClear|3, tag, con"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Build Your Strength 4"
 				]
 			},
 			{
 				"name": "Lost Page",
 				"access_rules": [
 					"$PortraitClear|nest, xpt1, xpt2"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Lost Page"
 				]
 			},
 			{
@@ -207,30 +297,45 @@
 				"access_rules": [
 					"$PortraitClear|nest, $PortraitClear|5",
 					"$PortraitClear|nest, @Nest of Evil Regions/Main, $PortraitClear|4"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Hundred Tasks"
 				]
 			},
 			{
 				"name": "Master the Holy Power",
 				"access_rules": [
 					"$PortraitClear|nest, $PortraitClear|2, scripture, crucifix, baptism"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Master the Holy Power"
 				]
 			},
 			{
 				"name": "Almighty",
 				"access_rules": [
 					"$PortraitClear|nest, knife, axe, crucifix, baptism, scripture, spear, rock, ty, knife2, shuriken, shuriken2, frisbee, tekken, kunai, papercity, metoyourmom, bow, joint, granatu, part7, bricks, off, def, taunt, miley, berserker, snakeftilt, lucario, rocket"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Almighty"
 				]
 			},
 			{
 				"name": "The Great Sage",
 				"access_rules": [
 					"$PortraitClear|nest, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
+				],
+				"visibility_rules": [
+					"$ShowQuest|The Great Sage"
 				]
 			},
 			{
 				"name": "Kill Gergoth",
 				"access_rules": [
 					"$PortraitClear|nest, @Nest of Evil Regions/Main, tag"
+				],
+				"visibility_rules": [
+					"$ShowQuest|Kill Gergoth"
 				]
 			}
 		],
