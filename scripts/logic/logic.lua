@@ -145,6 +145,33 @@ function QuestBossLocation(x)
     end
 end
 
+function PrevQuest(code)
+    if has("allquests") then
+        return true
+    end
+    local quest
+    if code == "m2" then
+        quest = "Mental Training 1"
+    elseif code == "m3" then
+        quest = "Mental Training 2"
+    elseif code == "m4" then
+        quest = "Mental Training 3"
+    elseif code == "s2" then
+        quest = "Build Your Strength 1"
+    elseif code == "s3" then
+        quest = "Build Your Strength 2"
+    elseif code == "s4" then
+        quest = "Build Your Strength 3"
+    elseif code == "s" then
+        quest = "A Rank Hunter"
+    end
+    return Tracker:FindObjectForCode(string.format("@Wind's Quests/%s", quest)).AccessibilityLevel
+end
+
+function cakes()
+    
+end
+
 function BraunerRequired()
     if Tracker:FindObjectForCode("brauner").Active then
         return Tracker:FindObjectForCode("@Master's Keep/Defeat Brauner/").AccessibilityLevel
