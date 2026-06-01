@@ -14,7 +14,7 @@ function has_more_then_n_consumable(n)
     return 0 -- 0 => no access
 end
 
-local function has(item, amount)
+function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     amount = tonumber(amount)
     if not amount then
@@ -111,65 +111,6 @@ function ConnectPortrait(area)
         end
     end
     -- If it hasn't returned yet, there's a duplicate portrait in the config TODO this is not good
-end
-
--- Returns the location of the given boss for quest logic, if 
-function QuestBossLocation(x)
-    if has("allquests") then
-        return true
-    end
-    local bossregions = {
-        ["Keremet"] = "Great Stairway",
-        ["Stella"] = "Tower of Death",
-        ["Death"] = "Tower of Death",
-        ["Stella & Loretta"] = "Master's Keep",
-        ["Dullahan"] = "City of Haze",
-        ["Werewolf"] = "13th Street",
-        ["Astarte"] = "Sandy Grave",
-        ["Mummy Man"] = "Forgotten City",
-        ["Legion"] = "Nation of Fools",
-        ["Medusa"] = "Burnt Paradise",
-        ["Dagon"] = "Forest of Doom",
-        ["The Creature"] = "Dark Academy",
-    }
-    if x == "Stella" then
-        return Tracker:FindObjectForCode("@Tower of Death/Stella Item/").AccessibilityLevel
-    end
-    if x == "Stella & Loretta" then
-        return Tracker:FindObjectForCode("@Master's Keep/Banquet Room/Stella & Loretta").AccessibilityLevel
-    end
-    for boss, region in pairs(bossregions) do
-        if boss == x then
-            return Tracker:FindObjectForCode(string.format("@%s/%s/", region, boss)).AccessibilityLevel
-        end
-    end
-end
-
-function PrevQuest(code)
-    if has("allquests") then
-        return true
-    end
-    local quest
-    if code == "m2" then
-        quest = "Mental Training 1"
-    elseif code == "m3" then
-        quest = "Mental Training 2"
-    elseif code == "m4" then
-        quest = "Mental Training 3"
-    elseif code == "s2" then
-        quest = "Build Your Strength 1"
-    elseif code == "s3" then
-        quest = "Build Your Strength 2"
-    elseif code == "s4" then
-        quest = "Build Your Strength 3"
-    elseif code == "s" then
-        quest = "A Rank Hunter"
-    end
-    return Tracker:FindObjectForCode(string.format("@Wind's Quests/%s", quest)).AccessibilityLevel
-end
-
-function cakes()
-
 end
 
 function BraunerRequired()

@@ -62,16 +62,13 @@
 								"item_size": 64,
 								"rows": [
 									[
-										"akechi", "wheat", "vienna"
+										"akechi", "wheat", "vienna", "cheese"
 									],
 									[
-										"cheese", "french", "tart"
+										"french", "tart", "gasteau", "german"
 									],
 									[
-										"gasteau", "german", "kaafii"
-									],
-									[
-										"gasteau2", "cat", "money", "hooray"
+										"kaafii", "gasteau2", "cat", "money", "hooray"
 									]
 								]
 							}

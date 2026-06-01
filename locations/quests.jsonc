@@ -39,7 +39,7 @@
 			{
 				"name": "Art of the Zephyr",
 				"access_rules": [
-					"^$QuestBossLocation|Legion, @Wind's Quests/The Spinning Art, roll"
+					"^$QuestBossLocation|Legion, $PrevQuest|zephyr, roll"
 				]
 			},
 			{
@@ -178,8 +178,8 @@
 			{
 				"name": "Build Your Strength 3",
 				"access_rules": [
-					"^$QuestBossLocation|Death, ^$PrevQuest|s3",
-					"^$QuestBossLocation|Death, ^$PrevQuest|s3, @City of Haze Regions/Main,", // not for sale cakes
+					"^$QuestBossLocation|Death, ^$PrevQuest|s3, $Cakes|a",
+					"^$QuestBossLocation|Death, ^$PrevQuest|s3, @City of Haze Regions/Main, $Cakes|n",
 					"^$QuestBossLocation|Death, ^$PrevQuest|s3, @City of Haze Regions/Main, gold"
 				]
 			},
@@ -218,13 +218,13 @@
 			{
 				"name": "Almighty",
 				"access_rules": [
-					"$PortraitClear|nest,"
+					"$PortraitClear|nest, knife, axe, crucifix, baptism, scripture, spear, rock, ty, knife2, shuriken, shuriken2, frisbee, tekken, kunai, papercity, metoyourmom, bow, joint, granatu, part7, bricks, off, def, taunt, miley, berserker, snakeftilt, lucario, rocket"
 				]
 			},
 			{
 				"name": "The Great Sage",
 				"access_rules": [
-					"$PortraitClear|nest,"
+					"$PortraitClear|nest, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
 				]
 			},
 			{
