@@ -1,15 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "1.5",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.5/CVPoRPT.zip",
-            "sha256": "b3ecb3dba5d171b6a26d3530886b814e28e3f9f65d016086eda3e1fb9f6b3edb",
+            "package_version": "1.6",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.6/CVPoRPT.zip",
+            "sha256": "e61beea4b551995e9ed651c714ba23577a2910fe451b6ce10e31976eeced9e86",
             "changelog": [
-                "Moved locations that were incorrectly placed",
-                "Logic that involves clearing a certain amount of portraits now works",
-                "Logic for quests now account for having unlock all quests enabled",
-                "Item for quests are now autotracked, these will be exposed in the GUI soon",
-                "Wind now turns grey went you complete a quest"
+                "Quest Related Items, Spells, and Subweapons are now shown in the UI, click between the tabs at the top of the items grid to see them",
+                "finished/fixed logic for quests",
+                "The 5 main categories of quests will now also appear in the top left corner of the main castle map, these will be shown in accordance to your include/exclude list in slot data"
             ]
         }
     ]
