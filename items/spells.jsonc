@@ -191,7 +191,7 @@
 		"name": "Chain Lightning",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "chain"
 	},
 	{
 		"name": "Piercing Beam",

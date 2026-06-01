@@ -49,6 +49,9 @@ if IS_HORIZONTAL then
     Tracker:AddLayouts("var_horizontal/layouts/broadcast.jsonc")
 else
     Tracker:AddLayouts("layouts/items.jsonc")
+    Tracker:AddLayouts("layouts/quests.jsonc")
+    Tracker:AddLayouts("layouts/spells.jsonc")
+    Tracker:AddLayouts("layouts/subweapons.jsonc")
     Tracker:AddLayouts("layouts/tracker.jsonc")
     Tracker:AddLayouts("layouts/popup.json")
     Tracker:AddLayouts("layouts/broadcast.jsonc")

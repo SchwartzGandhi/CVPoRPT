@@ -21,14 +21,20 @@
 	{
 		"name": "Ground Meat",
 		"type": "toggle",
-		"img": "images/items/puppet.png",
+		"img": "images/items/quests/meat.png",
 		"codes": "mincedmeat"
 	},
 	{
 		"name": "Skull Ring",
 		"type": "toggle",
-		"img": "images/items/puppet.png",
+		"img": "images/items/quests/skull.png",
 		"codes": "skull"
+	},
+	{
+		"name": "Statue's Tear",
+		"type": "toggle",
+		"img": "images/items/quests/tear.png",
+		"codes": "tear"
 	},
 	{
 		"name": "Nun's Habit",
@@ -45,13 +51,13 @@
 	{
 		"name": "Nun's Shoes",
 		"type": "toggle",
-		"img": "images/items/quests/shoe.png",
+		"img": "images/items/quests/shoes.png",
 		"codes": "nunshoe"
 	},
 	{
 		"name": "Thick Glasses",
 		"type": "toggle",
-		"img": "images/items/puppet.png",
+		"img": "images/items/quests/thick.png",
 		"codes": "nerd"
 	},
 	{
@@ -87,55 +93,49 @@
 	{
 		"name": "Moldy Bread",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/mold.png",
 		"codes": "cookie"
 	},
 	{
 		"name": "Amanita",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/amanita.png",
 		"codes": "marisa"
 	},
 	{
 		"name": "Long Sword",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/long.png",
 		"codes": "long"
 	},
 	{
 		"name": "Beehive",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/beehive.png",
 		"codes": "fiftythousandbees"
 	},
 	{
 		"name": "New York Steak",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/steak.png",
 		"codes": "nysteak"
-	},
-	{
-		"name": "Cake",
-		"type": "consumable",
-		"img": "images/items/quests/joker.png",
-		"codes": "keiki"
 	},
 	{
 		"name": "Gold Ring",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/gold.png",
 		"codes": "gold"
 	},
 	{
 		"name": "Tome of Arms p1",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/pt1.png",
 		"codes": "xpt1"
 	},
 	{
 		"name": "Tome of Arms p2",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/pt2.png",
 		"codes": "xpt2"
 	}
 ]

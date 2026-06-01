@@ -2,31 +2,79 @@
     {
 		"name": "Pancake",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/cake1.png",
 		"codes": "akechi"
 	},
 	{
 		"name": "Wheat Roll",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/cake1.png",
 		"codes": "wheat"
 	},
 	{
 		"name": "Sachertorte",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/cake1.png",
 		"codes": "vienna"
 	},
 	{
 		"name": "NY Cheesecake",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/cake1.png",
 		"codes": "cheese"
 	},
 	{
 		"name": "Mille-feuille",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/quests/cake1.png",
 		"codes": "french"
+	},
+	{
+		"name": "Tarte au Poire",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "tart"
+	},
+	{
+		"name": "Gateau Fraise",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "gasteau"
+	},
+	{
+		"name": "Kugelhopf",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "german"
+	},
+	{
+		"name": "Green Tea Cake",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "kaafii"
+	},
+	{
+		"name": "Gateau Marron",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "gasteau2"
+	},
+	{
+		"name": "Langues de Chat",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "cat"
+	},
+	{
+		"name": "Financier",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "money"
+	},
+	{
+		"name": "Birthday Cake",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "hooray"
 	}
 ]

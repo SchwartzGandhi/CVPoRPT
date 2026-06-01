@@ -2,175 +2,175 @@
 	{
 		"name": "Knife",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "knife"
 	},
 	{
 		"name": "Axe",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "axe"
 	},
 	{
 		"name": "Cross",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/subweapon.png",
 		"codes": "crucifix"
 	},
 	{
 		"name": "Holy Water",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/subweapon.png",
 		"codes": "baptism"
 	},
 	{
 		"name": "Bible",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
+		"img": "images/items/subweapon.png",
 		"codes": "scripture"
 	},
 	{
 		"name": "Javelin",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "spear"
 	},
 	{
 		"name": "Ricochet Rock",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "rock"
 	},
 	{
 		"name": "Boomerang",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "ty"
 	},
 	{
 		"name": "Bwaka Knife",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "knife2"
 	},
 	{
 		"name": "Shuriken",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "shuriken"
 	},
 	{
 		"name": "Yagyu Shuriken",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "shuriken2"
 	},
 	{
 		"name": "Discus",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "frisbee"
 	},
 	{
 		"name": "Kunimitsu",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "tekken"
 	},
 	{
 		"name": "Kunai",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "kunai"
 	},
 	{
 		"name": "Paper Airplane",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "papercity"
 	},
 	{
 		"name": "Cream Pie",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "metoyourmom"
 	},
 	{
 		"name": "Crossbow",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "bow"
 	},
 	{
 		"name": "Dart",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "joint"
 	},
 	{
 		"name": "Grenade",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "granatu"
 	},
 	{
 		"name": "Steel Ball",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "part7"
 	},
 	{
 		"name": "Stonewall",
 		"type": "toggle",
-		"img": "images/items/spell.png",
-		"codes": "spear"
+		"img": "images/items/subweapon.png",
+		"codes": "bricks"
 	},
 	{
 		"name": "Offensive Form",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "off"
 	},
 	{
 		"name": "Defensive Form",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "def"
 	},
 	{
 		"name": "Taunt",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "taunt"
 	},
 	{
 		"name": "Wrecking Ball",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "miley"
 	},
 	{
 		"name": "Rampage",
 		"type": "toggle",
-		"img": "images/items/spell.png",
-		"codes": "spear"
+		"img": "images/items/subweapon.png",
+		"codes": "berserker"
 	},
 	{
 		"name": "Knee Strike",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "snakeftilt"
 	},
 	{
 		"name": "Aura Blast",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "lucario"
 	},
 	{
 		"name": "Rocket Slash",
 		"type": "toggle",
-		"img": "images/items/spell.png",
+		"img": "images/items/subweapon.png",
 		"codes": "rocket"
 	}
 ]
