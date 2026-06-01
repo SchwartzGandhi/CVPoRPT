@@ -1421,7 +1421,7 @@
 					"goaldracula, brauner"
 				],
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room"
+					"@Master's Keep Regions/Portrait Room, $PortraitClear|brauner, ^$NestRequired"
 				],
 				"sections": [
 					{

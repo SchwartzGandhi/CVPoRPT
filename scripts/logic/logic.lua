@@ -110,7 +110,7 @@ function ConnectPortrait(area)
             return Tracker:FindObjectForCode(region).AccessibilityLevel
         end
     end
-    -- If it hasn't returned yet, there's a duplicate portrait in the config
+    -- If it hasn't returned yet, there's a duplicate portrait in the config TODO this is not good
 end
 
 -- Returns the location of the given boss for quest logic, if 
@@ -145,6 +145,20 @@ function QuestBossLocation(x)
     end
 end
 
+function BraunerRequired()
+    if Tracker:FindObjectForCode("brauner").Active then
+        return Tracker:FindObjectForCode("@Master's Keep/Defeat Brauner/").AccessibilityLevel
+    end
+end
+
+function NestRequired()
+    local stage = Tracker:FindObjectForCode("neststate").CurrentStage
+    if stage == 2 then
+        return Tracker:FindObjectForCode("@Nest of Evil/Doppelganger Reward/").AccessibilityLevel
+    end
+    return true
+end
+
 function PortraitClear(n)
     local clear_reach = {
         "@City of Haze/Dullahan/",
@@ -157,15 +171,27 @@ function PortraitClear(n)
         "@Dark Academy/The Creature/",
         "@Nest of Evil/Doppelganger/",
     }
-    local clearcount = 0
 
+    local clearcount = 0
     for _, boss in ipairs(clear_reach) do
+        -- use access level for now then use chest counnt once boss autotracking is done
         if Tracker:FindObjectForCode(boss).AvailableChestCount == 0 then
             clearcount = clearcount + 1
         end
-        print(clearcount)
     end
-    if clearcount >= tonumber(n) then
+
+    local checkcount
+    if n == "brauner" then
+        checkcount = Tracker:FindObjectForCode("braunercount").AcquiredCount
+    elseif n == "dracula" then
+        checkcount = Tracker:FindObjectForCode("countdracula").AcquiredCount
+    elseif n == "nest" then
+        checkcount = Tracker:FindObjectForCode("nestcount").AcquiredCount
+    else
+        checkcount = tonumber(n)
+    end
+
+    if clearcount >= checkcount then
         return true
     end
 end

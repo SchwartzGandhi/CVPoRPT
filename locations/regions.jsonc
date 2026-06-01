@@ -29,7 +29,7 @@
 			{
 				"name": "Underground Passage",
 				"access_rules": [
-					"@Entrance Regions/Hub" //get to nest options
+					"@Entrance Regions/Hub, $PortraitClear|nest"
 				]
 			},
 			{
@@ -229,7 +229,7 @@
 	{
 		"name": "The Throne Room Region",
 		"access_rules": [
-			"@Master's Keep Regions/Upper Quarters" // need settings
+			"@Master's Keep Regions/Upper Quarters, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
 		]
 	},
 	{
