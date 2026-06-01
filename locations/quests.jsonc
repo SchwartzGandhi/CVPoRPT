@@ -142,7 +142,7 @@
 			{
 				"name": "The Gambler",
 				"access_rules": [
-					"^$QuestBossLocation|Dagon, spade, diamond, heart, club, joker"
+					"^$QuestBossLocation|Dagon, david, coal, soul, bar, persona5"
 				]
 			},
 			{

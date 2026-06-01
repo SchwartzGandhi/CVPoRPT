@@ -1,0 +1,84 @@
+{
+	"shared_quest_grid": {
+		"type": "dock",
+		"dock": "left",
+		"h_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Quest Items",
+				"dock": "top",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_size": 64,
+								"rows": [
+									[
+										"mincedmeat", "tear"
+									],
+									[
+										"nunhat", "nundress", "nunshoe"
+									],
+									[
+										"nerd", "fiftythousandbees", "nysteak"
+									],
+									[
+										"david", "coal", "soul", "bar", "persona5"
+									],
+									[
+										"cookie", "marisa", "long"
+									],
+									[
+										"xpt1", "xpt2"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Cakes",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_size": 64,
+								"rows": [
+									[
+										"akechi", "wheat", "vienna"
+									],
+									[
+										"cheese", "french", "tart"
+									],
+									[
+										"gasteau", "german", "kaafii"
+									],
+									[
+										"gasteau2", "cat", "money", "hooray"
+									]
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

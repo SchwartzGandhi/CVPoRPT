@@ -1,0 +1,49 @@
+{
+	"shared_subweapon_grid": {
+		"type": "dock",
+		"dock": "left",
+		"h_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Subweapons",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_size": 64,
+								"rows": [
+									[
+										"knife", "axe", "crucifix", "baptism", "scripture"
+									],
+									[
+										"spear", "rock", "ty", "knife2", "shuriken"
+									],
+									[
+										"shuriken2", "frisbee", "tekken", "kunai", "papercity"
+									],
+									[
+										"metoyourmom", "bow", "joint", "granatu", "part7"
+									],
+									[
+										"bricks", "off", "def", "taunt", "miley"
+									],
+									[
+										"berserker", "snakeftilt", "lucario", "rocket"
+									]
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
