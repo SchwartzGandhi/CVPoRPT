@@ -111,13 +111,6 @@ function ConnectPortrait(area)
         end
     end
     -- If it hasn't returned yet, there's a duplicate portrait in the config
-    return false
-end
-
--- Checks if the given portrait requirement is met based on settings
-function GetPortraitAmount(code)
-    local obj = Tracker:FindObjectForCode(code)
-    -- TODO make boss locations
 end
 
 -- Returns the location of the given boss for quest logic, if 
@@ -127,6 +120,8 @@ function QuestBossLocation(x)
     end
     local bossregions = {
         ["Keremet"] = "Great Stairway",
+        ["Stella"] = "Tower of Death",
+        ["Death"] = "Tower of Death",
         ["Stella & Loretta"] = "Master's Keep",
         ["Dullahan"] = "City of Haze",
         ["Werewolf"] = "13th Street",
@@ -137,6 +132,9 @@ function QuestBossLocation(x)
         ["Dagon"] = "Forest of Doom",
         ["The Creature"] = "Dark Academy",
     }
+    if x == "Stella" then
+        return Tracker:FindObjectForCode("@Tower of Death/Stella Item/").AccessibilityLevel
+    end
     if x == "Stella & Loretta" then
         return Tracker:FindObjectForCode("@Master's Keep/Banquet Room/Stella & Loretta").AccessibilityLevel
     end
@@ -144,5 +142,30 @@ function QuestBossLocation(x)
         if boss == x then
             return Tracker:FindObjectForCode(string.format("@%s/%s/", region, boss)).AccessibilityLevel
         end
+    end
+end
+
+function PortraitClear(n)
+    local clear_reach = {
+        "@City of Haze/Dullahan/",
+        "@13th Street/Werewolf/",
+        "@Sandy Grave/Astarte/",
+        "@Forgotten City/Mummy Man/",
+        "@Nation of Fools/Legion/",
+        "@Burnt Paradise/Medusa/",
+        "@Forest of Doom/Dagon/",
+        "@Dark Academy/The Creature/",
+        "@Nest of Evil/Doppelganger/",
+    }
+    local clearcount = 0
+
+    for _, boss in ipairs(clear_reach) do
+        if Tracker:FindObjectForCode(boss).AvailableChestCount == 0 then
+            clearcount = clearcount + 1
+        end
+        print(clearcount)
+    end
+    if clearcount >= tonumber(n) then
+        return true
     end
 end

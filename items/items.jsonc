@@ -28,7 +28,7 @@
 		"name": "Skull Ring",
 		"type": "toggle",
 		"img": "images/items/puppet.png",
-		"codes": "puppet"
+		"codes": "skull"
 	},
 	{
 		"name": "Nun's Habit",
@@ -52,7 +52,7 @@
 		"name": "Thick Glasses",
 		"type": "toggle",
 		"img": "images/items/puppet.png",
-		"codes": "puppet"
+		"codes": "nerd"
 	},
 	{
 		"name": "Spade",
@@ -100,7 +100,7 @@
 		"name": "Long Sword",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "persona5"
+		"codes": "long"
 	},
 	{
 		"name": "Beehive",

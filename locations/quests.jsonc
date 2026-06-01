@@ -1,232 +1,243 @@
 [
-    {
-        "name": "Wind's Quests",
-        "chest_unopened_img": "images/items/quests/wind.png",
-        "chest_opened_img": "images/items/quests/wind.png",
-        "access_rules": [
-            "@Entrance Regions/Wind's Room"
-        ],
-        "sections": [
-            {
-                "name": "Preparations"
-            },
-            {
-                "name": "Supersonic Punch",
-                "access_rules": [
+	{
+		"name": "Wind's Quests",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"access_rules": [
+			"@Entrance Regions/Wind's Room"
+		],
+		"sections": [
+			{
+				"name": "Preparations"
+			},
+			{
+				"name": "Supersonic Punch",
+				"access_rules": [
+					"^$QuestBossLocation|Dullahan, @City of Haze Regions/Main",
+					"^$QuestBossLocation|Dullahan, mincedmeat"
+				]
+			},
+			{
+				"name": "Ghosts of the Desert",
+				"access_rules": [
+					"^$QuestBossLocation|Keremet, @Sandy Grave Regions/Upper Pyramid"
+				]
+			},
+			{
+				"name": "Defender of the Stairs",
+				"access_rules": [
+					"^$QuestBossLocation|Keremet, @Great Stairway Regions/Staircases",
+					"^$QuestBossLocation|Keremet, @Entrance Regions/Upper Area"
+				]
+			},
+			{
+				"name": "The Spinning Art",
+				"access_rules": [
+					"^$QuestBossLocation|Astarte"
+				]
+			},
+			{
+				"name": "Art of the Zephyr",
+				"access_rules": [
+					"^$QuestBossLocation|Legion, @Wind's Quests/The Spinning Art, roll"
+				]
+			},
+			{
+				"name": "Find the King of Birds",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, @Forgotten City Regions/Main, $comcast, dio"
+				]
+			},
+			{
+				"name": "Overcome the Curse",
+				"access_rules": [
+					"^$QuestBossLocation|Astarte, skull",
+					"^$QuestBossLocation|Astarte, @Entrance Regions/Upper Area",
+					"^$QuestBossLocation|Astarte, @Tower of Death/Rampart Room",
+					"^$QuestBossLocation|Astarte, @Tower of Death Regions/Ascent",
+					"^$QuestBossLocation|Astarte, @Sandy Grave Regions/Main"
+				]
+			},
+			{
+				"name": "The Statue's Tear",
+				"access_rules": [
+					"^$QuestBossLocation|Legion, @Nation of Fools Regions/Main",
+					"^$QuestBossLocation|Legion, tear"
+				]
+			},
+			{
+				"name": "The Martial Art",
+				"access_rules": [
+					"^$QuestBossLocation|Legion"
+				]
+			},
+			{
+				"name": "Holy Appearance",
+				"access_rules": [
+					"^$QuestBossLocation|Stella, nunhat, nundress, nunshoe"
+				]
+			},
+			{
+				"name": "Number of Fortune",
+				"access_rules": [
+					"^$QuestBossLocation|Stella"
+				]
+			},
+			{
+				"name": "Mental Training 1",
+				"access_rules": [
+					"^$QuestBossLocation|Stella"
+				]
+			},
+			{
+				"name": "Mental Training 2",
+				"access_rules": [
+					"^$QuestBossLocation|Stella, @Wind's Quests/Mental Training 1, nerd"
+				]
+			},
+			{
+				"name": "The Spear of Legend",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, $PortraitClear|2, spear"
+				]
+			},
+			{
+				"name": "Mental Training 3",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Mental Training 2, $PortraitClear|5",
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Mental Training 2, $PortraitClear|3, tag, int"
+				]
+			},
+			{
+				"name": "Defeat the Ghoul King",
+				"access_rules": [
+					"^$QuestBossLocation|Stella & Loretta, @13th Street Regions/Main"
+				]
+			},
+			{
+				"name": "Abandon Greed",
+				"access_rules": [
+					"^$QuestBossLocation|Stella & Loretta"
+				]
+			},
+			{
+				"name": "A Rank Hunter",
+				"access_rules": [
+					"^$QuestBossLocation|Dagon, $PortraitClear|5"
+				]
+			},
+			{
+				"name": "Mental Training 4",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Mental Training 3, $PortraitClear|5",
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Mental Training 3, $PortraitClear|3, tag, mind"
+				]
+			},
+			{
+				"name": "S Rank Hunter",
+				"access_rules": [
+					"^$QuestBossLocation|Werewolf, @Wind's Quests/A Rank Hunter, $PortraitClear|7"
+				]
+			},
+			{
+				"name": "The Gambler",
+				"access_rules": [
+					"^$QuestBossLocation|Dagon, spade, diamond, heart, club, joker"
+				]
+			},
+			{
+				"name": "Hands of the Clock",
+				"access_rules": [
+					"^$QuestBossLocation|Death"
+				]
+			},
+			{
+				"name": "Poison vs. Poison",
+				"access_rules": [
+					"^$QuestBossLocation|Legion, cookie, marisa, long"
+				]
+			},
+			{
+				"name": "Build Your Strength 1",
+				"access_rules": [
+					"^$QuestBossLocation|Death, fiftythousandbees"
+				]
+			},
+			{
+				"name": "Build Your Strength 2",
+				"access_rules": [
+					"^$QuestBossLocation|Death, @Wind's Quests/Build Your Strength 1, nysteak"
+				]
+			},
+			{
+				"name": "The Lonely Stage",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, @Dark Academy Regions/Main"
+				]
+			},
+			{
+				"name": "Build Your Strength 3",
+				"access_rules": [
+					"^$QuestBossLocation|Death, @Wind's Quests/Build Your Strength 2, cake"
+				]
+			},
+			{
+				"name": "Pray Before the Cross",
+				"access_rules": [
+					"^$QuestBossLocation|Werewolf, @13th Street Regions/Main"
+				]
+			},
+			{
+				"name": "Build Your Strength 4",
+				"access_rules": [
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Build Your Strength 3, $PortraitClear|5",
+					"^$QuestBossLocation|The Creature, @Wind's Quests/Build Your Strength 3, $PortraitClear|3, tag, con"
+				]
+			},
+			{
+				"name": "Lost Page",
+				"access_rules": [
+					"xpt1, xpt2" // unlock nest
+				]
+			},
+			{
+				"name": "The Hundred Tasks",
+				"access_rules": [
+					"$PortraitClear|5", //unlock nest
+					"@Nest of Evil Regions/Main, $PortraitClear|4" //unlock nest
+				]
+			},
+			{
+				"name": "Master the Holy Power",
+				"access_rules": [
+					"$PortraitClear|2, scripture, crucifix, baptism" //nest
+				]
+			},
+			{
+				"name": "Almighty",
+				"access_rules": [
 
-                ]
-            },
-            {
-                "name": "Ghosts of the Desert",
-                "access_rules": [
+				]
+			},
+			{
+				"name": "The Great Sage",
+				"access_rules": [
 
-                ]
-            },
-            {
-                "name": "Defender of the Stairs",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Spinning Art",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Art of the Zephyr",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Find the King of Birds",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Overcome the Curse",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Statue's Tear",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Martial Art",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Holy Appearance",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Number of Fortune",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Mental Training 1",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Mental Training 2",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Spear of Legend",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Mental Training 3",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Defeat the Ghoul King",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Abandon Greed",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "A Rank Hunter",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Mental Training 4",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "S Rank Hunter",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Gambler",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Hands of the Clock",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Poison vs. Poison",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Build Your Strength 1",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Build Your Strength 2",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Lonely Stage",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Build Your Strength 3",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Pray Before the Cross",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Build Your Strength 4",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Lost Page",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Hundred Tasks",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Master the Holy Power",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Almighty",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "The Great Sage",
-                "access_rules": [
-
-                ]
-            },
-            {
-                "name": "Kill Gergoth",
-                "access_rules": [
-
-                ]
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "Dracula's Castle",
-                "x": 312,
-                "y": 632
-            }
-        ]
-    }
+				]
+			},
+			{
+				"name": "Kill Gergoth",
+				"access_rules": [
+					"@Nest of Evil Regions/Main, tag"
+				]
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 312,
+				"y": 632
+			}
+		]
+	}
 ]
