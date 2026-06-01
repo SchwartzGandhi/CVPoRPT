@@ -241,5 +241,224 @@
 				"y": 632
 			}
 		]
+	},
+	{
+		"name": "Quests - Simple",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"sections": [
+			{
+				"name": "The Spinning Art",
+				"ref": "Wind's Quests/The Spinning Art"
+			},
+			{
+				"name": "Overcome the Curse",
+				"ref": "Wind's Quests/Overcome the Curse"
+			},
+			{
+				"name": "The Martial Art",
+				"ref": "Wind's Quests/The Martial Art"
+			},
+			{
+				"name": "Number of Fortune",
+				"ref": "Wind's Quests/Number of Fortune"
+			},
+			{
+				"name": "Mental Training 1",
+				"ref": "Wind's Quests/Mental Training 1"
+			},
+			{
+				"name": "Abandon Greed",
+				"ref": "Wind's Quests/Abandon Greed"
+			},
+			{
+				"name": "Hands of the Clock",
+				"ref": "Wind's Quests/Hands of the Clock"
+			},
+			{
+				"name": "The Lonely Stage",
+				"ref": "Wind's Quests/The Lonely Stage"
+			},
+			{
+				"name": "Pray Before the Cross",
+				"ref": "Wind's Quests/Pray Before the Cross"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 252,
+				"y": 102,
+				"size": 32
+			}
+		]
+	},
+	{
+		"name": "Quests - Requires Item",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"sections": [
+			{
+				"name": "Supersonic Punch",
+				"ref": "Wind's Quests/Supersonic Punch"
+			},
+			{
+				"name": "Art of the Zephyr",
+				"ref": "Wind's Quests/Art of the Zephyr"
+			},
+			{
+				"name": "The Statue's Tear",
+				"ref": "Wind's Quests/The Statue's Tear"
+			},
+			{
+				"name": "Holy Appearance",
+				"ref": "Wind's Quests/Holy Appearance"
+			},
+			{
+				"name": "Mental Training 2",
+				"ref": "Wind's Quests/Mental Training 2"
+			},
+			{
+				"name": "The Gambler",
+				"ref": "Wind's Quests/The Gambler"
+			},
+			{
+				"name": "Poison vs. Poison",
+				"ref": "Wind's Quests/Poison vs. Poison"
+			},
+			{
+				"name": "Build Your Strength 1",
+				"ref": "Wind's Quests/Build Your Strength 1"
+			},
+			{
+				"name": "Build Your Strength 2",
+				"ref": "Wind's Quests/Build Your Strength 2"
+			},
+			{
+				"name": "Build Your Strength 3",
+				"ref": "Wind's Quests/Build Your Strength 3"
+			},
+			{
+				"name": "Lost Page",
+				"ref": "Wind's Quests/Lost Page"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 292,
+				"y": 102,
+				"size": 32
+			}
+		]
+	},
+	{
+		"name": "Quests - Defeat Enemies",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"sections": [
+			{
+				"name": "Ghosts of the Desert",
+				"ref": "Wind's Quests/Ghosts of the Desert"
+			},
+			{
+				"name": "Defender of the Stairs",
+				"ref": "Wind's Quests/Defender of the Stairs"
+			},
+			{
+				"name": "Find the King of Birds",
+				"ref": "Wind's Quests/Find the King of Birds"
+			},
+			{
+				"name": "Defeat the Ghoul King",
+				"ref": "Wind's Quests/Defeat the Ghoul King"
+			},
+			{
+				"name": "Kill Gergoth",
+				"ref": "Wind's Quests/Kill Gergoth"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 332,
+				"y": 102,
+				"size": 32
+			}
+		]
+	},
+	{
+		"name": "Quests - Mastery",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"sections": [
+			{
+				"name": "The Spear of Legend",
+				"ref": "Wind's Quests/The Spear of Legend"
+			},
+			{
+				"name": "Master the Holy Power",
+				"ref": "Wind's Quests/Master the Holy Power"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 372,
+				"y": 102,
+				"size": 32
+			}
+		]
+	},
+	{
+		"name": "Quests - Grindy",
+		"chest_unopened_img": "images/items/quests/wind.png",
+		"chest_opened_img": "images/items/quests/wind_bw.png",
+		"sections": [
+			{
+				"name": "Mental Training 3",
+				"ref": "Wind's Quests/Mental Training 3"
+			},
+			{
+				"name": "A Rank Hunter",
+				"ref": "Wind's Quests/A Rank Hunter"
+			},
+			{
+				"name": "Mental Training 4",
+				"ref": "Wind's Quests/Mental Training 4"
+			},
+			{
+				"name": "S Rank Hunter",
+				"ref": "Wind's Quests/S Rank Hunter"
+			},
+			{
+				"name": "Build Your Strength 4",
+				"ref": "Wind's Quests/Build Your Strength 4"
+			},
+			{
+				"name": "The Hundred Tasks",
+				"ref": "Wind's Quests/The Hundred Tasks"
+			},
+			{
+				"name": "Master the Holy Power",
+				"ref": "Wind's Quests/Master the Holy Power"
+			},
+			{
+				"name": "Almighty",
+				"ref": "Wind's Quests/Almighty"
+			},
+			{
+				"name": "The Great Sage",
+				"ref": "Wind's Quests/The Great Sage"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Dracula's Castle",
+				"x": 412,
+				"y": 102,
+				"size": 32
+			}
+		]
 	}
 ]

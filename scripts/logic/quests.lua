@@ -1,4 +1,4 @@
--- Returns the location of the given boss for quest logic, if 
+-- Quests are locked by bosses, return true if the given boss is in logic
 function QuestBossLocation(x)
     if has("allquests") then
         return true
@@ -30,7 +30,7 @@ function QuestBossLocation(x)
     end
 end
 
--- If Unlock All Quests is enabled, the quest is free, otherwise certains quests neeeed others.
+-- Some quests depend on other quests being completed, match the given code with its predecessor
 function PrevQuest(code)
     if has("allquests") then
         return true
