@@ -129,13 +129,13 @@
 	{
 		"name": "Tome of Arms p1",
 		"type": "toggle",
-		"img": "images/items/quests/pt1.png",
+		"img": "images/items/quests/page.png",
 		"codes": "xpt1"
 	},
 	{
 		"name": "Tome of Arms p2",
 		"type": "toggle",
-		"img": "images/items/quests/pt2.png",
+		"img": "images/items/quests/page.png",
 		"codes": "xpt2"
 	}
 ]
