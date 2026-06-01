@@ -124,7 +124,7 @@
 		"name": "Gold Ring",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "xpt2"
+		"codes": "gold"
 	},
 	{
 		"name": "Tome of Arms p1",
@@ -149,24 +149,24 @@
 		"name": "Wheat Roll",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "xpt2"
+		"codes": "wheat"
 	},
 	{
 		"name": "Sachertorte",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "xpt2"
+		"codes": "vienna"
 	},
 	{
 		"name": "NY Cheesecake",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "xpt2"
+		"codes": "cheese"
 	},
 	{
 		"name": "Mille-feuille",
 		"type": "toggle",
 		"img": "images/items/quests/joker.png",
-		"codes": "xpt2"
+		"codes": "french"
 	}
 ]

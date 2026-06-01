@@ -59,13 +59,13 @@
 		"name": "Eye for an Eye",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "dio"
+		"codes": "thorns"
 	},
 	{
 		"name": "Clear Skies",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "dio"
+		"codes": "norange"
 	},
 	{
 		"name": "Time Stop",
@@ -155,13 +155,13 @@
 		"name": "Spirit of Light",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "light"
 	},
 	{
 		"name": "Dark Rift",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "drift"
 	},
 	{
 		"name": "Tempest",
@@ -173,13 +173,13 @@
 		"name": "Stone Circle",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "unpetrify"
 	},
 	{
 		"name": "Ice Needle",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "shadesoul2"
 	},
 	{
 		"name": "Explosion",
@@ -215,31 +215,31 @@
 		"name": "Acidic Bubbles",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "am2r"
 	},
 	{
 		"name": "Hex",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "hax"
 	},
 	{
 		"name": "Salamander",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "sal"
 	},
 	{
 		"name": "Cocytus",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "blizzard"
 	},
 	{
 		"name": "Thor's Bellow",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "nunhat"
+		"codes": "thor"
 	},
 	{
 		"name": "Summon Crow",
