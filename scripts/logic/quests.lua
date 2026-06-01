@@ -86,8 +86,31 @@ function Cakes(mode)
 end
 
 -- Search for if the quest is included or excluded
-function ShowQuest(quest)
+function ShowQuest(quest, type)
     for _, inc in ipairs(INCLUDED_QUESTS) do
+        if inc == "All" then
+            return true
+        elseif inc == "Simple" then
+            if type == "s" then
+                return true
+            end
+        elseif inc == "Requires Item" then
+            if type == "i" then
+                return true
+            end
+        elseif inc == "Defeat Enemies" then
+            if type == "e" then
+                return true
+            end
+        elseif inc == "Mastery" then
+            if type == "m" then
+                return true
+            end
+        elseif inc == "Grindy" then
+            if type == "g" then
+                return true
+            end
+        end
         if inc == quest then
             return true
         end
