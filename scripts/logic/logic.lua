@@ -169,7 +169,7 @@ function PrevQuest(code)
 end
 
 function cakes()
-    
+
 end
 
 function BraunerRequired()
@@ -202,7 +202,8 @@ function PortraitClear(n)
     local clearcount = 0
     for _, boss in ipairs(clear_reach) do
         -- use access level for now then use chest counnt once boss autotracking is done
-        if Tracker:FindObjectForCode(boss).AvailableChestCount == 0 then
+        --if Tracker:FindObjectForCode(boss).AvailableChestCount == 0 then
+        if Tracker:FindObjectForCode(boss).AccessibilityLevel == AccessibilityLevel.Normal then
             clearcount = clearcount + 1
         end
     end

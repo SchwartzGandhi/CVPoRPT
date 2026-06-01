@@ -1,0 +1,32 @@
+[
+    {
+		"name": "Pancake",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "akechi"
+	},
+	{
+		"name": "Wheat Roll",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "wheat"
+	},
+	{
+		"name": "Sachertorte",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "vienna"
+	},
+	{
+		"name": "NY Cheesecake",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "cheese"
+	},
+	{
+		"name": "Mille-feuille",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "french"
+	}
+]
