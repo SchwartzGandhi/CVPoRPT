@@ -608,8 +608,8 @@
 				"map_locations": [
 					{
 						"map": "Dracula's Castle",
-						"x": 672,
-						"y": 452
+						"x": 592,
+						"y": 532
 					}
 				]
 			},
@@ -942,8 +942,8 @@
 				"map_locations": [
 					{
 						"map": "Dracula's Castle",
-						"x": 692,
-						"y": 452
+						"x": 612,
+						"y": 532
 					}
 				]
 			},
@@ -962,6 +962,24 @@
 						"map": "Dracula's Castle",
 						"x": 692,
 						"y": 392
+					}
+				]
+			},
+			{
+				"name": "Keremet",
+				"access_rules": [
+					"@Great Stairway Regions/Lower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 922,
+						"y": 632
 					}
 				]
 			}
@@ -1279,6 +1297,24 @@
 				]
 			},
 			{
+				"name": "Death",
+				"access_rules": [
+					"@Tower of Death Regions/Top of the Tower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 1082,
+						"y": 172
+					}
+				]
+			},
+			{
 				"name": "Elevator Switch",
 				"access_rules": [
 					"@Tower of Death Regions/Top of the Tower"
@@ -1293,24 +1329,6 @@
 						"map": "Dracula's Castle",
 						"x": 1052,
 						"y": 172
-					}
-				]
-			},
-			{
-				"name": "Keremet",
-				"access_rules": [
-					"@Great Stairway Regions/Lower"
-				],
-				"sections": [
-					{
-						"name": ""
-					}
-				],
-				"map_locations": [
-					{
-						"map": "Dracula's Castle",
-						"x": 922,
-						"y": 632
 					}
 				]
 			}
@@ -1614,7 +1632,7 @@
 				"map_locations": [
 					{
 						"map": "City of Haze",
-						"x": 232,
+						"x": 292,
 						"y": 412
 					}
 				]
