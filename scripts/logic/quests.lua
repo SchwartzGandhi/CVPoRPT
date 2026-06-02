@@ -30,8 +30,9 @@ function QuestBossLocation(x)
             end
         end
     end
-    -- return Tracker:FindObjectForCode(location).AccessibilityLevel TODO make a pack settings for this
-    if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
+    if has("access") then
+        return Tracker:FindObjectForCode(location).AccessibilityLevel
+    elseif Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
         return true
     end
 end
@@ -65,12 +66,12 @@ end
 function Cakes(mode)
     local cakes = {
         "akechi", "wheat", "vienna", "cheese",
-        "french", "tart", "gasteau", "german",
-        "kaafii", "gasteau2", "cat", "money", "hooray"
+        "french", "tart", "gusteau", "german",
+        "kaafii", "gusteau2", "cat", "money", "hooray"
     }
     local notforsale = {
-        "akechi", "tart", "gasteau", "german",
-        "kaafii", "gasteau2", "cat", "money", "hooray"
+        "akechi", "tart", "gusteau", "german",
+        "kaafii", "gusteau2", "cat", "money", "hooray"
     }
     if mode == "a" then
         local cakecount = 0

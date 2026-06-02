@@ -39,7 +39,7 @@
 		"name": "Gateau Fraise",
 		"type": "toggle",
 		"img": "images/items/quests/cake7.png",
-		"codes": "gasteau"
+		"codes": "gusteau"
 	},
 	{
 		"name": "Kugelhopf",
@@ -57,7 +57,7 @@
 		"name": "Gateau Marron",
 		"type": "toggle",
 		"img": "images/items/quests/cake10.png",
-		"codes": "gasteau2"
+		"codes": "gusteau2"
 	},
 	{
 		"name": "Langues de Chat",

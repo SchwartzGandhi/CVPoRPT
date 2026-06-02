@@ -32,6 +32,7 @@ Tracker:AddItems("items/subweapons.jsonc")
 -- Settings
 Tracker:AddItems("settings/settings.json")
 Tracker:AddItems("settings/portraits.json")
+Tracker:AddItems("settings/meta.json")
 
 if not IS_ITEMS_ONLY then
     -- Maps

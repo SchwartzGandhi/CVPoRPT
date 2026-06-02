@@ -142,9 +142,8 @@ function PortraitClear(n)
 
     local clearcount = 0
     for _, boss in ipairs(clear_reach) do
-        -- TODO make a pack option for this
-        if Tracker:FindObjectForCode(boss).AvailableChestCount == 0 then
-        -- if Tracker:FindObjectForCode(boss).AccessibilityLevel == AccessibilityLevel.Normal then
+        if (has("collect") and Tracker:FindObjectForCode(boss).AvailableChestCount == 0) or (
+        has("access") and Tracker:FindObjectForCode(boss).AccessibilityLevel >= AccessibilityLevel.Normal) then
             clearcount = clearcount + 1
         end
     end

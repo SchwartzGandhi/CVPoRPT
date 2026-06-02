@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Disable Auto Tab Switching",
+        "type": "toggle",
+        "codes": "notabs"
+    },
+    {
+        "name": "Quest Unlock/Portait Clear Logic",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "access",
+                "inhereit_codes": false
+            },
+            {
+                "codes": "collect",
+                "inhereit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Show Out of Logic Skips",
+        "type": "toggle",
+        "codes": "ool"
+    },
+    {
+        "name": "Hide Irrelevant Quests",
+        "type": "toggle",
+        "codes": "hidequests"
+    }
+]
