@@ -1,4 +1,4 @@
--- Quests are locked by bosses, return true if the given boss is in logic
+-- Quests are locked by bosses, return true if the given boss is in logic/has been obtained
 function QuestBossLocation(x)
     if has("allquests") then
         return true
@@ -17,16 +17,22 @@ function QuestBossLocation(x)
         ["Dagon"] = "Forest of Doom",
         ["The Creature"] = "Dark Academy",
     }
+
+    local location
     if x == "Stella" then
-        return Tracker:FindObjectForCode("@Tower of Death/Stella Item/").AccessibilityLevel
-    end
-    if x == "Stella & Loretta" then
-        return Tracker:FindObjectForCode("@Master's Keep/Banquet Room/Stella & Loretta").AccessibilityLevel
-    end
-    for boss, region in pairs(bossregions) do
-        if boss == x then
-            return Tracker:FindObjectForCode(string.format("@%s/%s/", region, boss)).AccessibilityLevel
+        location = "@Tower of Death/Stella Item/"
+    elseif x == "Stella & Loretta" then
+        location = "@Master's Keep/Banquet Room/Stella & Loretta"
+    else
+        for boss, region in pairs(bossregions) do
+            if boss == x then
+                location = string.format("@%s/%s/", region, boss)
+            end
         end
+    end
+    -- return Tracker:FindObjectForCode(location).AccessibilityLevel TODO make a pack settings for this
+    if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
+        return true
     end
 end
 
