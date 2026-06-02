@@ -1,13 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "1.6",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.6/CVPoRPT.zip",
-            "sha256": "e61beea4b551995e9ed651c714ba23577a2910fe451b6ce10e31976eeced9e86",
+            "package_version": "1.7",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.7/CVPoRPT.zip",
+            "sha256": "2e21732bc0f7cb5428ad3b02192c79449183f5fcc7ea9bd192ba177bb03c6681",
             "changelog": [
-                "Quest Related Items, Spells, and Subweapons are now shown in the UI, click between the tabs at the top of the items grid to see them",
-                "finished/fixed logic for quests",
-                "The 5 main categories of quests will now also appear in the top left corner of the main castle map, these will be shown in accordance to your include/exclude list in slot data"
+                "Quest filtering now accounts for yaml shortcuts",
+                "gold ring and skull ring have been added to the quest items grid",
+                "pack now supports boss autotracking and auto tab switching, this will start working with the next apworld update"
             ]
         }
     ]
