@@ -238,6 +238,13 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
+	DATA_KEYS = {
+		"ElevatorSwitch", "Keremet", "Stella", "Death", "Stella&Loretta", "Brauner", "Dracula",
+		"Dullahan", "Werewolf", "Astarte", "MummyMan", "Legion", "Medusa", "Dagon", "TheCreature", "Doppelganger",
+		"map_id"
+	}
+	Archipelago:SetNotify(DATA_KEYS)
+	Archipelago:Get(DATA_KEYS)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
@@ -380,6 +387,70 @@ function onDataStorageUpdate(key, value, oldValue)
 	--if you plan to only use the hints key, you can remove this if
 	if key == getHintDataStorageKey() then
 		onHintsUpdate(value)
+	end
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onEvent: key %s, value %s", key, value))
+	end
+
+	if key == "map_id" then
+		local maps = {
+			"Dracula's Castle",
+			"City of Haze",
+			"13th Street",
+			"Sandy Grave",
+			"Forgotten City",
+			"Nation of Fools",
+			"Burnt Paradise",
+			"Forest of Doom",
+			"Dark Academy",
+			"Nest of Evil",
+		}
+		for i, map in ipairs(maps) do
+			if i - 1 == value then
+				Tracker:UiHint("ActivateTab", map)
+			end
+		end
+	end
+
+	if key == "ElevatorSwitch" then
+		event = "@Tower of Death/Elevator Switch/"
+	elseif key == "Keremet" then
+		event = "@Great Stairway/Keremet/"
+	-- elseif key == "Stella" then
+	-- 	event = "@Tower of Death/Stella/"
+	elseif key == "Death" then
+		event = "@Tower of Death/Death/"
+	elseif key == "Stella&Loretta" then
+		event = "@Master's Keep/Banquet Room/Stella & Loretta"
+	elseif key == "Brauner" then
+		event = "@Master's Keep/Defeat Brauner/"
+	elseif key == "Dracula" then
+		event = "@The Throne Room/Defeat Dracula/"
+	elseif key == "Dullahan" then
+		event = "@City of Haze/Dullahan/"
+	elseif key == "Werewolf" then
+		event = "@13th Street/Werewolf/"
+	elseif key == "Astarte" then
+		event = "@Sandy Grave/Astarte/"
+	elseif key == "MummyMan" then
+		event = "@Forgotten City/Mummy Man/"
+	elseif key == "Legion" then
+		event = "@Nation of Fools/Legion/"
+	elseif key == "Medusa" then
+		event = "@Burnt Paradise/Medusa/"
+	elseif key == "Dagon" then
+		event = "@Forest of Doom/Dagon/"
+	elseif key == "TheCreature" then
+		event = "@Dark Academy/The Creature/"
+	elseif key == "Doppelganger" then
+		event = "@Nest of Evil/Doppelganger/"
+	else
+		return
+	end
+	if value == 1 then
+		Tracker:FindObjectForCode(event).AvailableChestCount = 0
+	else
+		Tracker:FindObjectForCode(event).AvailableChestCount = 1
 	end
 end
 
