@@ -23,6 +23,7 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "left",
+								"item_size": 64,
 								"rows": [
 									[
 										"tag", "doubleup", "dlink", "stay", "mario", "powerglove", "slide", "djump"
@@ -49,12 +50,10 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "left",
+								"item_size": 128,
 								"rows": [
 									[
-										"froggy", "birdie"
-									],
-									[
-										"fortress", "fast"
+										"froggy", "birdie", "fortress", "fast"
 									]
 								]
 							}
@@ -76,12 +75,10 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "left",
+								"item_size": 128,
 								"rows": [
 									[
-										"locket", "toon"
-									],
-									[
-										"puppet"
+										"locket", "toon", "puppet"
 									]
 								]
 							}

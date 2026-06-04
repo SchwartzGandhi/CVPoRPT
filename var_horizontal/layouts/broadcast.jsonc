@@ -6,8 +6,37 @@
 		"margin": "0,0",
 		"content": [
 			{
-				"type": "layout",
-				"key": "shared_item_grid"
+				"type": "tabbed",
+				"tabs": [
+					{
+						"title": "Relics",
+						"content": {
+							"type": "layout",
+							"key": "shared_item_grid"
+						}
+					},
+					{
+						"title": "Quests",
+						"content": {
+							"type": "layout",
+							"key": "shared_quest_grid"
+						}
+					},
+					{
+						"title": "Subweapons",
+						"content": {
+							"type": "layout",
+							"key": "shared_subweapon_grid"
+						}
+					},
+					{
+						"title": "Spells",
+						"content": {
+							"type": "layout",
+							"key": "shared_spell_grid"
+						}
+					}
+				]
 			}
 		]
 	}

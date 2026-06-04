@@ -1,0 +1,44 @@
+{
+	"shared_spell_grid": {
+		"type": "dock",
+		"dock": "bottom",
+		"h_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Spells",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_size": 64,
+								"rows": [
+									[
+										"questfrog", "questowl", "questsanc", "questfast", "basilio",
+										"thorns", "norange", "dio", "medkit", "unpoisonma",
+										"uncursema", "str", "con", "int", "mind",
+										"luck", "all", "aero", "stoning", "burn", "shadesoul"
+									],
+									[
+										"thunder", "light", "drift", "fishron",
+										"unpetrify", "shadesoul2", "megumin", "chain", "plasma",
+										"gravitysuit", "qinshihuang", "am2r", "hax", "sal",
+										"blizzard", "thor", "aya", "skelly", "boo",
+										"snipermonkey", "miepee"
+									]
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
