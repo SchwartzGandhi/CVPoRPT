@@ -77,7 +77,7 @@ function smol()
     return has("slide") or holes()
 end
 
--- Checks for portrait configuration and links the given portrait accordingly
+-- Checks portrait configuration and links the given portrait accordingly
 function ConnectPortrait(area)
     local ports = {
         ["hubport"] = "@Entrance Regions/Hub Painting Room",
@@ -90,27 +90,52 @@ function ConnectPortrait(area)
         ["brauner4port"] = "@Master's Keep Regions/Portrait Room",
         ["passageport"] = "@Entrance Regions/Underground Passage",
     }
-    local area_idx = {
+    local area_codes = {
         "coh", "13s",
         "sg", "fc",
         "nof", "bp",
         "fod", "da",
         "noe",
     }
-    -- Turn the provided code into a number
-    for i, code in ipairs(area_idx) do
+    -- Turn the provided code into the index of the portrait stage it represents
+    for i, code in ipairs(area_codes) do
         if code == area then
             idx = i - 1
         end
     end
-    -- Find which portrait has the index and return the correlating region
-    for code, region in pairs(ports) do
+    -- Find which portraits have the index
+    local connected_regions = {}
+    for code, _ in pairs(ports) do
         stage = Tracker:FindObjectForCode(code).CurrentStage
+        -- print(string.format("Testing if portrait \"%s\" has index %s", code, idx))
         if stage == idx then
-            return Tracker:FindObjectForCode(region).AccessibilityLevel
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("Portrait \"%s\" connects to \"%s\"", code, area_codes[idx+1]))
+            end
+            table.insert(connected_regions, code)
         end
     end
-    -- If it hasn't returned yet, there's a duplicate portrait in the config TODO this is not good
+    -- If there were no matches, there's a duplicate portrait in the config and this area isn't listed
+    if not next(connected_regions) and AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+        print(string.format("Could not find a portrait that connects to \"%s\"", area))
+    end
+
+    -- Cycle through all of the results and find if one is in logic
+    for _, code in ipairs(connected_regions) do
+        local region = ports[code]
+        local access = Tracker:FindObjectForCode(region).AccessibilityLevel
+        -- print(string.format("Checking if \"%s\" is in logic for portrait \"%s\"", region, code))
+        if access >= AccessibilityLevel.SequenceBreak then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("\"%s\" tis indeed in logic for portrait \"%s\"", region, code))
+            end
+            -- The Portrait in Tower of Death specifically also needs Stella's Locket
+            if code == "towerport" then
+                return access and has("locket")
+            end
+            return access
+        end
+    end
 end
 
 function BraunerRequired()
@@ -166,11 +191,13 @@ end
 
 function Elevator()
     local elevator = Tracker:FindObjectForCode("@Tower of Death/Elevator Switch/")
-    if has("access") then
-        return elevator.AccessibilityLevel
-    elseif has("collect") then
-        if elevator.AvailableChestCount == 0 then
-            return true
+    if elevator then
+        if has("access") then
+            return elevator.AccessibilityLevel
+        elseif has("collect") then
+            if elevator.AvailableChestCount == 0 then
+                return true
+            end
         end
     end
 end

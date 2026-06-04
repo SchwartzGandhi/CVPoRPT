@@ -368,7 +368,7 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"^$ConnectPortrait|fod, locket"
+					"^$ConnectPortrait|fod"
 				]
 			},
 			{
