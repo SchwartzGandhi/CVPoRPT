@@ -4,50 +4,50 @@
 		"name": "Toad Morph",
 		"type": "toggle",
 		"img": "images/items/charlotte/frog.png",
-		"codes": "froggy, progfrog"
+		"codes": "froggy"
 	},
 	{
 		"name": "Owl Morph",
 		"type": "toggle",
 		"img": "images/items/owl.png",
-		"codes": "birdie, progbird"
+		"codes": "birdie"
 	},
 	{
 		"name": "Sanctuary",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "fortress, progsanc"
+		"codes": "fortress"
 	},
 	{
 		"name": "Speed Up",
 		"type": "toggle",
 		"img": "images/items/panther.png",
-		"codes": "fast, progfast"
+		"codes": "fast"
 	},
 	// Quest Spells
 	{
 		"name": "Toad Morph",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "froggy, questfrog"
+		"codes": "questfrog"
 	},
 	{
 		"name": "Owl Morph",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "birdie, questowl"
+		"codes": "questowl"
 	},
 	{
 		"name": "Sanctuary",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "fortress, questsanc"
+		"codes": "questsanc"
 	},
 	{
 		"name": "Speed Up",
 		"type": "toggle",
 		"img": "images/items/spell.png",
-		"codes": "fast, questfast"
+		"codes": "questfast"
 	},
 	{
 		"name": "Berserker",

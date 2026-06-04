@@ -21,8 +21,30 @@ function dump_table(o, depth)
     end
 end
 
+LINKED_SPELLS = {
+    ["froggy"] = "questfrog",
+    ["birdie"] = "questowl", 
+    ["fortress"] = "questsanc",
+    ["fast"] = "questfast"
+}
+-- Enable/Disable a linked item's partner
+function LinkSpells(item_code)
+    local code_obj = Tracker:FindObjectForCode(item_code)
+    if code_obj then
+        local link_obj
+        for quest_spell, prog_spell in pairs(LINKED_SPELLS) do
+            if item_code == quest_spell then
+                link_obj = Tracker:FindObjectForCode(prog_spell)
+            elseif item_code == prog_spell then
+                link_obj = Tracker:FindObjectForCode(quest_spell)
+            end
+        end
+        link_obj.Active = code_obj.Active
+    end
+end
+
 function MetaCheck()
     if Tracker:FindObjectForCode("reach").CurrentStage == 1 then
-        Tracker:FindObjectForCode("hidebosses").Active = false
+        Tracker:FindObjectForCode("hideevents").Active = false
     end
 end

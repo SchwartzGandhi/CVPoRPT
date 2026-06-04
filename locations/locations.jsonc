@@ -981,7 +981,7 @@
 						"x": 922,
 						"y": 632,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -1315,7 +1315,7 @@
 						"x": 1082,
 						"y": 172,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -1334,7 +1334,10 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 1052,
-						"y": 172
+						"y": 172,
+						"force_invisibility_rules": [
+							"hideevents"
+						]
 					}
 				]
 			}
@@ -2176,7 +2179,7 @@
 						"x": 1022,
 						"y": 412,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -2499,7 +2502,7 @@
 						"x": 222,
 						"y": 412,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -2976,7 +2979,7 @@
 						"x": 702,
 						"y": 272,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -3297,7 +3300,7 @@
 						"x": 532,
 						"y": 492,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -3776,7 +3779,7 @@
 						"x": 632,
 						"y": 452,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -4129,7 +4132,7 @@
 						"x": 622,
 						"y": 692,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -4371,7 +4374,7 @@
 						"x": 1012,
 						"y": 502,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -4598,7 +4601,7 @@
 						"x": 242,
 						"y": 492,
 						"force_invisibility_rules": [
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]
@@ -4688,7 +4691,7 @@
 						"y": 712,
 						"force_invisibility_rules": [
 							"nonest",
-							"hidebosses"
+							"hideevents"
 						]
 					}
 				]

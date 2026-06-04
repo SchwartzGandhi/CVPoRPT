@@ -65,14 +65,10 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 2086] = {{"rocket", "toggle"}},
 
 	-- Spells
-	[BASE_ITEM_ID + 2087] = {{"progfrog", "toggle"}},
-	[BASE_ITEM_ID + 2087] = {{"questfrog", "toggle"}},
-	[BASE_ITEM_ID + 2088] = {{"progowl", "toggle"}},
-	[BASE_ITEM_ID + 2088] = {{"questowl", "toggle"}},
-	[BASE_ITEM_ID + 2089] = {{"progsanc", "toggle"}},
-	[BASE_ITEM_ID + 2089] = {{"questsanc", "toggle"}},
-	[BASE_ITEM_ID + 2090] = {{"progfast", "toggle"}},
-	[BASE_ITEM_ID + 2090] = {{"questfast", "toggle"}},
+	[BASE_ITEM_ID + 2087] = {{"froggy", "toggle"}},
+	[BASE_ITEM_ID + 2088] = {{"birdie", "toggle"}},
+	[BASE_ITEM_ID + 2089] = {{"fortress", "toggle"}},
+	[BASE_ITEM_ID + 2090] = {{"fast", "toggle"}},
 	[BASE_ITEM_ID + 2091] = {{"basilio", "toggle"}},
 	[BASE_ITEM_ID + 2092] = {{"thorns", "toggle"}},
 	[BASE_ITEM_ID + 2093] = {{"norange", "toggle"}},

@@ -39,7 +39,7 @@
 	{
 		"name": "Hide Events",
 		"type": "toggle",
-		"img": "images/settings/meta/hidebosses.png",
-		"codes": "hidebosses"
+		"img": "images/settings/meta/hideevents.png",
+		"codes": "hideevents"
 	}
 ]

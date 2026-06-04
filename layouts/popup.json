@@ -1,130 +1,130 @@
 {
-    "settings_popup": {
+	"settings_popup": {
 		"type": "container",
 		"background": "#000000",
-        "content": [
-            {
-                "type": "tabbed",
-                "tabs": [
-                    {
-                        "title": "Goal Settings",
-                        "content": [
-                            {
-                                "type": "array",
-                                "orientation": "horizontal",
-                                "margin": "0,0",
-                                "content": [
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "16, 2",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 272,
-                                        "rows": [
-                                            ["goal"]
-                                        ]
-                                    },
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "2, 2",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 48,
-                                        "rows": [
-                                            [""]
-                                        ]
-                                    },
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "2, 8",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 128,
-                                        "rows": [
-                                            ["brauner", "braunercount"],
-                                            ["countdracula", "nestcount"]
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Portrait Configuration",
-                        "content": [
-                            {
-                                "type": "array",
-                                "orientation": "horizontal",
-                                "margin": "0,0",
-                                "content": [
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "2, 8",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 128,
-                                        "rows": [
-                                            ["hubport", "undergroundport", "stairsport", "towerport", "passageport"],
-                                            ["brauner1port", "brauner2port", "brauner3port", "brauner4port"]
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Logic Settings",
-                        "content": [
-                            {
-                                "type": "array",
-                                "orientation": "horizontal",
-                                "margin": "0,0",
-                                "content": [
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "2, 2",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 128,
-                                        "rows": [
-                                            ["taganywhere", "shiwakeanywhere", "solomitt", "neststate", "allquests"]
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "title": "Meta",
-                        "content": [
-                            {
-                                "type": "array",
-                                "orientation": "horizontal",
-                                "margin": "0,0",
-                                "content": [
-                                    {
-                                        "type": "itemgrid",
-                                        "background": "#000000",
-                                        "item_margin": "2, 2",
-                                        "h_alignment": "center",
-                                        "item_h_alignment": "center",
-                                        "item_size": 140,
-                                        "rows": [
-                                            ["notabs", "hidequests"],
-                                            ["reach", "ool", "hidebosses"]
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+		"content": [
+			{
+				"type": "tabbed",
+				"tabs": [
+					{
+						"title": "Goal Settings",
+						"content": [
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": [
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "16, 2",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 272,
+										"rows": [
+											["goal"]
+										]
+									},
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "2, 2",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 48,
+										"rows": [
+											[""]
+										]
+									},
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "2, 8",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 128,
+										"rows": [
+											["brauner", "braunercount"],
+											["countdracula", "nestcount"]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Portrait Configuration",
+						"content": [
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": [
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "2, 8",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 128,
+										"rows": [
+											["hubport", "undergroundport", "stairsport", "towerport", "passageport"],
+											["brauner1port", "brauner2port", "brauner3port", "brauner4port"]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Logic Settings",
+						"content": [
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": [
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "2, 2",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 128,
+										"rows": [
+											["taganywhere", "shiwakeanywhere", "solomitt", "neststate", "allquests"]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Meta",
+						"content": [
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": [
+									{
+										"type": "itemgrid",
+										"background": "#000000",
+										"item_margin": "2, 2",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 140,
+										"rows": [
+											["notabs", "hidequests"],
+											["reach", "ool", "hideevents"]
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
 }
