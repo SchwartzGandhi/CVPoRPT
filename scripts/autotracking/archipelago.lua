@@ -392,7 +392,7 @@ function onDataStorageUpdate(key, value, oldValue)
 		print(string.format("called onEvent: key %s, value %s", key, value))
 	end
 
-	if key == "map_id" then
+	if key == "map_id" and not has("notabs") then
 		local maps = {
 			"Dracula's Castle",
 			"City of Haze",

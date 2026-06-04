@@ -163,3 +163,14 @@ function PortraitClear(n)
         return true
     end
 end
+
+function Elevator()
+    local elevator = Tracker:FindObjectForCode("@Tower of Death/Elevator Switch/")
+    if has("access") then
+        return elevator.AccessibilityLevel
+    elseif has("collect") then
+        if elevator.AvailableChestCount == 0 then
+            return true
+        end
+    end
+end

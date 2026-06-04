@@ -127,5 +127,7 @@ function ShowQuest(quest, type)
             return false
         end
     end
-    -- Should unrelated quests be shown? TODO make this a meta option
+    if not has("hidequests") then
+        return true
+    end
 end

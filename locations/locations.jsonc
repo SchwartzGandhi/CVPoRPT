@@ -979,7 +979,10 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 922,
-						"y": 632
+						"y": 632,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -1155,7 +1158,7 @@
 			{
 				"name": "Elevator Room Middle",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room" // elevator
+					"@Tower of Death Regions/Elevator Room, ^$Elevator"
 				],
 				"sections": [
 					{
@@ -1173,7 +1176,7 @@
 			{
 				"name": "Elevator Room Top",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room" // elevator
+					"@Tower of Death Regions/Elevator Room, ^$Elevator"
 				],
 				"sections": [
 					{
@@ -1310,7 +1313,10 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 1082,
-						"y": 172
+						"y": 172,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			},
@@ -2168,7 +2174,10 @@
 					{
 						"map": "City of Haze",
 						"x": 1022,
-						"y": 412
+						"y": 412,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -2488,7 +2497,10 @@
 					{
 						"map": "13th Street",
 						"x": 222,
-						"y": 412
+						"y": 412,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -2962,7 +2974,10 @@
 					{
 						"map": "Sandy Grave",
 						"x": 702,
-						"y": 272
+						"y": 272,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -3280,7 +3295,10 @@
 					{
 						"map": "Forgotten City",
 						"x": 532,
-						"y": 492
+						"y": 492,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -3756,7 +3774,10 @@
 					{
 						"map": "Nation of Fools",
 						"x": 632,
-						"y": 452
+						"y": 452,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -4106,7 +4127,10 @@
 					{
 						"map": "Burnt Paradise",
 						"x": 622,
-						"y": 692
+						"y": 692,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -4345,7 +4369,10 @@
 					{
 						"map": "Forest of Doom",
 						"x": 1012,
-						"y": 502
+						"y": 502,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -4569,7 +4596,10 @@
 					{
 						"map": "Dark Academy",
 						"x": 242,
-						"y": 492
+						"y": 492,
+						"force_invisibility_rules": [
+							"hidebosses"
+						]
 					}
 				]
 			}
@@ -4657,7 +4687,8 @@
 						"x": 662,
 						"y": 712,
 						"force_invisibility_rules": [
-							"nonest"
+							"nonest",
+							"hidebosses"
 						]
 					}
 				]
