@@ -20,3 +20,9 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+function MetaCheck()
+    if Tracker:FindObjectForCode("reach").CurrentStage == 1 then
+        Tracker:FindObjectForCode("hidebosses").Active = false
+    end
+end

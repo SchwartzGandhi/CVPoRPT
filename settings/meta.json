@@ -1,34 +1,45 @@
 [
-    {
-        "name": "Disable Auto Tab Switching",
-        "type": "toggle",
-        "codes": "notabs"
-    },
-    {
-        "name": "Quest Unlock/Portait Clear Logic",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "codes": "access",
-                "inhereit_codes": false
-            },
-            {
-                "codes": "collect",
-                "inhereit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Show Out of Logic Skips",
-        "type": "toggle",
-        "codes": "ool"
-    },
-    {
-        "name": "Hide Irrelevant Quests",
-        "type": "toggle",
-        "codes": "hidequests"
-    }
+	{
+		"name": "Disable Auto Tab Switching",
+		"type": "toggle",
+		"img": "images/settings/meta/autotab.png",
+		"codes": "notabs"
+	},
+	{
+		"name": "Quest Unlock/Portait Clear Logic",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+			"img": "images/settings/meta/access.png",
+				"codes": "reach, access",
+				"inhereit_codes": false
+			},
+			{
+			"img": "images/settings/meta/collect.png",
+				"codes": "reach, collect",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Show Out of Logic Skips",
+		"type": "toggle",
+		"img": "images/settings/meta/ool.png",
+		"codes": "ool"
+	},
+	{
+		"name": "Hide Irrelevant Quests",
+		"type": "toggle",
+		"img": "images/settings/meta/hidequests.png",
+		"codes": "hidequests"
+	},
+	{
+		"name": "Hide Events",
+		"type": "toggle",
+		"img": "images/settings/meta/hidebosses.png",
+		"codes": "hidebosses"
+	}
 ]
