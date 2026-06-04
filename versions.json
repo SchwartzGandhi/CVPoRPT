@@ -1,13 +1,15 @@
 {
     "versions": [
         {
-            "package_version": "1.7",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.7/CVPoRPT.zip",
-            "sha256": "2e21732bc0f7cb5428ad3b02192c79449183f5fcc7ea9bd192ba177bb03c6681",
+            "package_version": "1.8",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/1.8/CVPoRPT.zip",
+            "sha256": "ae3a0f1472b99357ada70f13f04dc97315b97c4335bf2fc52eeb1af4d6527acb",
             "changelog": [
-                "Quest filtering now accounts for yaml shortcuts",
-                "gold ring and skull ring have been added to the quest items grid",
-                "pack now supports boss autotracking and auto tab switching, this will start working with the next apworld update"
+                "Added the other item tabs to the horizontal variant",
+                "progessional spells now sync up with their counterparts in the spells tab",
+                "The locket requirement now applies to the portrait in Tower of Death and not Forest of Doom itself",
+                "Added some meta options for the pack which can be viewed in the settings popup, still a wip",
+                "Portrait shuffle should now handle edge cases better"
             ]
         }
     ]
