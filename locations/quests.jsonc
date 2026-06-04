@@ -324,7 +324,7 @@
 			{
 				"name": "The Great Sage",
 				"access_rules": [
-					"$PortraitClear|nest, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
+					"$PortraitClear|nest, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, luck, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
 				],
 				"visibility_rules": [
 					"$ShowQuest|The Great Sage|g"

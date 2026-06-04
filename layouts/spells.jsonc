@@ -30,22 +30,22 @@
 										"uncursema", "str", "con", "int", "mind"
 									],
 									[
-										"all", "aero", "stoning", "burn", "shadesoul"
+										"luck", "all", "aero", "stoning", "burn"
 									],
 									[
-										"thunder", "light", "drift", "fishron", "unpetrify"
+										"shadesoul", "thunder", "light", "drift", "fishron"
 									],
 									[
-										"shadesoul2", "megumin", "chain", "plasma", "gravitysuit"
+										"unpetrify", "shadesoul2", "megumin", "chain", "plasma"
 									],
 									[
-										"qinshihuang", "am2r", "hax", "sal", "blizzard"
+										"gravitysuit", "qinshihuang", "am2r", "hax", "sal"
 									],
 									[
-										"thor", "aya", "skelly", "boo", "snipermonkey"
+										"blizzard", "thor", "aya", "skelly", "boo"
 									],
 									[
-										"miepee"
+										"snipermonkey", "miepee"
 									]
 								]
 							}

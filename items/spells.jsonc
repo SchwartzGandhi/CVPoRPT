@@ -116,6 +116,12 @@
 		"codes": "mind"
 	},
 	{
+		"name": "LUCK Boost",
+		"type": "toggle",
+		"img": "images/items/spell.png",
+		"codes": "luck"
+	},
+	{
 		"name": "ALL Boost",
 		"type": "toggle",
 		"img": "images/items/spell.png",

@@ -3,6 +3,7 @@
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 BASE_ITEM_ID = 0
 ITEM_MAPPING = {
+	-- Quests
 	[BASE_ITEM_ID + 524] = {{"nysteak", "toggle"}},
 	[BASE_ITEM_ID + 543] = {{"akechi", "toggle"}},
 	[BASE_ITEM_ID + 553] = {{"wheat", "toggle"}},
@@ -32,6 +33,8 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 1795] = {{"locket", "toggle"}},
 	[BASE_ITEM_ID + 1799] = {{"gold", "toggle"}},
 	[BASE_ITEM_ID + 1807] = {{"skull", "toggle"}},
+
+	-- Subweapons
 	[BASE_ITEM_ID + 2049] = {{"puppet", "toggle"}},
 	[BASE_ITEM_ID + 2060] = {{"crucifix", "toggle"}},
 	[BASE_ITEM_ID + 2061] = {{"baptism", "toggle"}},
@@ -60,10 +63,16 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 2084] = {{"snakeftilt", "toggle"}},
 	[BASE_ITEM_ID + 2085] = {{"lucario", "toggle"}},
 	[BASE_ITEM_ID + 2086] = {{"rocket", "toggle"}},
-	[BASE_ITEM_ID + 2087] = {{"froggy", "toggle"}},
-	[BASE_ITEM_ID + 2088] = {{"birdie", "toggle"}},
-	[BASE_ITEM_ID + 2089] = {{"fortress", "toggle"}},
-	[BASE_ITEM_ID + 2090] = {{"fast", "toggle"}},
+
+	-- Spells
+	[BASE_ITEM_ID + 2087] = {{"progfrog", "toggle"}},
+	[BASE_ITEM_ID + 2087] = {{"questfrog", "toggle"}},
+	[BASE_ITEM_ID + 2088] = {{"progowl", "toggle"}},
+	[BASE_ITEM_ID + 2088] = {{"questowl", "toggle"}},
+	[BASE_ITEM_ID + 2089] = {{"progsanc", "toggle"}},
+	[BASE_ITEM_ID + 2089] = {{"questsanc", "toggle"}},
+	[BASE_ITEM_ID + 2090] = {{"progfast", "toggle"}},
+	[BASE_ITEM_ID + 2090] = {{"questfast", "toggle"}},
 	[BASE_ITEM_ID + 2091] = {{"basilio", "toggle"}},
 	[BASE_ITEM_ID + 2092] = {{"thorns", "toggle"}},
 	[BASE_ITEM_ID + 2093] = {{"norange", "toggle"}},
@@ -75,6 +84,7 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 2099] = {{"con", "toggle"}},
 	[BASE_ITEM_ID + 2100] = {{"int", "toggle"}},
 	[BASE_ITEM_ID + 2101] = {{"mind", "toggle"}},
+	[BASE_ITEM_ID + 2102] = {{"luck", "toggle"}},
 	[BASE_ITEM_ID + 2103] = {{"all", "toggle"}},
 	[BASE_ITEM_ID + 2104] = {{"aero", "toggle"}},
 	[BASE_ITEM_ID + 2105] = {{"stoning", "toggle"}},
@@ -100,6 +110,8 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 2125] = {{"skelly", "toggle"}},
 	[BASE_ITEM_ID + 2126] = {{"boo", "toggle"}},
 	[BASE_ITEM_ID + 2127] = {{"snipermonkey", "toggle"}},
+
+	-- Relics
 	[BASE_ITEM_ID + 2140] = {{"tag", "toggle"}},
 	[BASE_ITEM_ID + 2141] = {{"doubleup", "toggle"}},
 	[BASE_ITEM_ID + 2142] = {{"dlink", "toggle"}},
