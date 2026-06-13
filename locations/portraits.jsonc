@@ -1,0 +1,1333 @@
+[
+	{
+		"name": "Portaits",
+		"children": [
+			{
+				"name": "City of Haze",
+				"sections": [
+					{
+						"name": "Meat Room",
+						"ref": "City of Haze/Meat Room/"
+					},
+					{
+						"name": "First Passage",
+						"ref": "City of Haze/First Passage/"
+					},
+					{
+						"name": "First Big Room",
+						"ref": "City of Haze/First Big Room/"
+					},
+					{
+						"name": "Corner Room",
+						"ref": "City of Haze/Corner Room/"
+					},
+					{
+						"name": "Winding Rooms",
+						"ref": "City of Haze/Winding Rooms/"
+					},
+					{
+						"name": "Chunky Room",
+						"ref": "City of Haze/Chunky Room/"
+					},
+					{
+						"name": "Right Corner Room",
+						"ref": "City of Haze/Right Corner Room/"
+					},
+					{
+						"name": "Bar - Left Item",
+						"ref": "City of Haze/Bar/Left Item"
+					},
+					{
+						"name": "Bar - Right Item",
+						"ref": "City of Haze/Bar/Right Item"
+					},
+					{
+						"name": "Register Room",
+						"ref": "City of Haze/Register Room/"
+					},
+					{
+						"name": "Axe Armor Item",
+						"ref": "City of Haze/Axe Armor Item/"
+					},
+					{
+						"name": "Center Room - Top Item",
+						"ref": "City of Haze/Center Room/Top Item"
+					},
+					{
+						"name": "Center Room - Lower Item",
+						"ref": "City of Haze/Center Room/Lower Item"
+					},
+					{
+						"name": "Bread Shelf",
+						"ref": "City of Haze/Bread Shelf/"
+					},
+					{
+						"name": "Left Plaza",
+						"ref": "City of Haze/Left Plaza/"
+					},
+					{
+						"name": "Before Cart Room",
+						"ref": "City of Haze/Before Cart Room/"
+					},
+					{
+						"name": "Cart Secret Left",
+						"ref": "City of Haze/Cart Secret Left/"
+					},
+					{
+						"name": "Cart Secret Right",
+						"ref": "City of Haze/Cart Secret Right/"
+					},
+					{
+						"name": "Church Hallway",
+						"ref": "City of Haze/Church Hallway/"
+					},
+					{
+						"name": "Central Hallway - Stairs Item",
+						"ref": "City of Haze/Central Hallway/Stairs Item"
+					},
+					{
+						"name": "Central Hallway - Lower Item",
+						"ref": "City of Haze/Central Hallway/Lower Item"
+					},
+					{
+						"name": "Heavy Cart Item",
+						"ref": "City of Haze/Heavy Cart Item/"
+					},
+					{
+						"name": "Axe Courtyard",
+						"ref": "City of Haze/Axe Courtyard/"
+					},
+					{
+						"name": "Left Dance Hall Left Item",
+						"ref": "City of Haze/Left Dance Hall Left Item/"
+					},
+					{
+						"name": "Left Dance Hall Right Item",
+						"ref": "City of Haze/Left Dance Hall Right Item/"
+					},
+					{
+						"name": "Dance Halls Basement",
+						"ref": "City of Haze/Dance Halls Basement/"
+					},
+					{
+						"name": "Right Dance Hall Item",
+						"ref": "City of Haze/Right Dance Hall Item/"
+					},
+					{
+						"name": "Right Dance Hall Secret Room",
+						"ref": "City of Haze/Right Dance Hall Secret Room/"
+					},
+					{
+						"name": "Post-Boss Room",
+						"ref": "City of Haze/Post-Boss Room/"
+					},
+					{
+						"name": "Tunnel Room Right",
+						"ref": "City of Haze/Tunnel Room Right/"
+					},
+					{
+						"name": "Tunnel Room Left",
+						"ref": "City of Haze/Tunnel Room Left/"
+					},
+					{
+						"name": "Dance Halls Vertical Hallway",
+						"ref": "City of Haze/Dance Halls Vertical Hallway/"
+					},
+					{
+						"name": "Underground Square Right",
+						"ref": "City of Haze/Underground Square Right/"
+					},
+					{
+						"name": "Underground Secret Room",
+						"ref": "City of Haze/Underground Secret Room/"
+					},
+					{
+						"name": "Underground Square Left",
+						"ref": "City of Haze/Underground Square Left/"
+					},
+					{
+						"name": "Dullahan",
+						"ref": "City of Haze/Dullahan/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portcoh"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportcoh"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "13th Street",
+				"sections": [
+					{
+						"name": "Triple Moth Room",
+						"ref": "13th Street/Triple Moth Room/"
+					},
+					{
+						"name": "Behind Final Guard",
+						"ref": "13th Street/Behind Final Guard/"
+					},
+					{
+						"name": "Three Amalaric Snipers",
+						"ref": "13th Street/Three Amalaric Snipers/"
+					},
+					{
+						"name": "Many Nyxes Room",
+						"ref": "13th Street/Many Nyxes Room/"
+					},
+					{
+						"name": "Train Room Secret Right",
+						"ref": "13th Street/Train Room Secret Right/"
+					},
+					{
+						"name": "Underground Secret Room",
+						"ref": "13th Street/Underground Secret Room/"
+					},
+					{
+						"name": "Underground Demon Room",
+						"ref": "13th Street/Underground Demon Room/"
+					},
+					{
+						"name": "Left Big Room",
+						"ref": "13th Street/Left Big Room/"
+					},
+					{
+						"name": "Secret Floor Room",
+						"ref": "13th Street/Secret Floor Room/"
+					},
+					{
+						"name": "East Courtyard",
+						"ref": "13th Street/East Courtyard/"
+					},
+					{
+						"name": "Near Big Room",
+						"ref": "13th Street/Near Big Room/"
+					},
+					{
+						"name": "Bakery - Left Item",
+						"ref": "13th Street/Bakery/Left Item"
+					},
+					{
+						"name": "Bakery - Middle Item",
+						"ref": "13th Street/Bakery/Middle Item"
+					},
+					{
+						"name": "Bakery - Right Item",
+						"ref": "13th Street/Bakery/Right Item"
+					},
+					{
+						"name": "Right Dance Hall Top Right",
+						"ref": "13th Street/Right Dance Hall Top Right/"
+					},
+					{
+						"name": "Square Room",
+						"ref": "13th Street/Square Room/"
+					},
+					{
+						"name": "Right Dance Hall Top Left",
+						"ref": "13th Street/Right Dance Hall Top Left/"
+					},
+					{
+						"name": "Train Room Secret Left",
+						"ref": "13th Street/Train Room Secret Left/"
+					},
+					{
+						"name": "Werewolf",
+						"ref": "13th Street/Werewolf/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubport13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundport13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsport13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerport13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1port13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2port13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3port13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4port13s"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageport13s"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Sandy Grave",
+				"sections": [
+					{
+						"name": "Sandworm Stomach",
+						"ref": "Sandy Grave/Sandworm Stomach/"
+					},
+					{
+						"name": "On Statue",
+						"ref": "Sandy Grave/On Statue/"
+					},
+					{
+						"name": "Behind Bricks",
+						"ref": "Sandy Grave/Behind Bricks/"
+					},
+					{
+						"name": "Left Trap",
+						"ref": "Sandy Grave/Left Trap/"
+					},
+					{
+						"name": "Right Trap",
+						"ref": "Sandy Grave/Right Trap/"
+					},
+					{
+						"name": "Bottom Right Room",
+						"ref": "Sandy Grave/Bottom Right Room/"
+					},
+					{
+						"name": "Lower Big Underground Room Bottom",
+						"ref": "Sandy Grave/Lower Big Underground Room Bottom/"
+					},
+					{
+						"name": "Lower Big Underground Room Top",
+						"ref": "Sandy Grave/Lower Big Underground Room Top/"
+					},
+					{
+						"name": "Lonely Mimic Alcove",
+						"ref": "Sandy Grave/Lonely Mimic Alcove/"
+					},
+					{
+						"name": "Boulder Room Corner Alcove",
+						"ref": "Sandy Grave/Boulder Room Corner Alcove/"
+					},
+					{
+						"name": "Boulder Room Tunnel",
+						"ref": "Sandy Grave/Boulder Room Tunnel/"
+					},
+					{
+						"name": "Upper Big Underground Top Right",
+						"ref": "Sandy Grave/Upper Big Underground Top Right/"
+					},
+					{
+						"name": "Upper Big Underground Top Left",
+						"ref": "Sandy Grave/Upper Big Underground Top Left/"
+					},
+					{
+						"name": "Eastmost Item",
+						"ref": "Sandy Grave/Eastmost Item/"
+					},
+					{
+						"name": "Pyramid East 1F",
+						"ref": "Sandy Grave/Pyramid East 1F/"
+					},
+					{
+						"name": "Giant Shaft Upper Item",
+						"ref": "Sandy Grave/Giant Shaft Upper Item/"
+					},
+					{
+						"name": "Giant Shaft Middle Item",
+						"ref": "Sandy Grave/Giant Shaft Middle Item/"
+					},
+					{
+						"name": "Giant Shaft Low Item",
+						"ref": "Sandy Grave/Giant Shaft Low Item/"
+					},
+					{
+						"name": "Pyramid 3F Lower",
+						"ref": "Sandy Grave/Pyramid 3F Lower/"
+					},
+					{
+						"name": "Pyramid 3F Upper",
+						"ref": "Sandy Grave/Pyramid 3F Upper/"
+					},
+					{
+						"name": "Pyramid East 5F",
+						"ref": "Sandy Grave/Pyramid East 5F/"
+					},
+					{
+						"name": "Fleaman Pit",
+						"ref": "Sandy Grave/Fleaman Pit/"
+					},
+					{
+						"name": "Mega Ghost Room Upper",
+						"ref": "Sandy Grave/Mega Ghost Room Upper/"
+					},
+					{
+						"name": "Mega Ghost Room Lower",
+						"ref": "Sandy Grave/Mega Ghost Room Lower/"
+					},
+					{
+						"name": "Pyramid 5F Nook",
+						"ref": "Sandy Grave/Pyramid 5F Nook/"
+					},
+					{
+						"name": "Astarte",
+						"ref": "Sandy Grave/Astarte/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portsg"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportsg"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Forgotten City",
+				"sections": [
+					{
+						"name": "Outside Left",
+						"ref": "Forgotten City/Outside Left/"
+					},
+					{
+						"name": "Pyramid East 5F",
+						"ref": "Forgotten City/Pyramid East 5F/"
+					},
+					{
+						"name": "Armored Fleaman Pit",
+						"ref": "Forgotten City/Armored Fleaman Pit/"
+					},
+					{
+						"name": "Pyramid East 3F",
+						"ref": "Forgotten City/Pyramid East 3F/"
+					},
+					{
+						"name": "Pyramid West 5F",
+						"ref": "Forgotten City/Pyramid West 5F/"
+					},
+					{
+						"name": "Pyramid 1F Bricks",
+						"ref": "Forgotten City/Pyramid 1F Bricks/"
+					},
+					{
+						"name": "Lower Boulder Room Tunnel Alcove",
+						"ref": "Forgotten City/Lower Boulder Room Tunnel Alcove/"
+					},
+					{
+						"name": "Lower Boulder Room Upper Alcove",
+						"ref": "Forgotten City/Lower Boulder Room Upper Alcove/"
+					},
+					{
+						"name": "Gorgon Room",
+						"ref": "Forgotten City/Gorgon Room/"
+					},
+					{
+						"name": "Bottom Chamber",
+						"ref": "Forgotten City/Bottom Chamber/"
+					},
+					{
+						"name": "Lower Underground Square Lower Item",
+						"ref": "Forgotten City/Lower Underground Square Lower Item/"
+					},
+					{
+						"name": "Lower Underground Square Upper Item",
+						"ref": "Forgotten City/Lower Underground Square Upper Item/"
+					},
+					{
+						"name": "Upper Underground Square",
+						"ref": "Forgotten City/Upper Underground Square/"
+					},
+					{
+						"name": "Pyramid East 1F",
+						"ref": "Forgotten City/Pyramid East 1F/"
+					},
+					{
+						"name": "Big Shaft Room - Left Item",
+						"ref": "Forgotten City/Big Shaft Room/Left Item"
+					},
+					{
+						"name": "Big Shaft Room - Right Item",
+						"ref": "Forgotten City/Big Shaft Room/Right Item"
+					},
+					{
+						"name": "Post-Boss Item",
+						"ref": "Forgotten City/Post-Boss Item/"
+					},
+					{
+						"name": "Mummy Man",
+						"ref": "Forgotten City/Mummy Man/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portfc"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportfc"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Nation of Fools",
+				"sections": [
+					{
+						"name": "Bottom Corner Room",
+						"ref": "Nation of Fools/Bottom Corner Room/"
+					},
+					{
+						"name": "Bottom-Right Room Left Building",
+						"ref": "Nation of Fools/Bottom-Right Room Left Building/"
+					},
+					{
+						"name": "Bottom-Right Room Middle Building",
+						"ref": "Nation of Fools/Bottom-Right Room Middle Building/"
+					},
+					{
+						"name": "Central Top Shaft",
+						"ref": "Nation of Fools/Central Top Shaft/"
+					},
+					{
+						"name": "Legion Arena",
+						"ref": "Nation of Fools/Legion Arena/"
+					},
+					{
+						"name": "Mid-Right Corner Room",
+						"ref": "Nation of Fools/Mid-Right Corner Room/"
+					},
+					{
+						"name": "Left Upper Corner Room",
+						"ref": "Nation of Fools/Left Upper Corner Room/"
+					},
+					{
+						"name": "Right Horizontal Room",
+						"ref": "Nation of Fools/Right Horizontal Room/"
+					},
+					{
+						"name": "Right Bottom Corner Room",
+						"ref": "Nation of Fools/Right Bottom Corner Room/"
+					},
+					{
+						"name": "Top Corner Room",
+						"ref": "Nation of Fools/Top Corner Room/"
+					},
+					{
+						"name": "Bottom-Left Room Building",
+						"ref": "Nation of Fools/Bottom-Left Room Building/"
+					},
+					{
+						"name": "Upper Upside Down",
+						"ref": "Nation of Fools/Upper Upside Down/"
+					},
+					{
+						"name": "Bottom Left Medium Square On Wall",
+						"ref": "Nation of Fools/Bottom Left Medium Square On Wall/"
+					},
+					{
+						"name": "Crevice Item",
+						"ref": "Nation of Fools/Crevice Item/"
+					},
+					{
+						"name": "Top-Right Room Axe Item",
+						"ref": "Nation of Fools/Top-Right Room Axe Item/"
+					},
+					{
+						"name": "Left Bottom Corner Room",
+						"ref": "Nation of Fools/Left Bottom Corner Room/"
+					},
+					{
+						"name": "Bottom Right Medium Square On Wall",
+						"ref": "Nation of Fools/Bottom Right Medium Square On Wall/"
+					},
+					{
+						"name": "Right Vertical Room",
+						"ref": "Nation of Fools/Right Vertical Room/"
+					},
+					{
+						"name": "Top-Right Room Bottom Item",
+						"ref": "Nation of Fools/Top-Right Room Bottom Item/"
+					},
+					{
+						"name": "Top-Left Room Right Building",
+						"ref": "Nation of Fools/Top-Left Room Right Building/"
+					},
+					{
+						"name": "Top-Right Room Breakable Wall",
+						"ref": "Nation of Fools/Top-Right Room Breakable Wall/"
+					},
+					{
+						"name": "Right Center Room",
+						"ref": "Nation of Fools/Right Center Room/"
+					},
+					{
+						"name": "Left Center Room",
+						"ref": "Nation of Fools/Left Center Room/"
+					},
+					{
+						"name": "Upside Down Building",
+						"ref": "Nation of Fools/Upside Down Building/"
+					},
+					{
+						"name": "Secret Room",
+						"ref": "Nation of Fools/Secret Room/"
+					},
+					{
+						"name": "Legion",
+						"ref": "Nation of Fools/Legion/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portnof"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportnof"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Burnt Paradise",
+				"sections": [
+					{
+						"name": "Left Lower Isolated Room",
+						"ref": "Burnt Paradise/Left Lower Isolated Room/"
+					},
+					{
+						"name": "Right Lower Isolated Room",
+						"ref": "Burnt Paradise/Right Lower Isolated Room/"
+					},
+					{
+						"name": "Left Upper Isolated Room",
+						"ref": "Burnt Paradise/Left Upper Isolated Room/"
+					},
+					{
+						"name": "Right Upper Isolated Room",
+						"ref": "Burnt Paradise/Right Upper Isolated Room/"
+					},
+					{
+						"name": "Left Upper Big Corner",
+						"ref": "Burnt Paradise/Left Upper Big Corner/"
+					},
+					{
+						"name": "Upper Left Big Room Middle Building",
+						"ref": "Burnt Paradise/Upper Left Big Room Middle Building/"
+					},
+					{
+						"name": "Upper Right Big Room Right Side",
+						"ref": "Burnt Paradise/Upper Right Big Room Right Side/"
+					},
+					{
+						"name": "Upper Left Big Room Left Building",
+						"ref": "Burnt Paradise/Upper Left Big Room Left Building/"
+					},
+					{
+						"name": "Upper Left Lower Corner Upright Building",
+						"ref": "Burnt Paradise/Upper Left Lower Corner Upright Building/"
+					},
+					{
+						"name": "Right Upper Big Corner On Wall",
+						"ref": "Burnt Paradise/Right Upper Big Corner On Wall/"
+					},
+					{
+						"name": "Upper Right Big Room",
+						"ref": "Burnt Paradise/Upper Right Big Room/"
+					},
+					{
+						"name": "Left Big Corner",
+						"ref": "Burnt Paradise/Left Big Corner/"
+					},
+					{
+						"name": "Lower Left Big Room",
+						"ref": "Burnt Paradise/Lower Left Big Room/"
+					},
+					{
+						"name": "Lower Vertical Hall",
+						"ref": "Burnt Paradise/Lower Vertical Hall/"
+					},
+					{
+						"name": "Bottom Corner",
+						"ref": "Burnt Paradise/Bottom Corner/"
+					},
+					{
+						"name": "Bottom Right Breakable Wall",
+						"ref": "Burnt Paradise/Bottom Right Breakable Wall/"
+					},
+					{
+						"name": "Bottom Right Big Room",
+						"ref": "Burnt Paradise/Bottom Right Big Room/"
+					},
+					{
+						"name": "Bottom Right Corner Room",
+						"ref": "Burnt Paradise/Bottom Right Corner Room/"
+					},
+					{
+						"name": "Medusa",
+						"ref": "Burnt Paradise/Medusa/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portbp"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportbp"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Forest of Doom",
+				"sections": [
+					{
+						"name": "Left Atrium Big Room",
+						"ref": "Forest of Doom/Left Atrium Big Room/"
+					},
+					{
+						"name": "Right Atrium East Square Room Right",
+						"ref": "Forest of Doom/Right Atrium East Square Room Right/"
+					},
+					{
+						"name": "Left Atrium Top",
+						"ref": "Forest of Doom/Left Atrium Top/"
+					},
+					{
+						"name": "Right Atrium East Top Room",
+						"ref": "Forest of Doom/Right Atrium East Top Room/"
+					},
+					{
+						"name": "Right Atrium East Square Room Left",
+						"ref": "Forest of Doom/Right Atrium East Square Room Left/"
+					},
+					{
+						"name": "Right Atrium West Top Room",
+						"ref": "Forest of Doom/Right Atrium West Top Room/"
+					},
+					{
+						"name": "Left Atrium Breakable Wall",
+						"ref": "Forest of Doom/Left Atrium Breakable Wall/"
+					},
+					{
+						"name": "Left Atrium Middle Room",
+						"ref": "Forest of Doom/Left Atrium Middle Room/"
+					},
+					{
+						"name": "Left Atrium Upper Room",
+						"ref": "Forest of Doom/Left Atrium Upper Room/"
+					},
+					{
+						"name": "Secret Cave Room",
+						"ref": "Forest of Doom/Secret Cave Room/"
+					},
+					{
+						"name": "Near Cave Save Breakable Wall",
+						"ref": "Forest of Doom/Near Cave Save Breakable Wall/"
+					},
+					{
+						"name": "Post-Boss Room",
+						"ref": "Forest of Doom/Post-Boss Room/"
+					},
+					{
+						"name": "Dagon",
+						"ref": "Forest of Doom/Dagon/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portfod"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportfod"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Dark Academy",
+				"sections": [
+					{
+						"name": "Right Building Center Room",
+						"ref": "Dark Academy/Right Building Center Room/"
+					},
+					{
+						"name": "Right Building Top Floor",
+						"ref": "Dark Academy/Right Building Top Floor/"
+					},
+					{
+						"name": "Main Building Ghoul Room",
+						"ref": "Dark Academy/Main Building Ghoul Room/"
+					},
+					{
+						"name": "Main Building Three Toads",
+						"ref": "Dark Academy/Main Building Three Toads/"
+					},
+					{
+						"name": "Main Building Secret Ceiling",
+						"ref": "Dark Academy/Main Building Secret Ceiling/"
+					},
+					{
+						"name": "Main Building Entrance",
+						"ref": "Dark Academy/Main Building Entrance/"
+					},
+					{
+						"name": "Main Building Secret Malphas Room",
+						"ref": "Dark Academy/Main Building Secret Malphas Room/"
+					},
+					{
+						"name": "West Building Breakable Wall",
+						"ref": "Dark Academy/West Building Breakable Wall/"
+					},
+					{
+						"name": "Main Building Square Room Breakable Wall",
+						"ref": "Dark Academy/Main Building Square Room Breakable Wall/"
+					},
+					{
+						"name": "Main Building Minotaur Room",
+						"ref": "Dark Academy/Main Building Minotaur Room/"
+					},
+					{
+						"name": "West Building Top Floor - Right Item",
+						"ref": "Dark Academy/West Building Top Floor/Right Item"
+					},
+					{
+						"name": "West Building Top Floor - Left Item",
+						"ref": "Dark Academy/West Building Top Floor/Left Item"
+					},
+					{
+						"name": "The Creature",
+						"ref": "Dark Academy/The Creature/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portda"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportda"],
+						"shape": "trapezoid"
+					}
+				]
+			},
+			{
+				"name": "Nest of Evil",
+				"sections": [
+					{
+						"name": "Doppelganger Reward",
+						"ref": "Nest of Evil/Doppelganger Reward/"
+					},
+					{
+						"name": "First Item",
+						"ref": "Nest of Evil/First Item/"
+					},
+					{
+						"name": "Second Item",
+						"ref": "Nest of Evil/Second Item/"
+					},
+					{
+						"name": "Doppelganger",
+						"ref": "Nest of Evil/Doppelganger/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 254,
+						"y": 632,
+						"restrict_visibility_rules": ["hubportnoe, normalnest", "hubportnoe, nestsanity", "hubportnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 1112,
+						"y": 672,
+						"restrict_visibility_rules": ["undergroundportnoe, normalnest", "undergroundportnoe, nestsanity", "undergroundportnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 572,
+						"y": 472,
+						"restrict_visibility_rules": ["stairsportnoe, normalnest", "stairsportnoe, nestsanity", "stairsportnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 772,
+						"y": 292,
+						"restrict_visibility_rules": ["towerportnoe, normalnest", "towerportnoe, nestsanity", "towerportnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 858,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner1portnoe, normalnest", "brauner1portnoe, nestsanity", "brauner1portnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 874,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner2portnoe, normalnest", "brauner2portnoe, nestsanity", "brauner2portnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 890,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner3portnoe, normalnest", "brauner3portnoe, nestsanity", "brauner3portnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 906,
+						"y": 192,
+						"restrict_visibility_rules": ["brauner4portnoe, normalnest", "brauner4portnoe, nestsanity", "brauner4portnoe, bossnest"],
+						"shape": "trapezoid"
+					},
+					{
+						"map": "Dracula's Castle",
+						"x": 172,
+						"y": 792,
+						"restrict_visibility_rules": ["passageportnoe, normalnest", "passageportnoe, nestsanity", "passageportnoe, bossnest"],
+						"shape": "trapezoid"
+					}
+				]
+			}
+		]
+	}
+]
