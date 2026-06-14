@@ -47,6 +47,7 @@ if not IS_ITEMS_ONLY then
     -- Locations
     Tracker:AddLocations("locations/regions.jsonc")
     Tracker:AddLocations("locations/locations.jsonc")
+    Tracker:AddLocations("locations/portraits.jsonc")
     Tracker:AddLocations("locations/quests.jsonc")
 end
 
