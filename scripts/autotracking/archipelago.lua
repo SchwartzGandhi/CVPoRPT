@@ -23,6 +23,7 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 INCLUDED_QUESTS = {}
 EXCLUDED_QUESTS = {}
+EXCLUDED_KEYS = {}
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -119,6 +120,9 @@ function apply_slot_data(slot_data)
 	local nestcount = Tracker:FindObjectForCode("nestcount")
 	nestcount.AcquiredCount = slot_data["nest_portraits"]
 
+	local throne = Tracker:FindObjectForCode("throne")
+	throne.Active = slot_data["open_throne"]
+
 	-- Portrait Configuration
 	local ports = {
 		["hubport"] = "hub_portrait",
@@ -168,6 +172,13 @@ function apply_slot_data(slot_data)
 
 	local solomitt = Tracker:FindObjectForCode("solomitt")
 	solomitt.Active = slot_data["stronger_glove"]
+
+	local bosskeys = Tracker:FindObjectForCode("bosskeys")
+	bosskeys.Active = slot_data["add_bosskeys"]
+
+	for _, key in ipairs(slot_data["disabled_bosskeys"]) do
+		table.insert(EXCLUDED_KEYS, key)
+	end
 
 	-- Quests
 	local allquests = Tracker:FindObjectForCode("allquests")

@@ -33,7 +33,7 @@
 										"item_h_alignment": "center",
 										"item_size": 48,
 										"rows": [
-											[""]
+											["throne"]
 										]
 									},
 									{
@@ -92,7 +92,8 @@
 										"item_h_alignment": "center",
 										"item_size": 128,
 										"rows": [
-											["taganywhere", "shiwakeanywhere", "solomitt", "neststate", "allquests"]
+											["taganywhere", "shiwakeanywhere", "solomitt", "neststate", "allquests"],
+											["bosskeys"]
 										]
 									}
 								]

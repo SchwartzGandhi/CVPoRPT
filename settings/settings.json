@@ -19,6 +19,12 @@
         ]
     },
     {
+        "name": "Open Throne",
+        "img": "images/settings/changestart.png",
+        "type": "toggle",
+        "codes": "throne"
+    },
+    {
         "name": "Brauner Portraits",
         "type": "consumable",
         "min_quantity": 0,
@@ -109,5 +115,11 @@
         "img": "images/settings/windhappy.png",
         "type": "toggle",
         "codes": "allquests"
+    },
+    {
+        "name": "Boss Keys",
+        "img": "images/settings/changestart.png",
+        "type": "toggle",
+        "codes": "bosskeys"
     }
 ]

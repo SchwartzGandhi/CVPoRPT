@@ -201,3 +201,7 @@ function Elevator()
         end
     end
 end
+
+function thorne()
+    return not has("throne")
+end

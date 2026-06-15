@@ -1440,7 +1440,7 @@
 				"map_locations": [
 					{
 						"map": "Dracula's Castle",
-						"x": 882,
+						"x": 822,
 						"y": 192,
 						"size": 24
 					}
@@ -1451,7 +1451,8 @@
 	{
 		"name": "The Throne Room",
 		"visibility_rules": [
-			"goaldracula"
+			"goaldracula",
+			"throne"
 		],
 		"children": [
 			{
@@ -1553,7 +1554,8 @@
 				"chest_unopened_img": "images/settings/dracula.png",
 				"chest_opened_img": "images/settings/draculaouch.png",
 				"access_rules": [
-					"@The Throne Room Region"
+					"$thorne, @The Throne Room Region",
+					"throne, @The Throne Room Region, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
 				],
 				"sections": [
 					{
@@ -1565,7 +1567,10 @@
 						"map": "Dracula's Castle",
 						"x": 852,
 						"y": 132,
-						"size": 24
+						"size": 24,
+						"force_invisibility_rules": [
+							"goalbrauner, throne"
+						]
 					}
 				]
 			}
