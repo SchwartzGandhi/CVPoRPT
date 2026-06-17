@@ -19,6 +19,9 @@ if Highlight then
 end
 
 CUR_INDEX = -1
+TEAM_NUMBER = -1
+SLOT_NUMBER = -1
+EVENTS_KEY = ""
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 INCLUDED_QUESTS = {}
@@ -200,6 +203,8 @@ function onClear(slot_data)
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
 	CUR_INDEX = -1
+	TEAM_NUMBER = Archipelago.TeamNumber
+	SLOT_NUMBER = Archipelago.PlayerNumber
 	-- reset locations
 	for _, mapping_entry in pairs(LOCATION_MAPPING) do
 		for _, location_table in ipairs(mapping_entry) do
@@ -249,13 +254,10 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
-	DATA_KEYS = {
-		"ElevatorSwitch", "Keremet", "Stella", "Death", "Stella&Loretta", "Brauner", "Dracula",
-		"Dullahan", "Werewolf", "Astarte", "MummyMan", "Legion", "Medusa", "Dagon", "TheCreature", "Doppelganger",
-		"map_id"
-	}
-	Archipelago:SetNotify(DATA_KEYS)
-	Archipelago:Get(DATA_KEYS)
+
+	EVENTS_KEY = string.format("cv_por_events_%s_%s", TEAM_NUMBER, SLOT_NUMBER)
+	Archipelago:SetNotify({EVENTS_KEY})
+	Archipelago:Get({EVENTS_KEY})
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
@@ -395,6 +397,9 @@ end
 -- whenever a subscribed to (via Archipelago:SetNotify) key in data storgae is updated
 -- oldValue might be nil (always nil for "_read" prefixed keys and via retrieved handler (from Archipelago:Get))
 function onDataStorageUpdate(key, value, oldValue)
+	if not value then
+		return
+	end
 	--if you plan to only use the hints key, you can remove this if
 	if key == getHintDataStorageKey() then
 		onHintsUpdate(value)
@@ -402,66 +407,72 @@ function onDataStorageUpdate(key, value, oldValue)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onEvent: key %s, value %s", key, value))
 	end
-
-	if key == "map_id" and not has("notabs") then
-		local maps = {
-			"Dracula's Castle",
-			"City of Haze",
-			"13th Street",
-			"Sandy Grave",
-			"Forgotten City",
-			"Nation of Fools",
-			"Burnt Paradise",
-			"Forest of Doom",
-			"Dark Academy",
-			"Nest of Evil",
-		}
-		for i, map in ipairs(maps) do
-			if i - 1 == value then
-				Tracker:UiHint("ActivateTab", map)
+	-- Check if the update was for the connected player
+	if key == EVENTS_KEY then
+		for data_key, data_value in pairs(value) do
+			-- Auto-Tab Switching
+			if data_key == "map_id" and not has("notabs") then
+				local maps = {
+					"Dracula's Castle",
+					"City of Haze",
+					"13th Street",
+					"Sandy Grave",
+					"Forgotten City",
+					"Nation of Fools",
+					"Burnt Paradise",
+					"Forest of Doom",
+					"Dark Academy",
+					"Nest of Evil",
+				}
+				for i, map in ipairs(maps) do
+					if i - 1 == data_value then
+						Tracker:UiHint("ActivateTab", map)
+					end
+				end
+				return
+			-- Event Tracking
+			elseif data_key == "events" then
+				local event_locations = {
+					"@Tower of Death/Elevator Switch/",
+					"",
+					"@City of Haze/Dullahan/",
+					"", -- Behemoth
+					"",
+					"@Great Stairway/Keremet/",
+					"@Nation of Fools/Legion/",
+					"@Forest of Doom/Dagon/",
+					"@Sandy Grave/Astarte/",
+					"@13th Street/Werewolf/",
+					"@Dark Academy/The Creature/",
+					"@Forgotten City/Mummy Man/",
+					"@Burnt Paradise/Medusa/",
+					"", -- Richter
+					"", -- Stella
+					"@Master's Keep/Banquet Room/Stella & Loretta",
+					"@Master's Keep/Defeat Brauner/",
+					"@Tower of Death/Death/",
+					"",
+					"@The Throne Room/Defeat Dracula/",
+					"", -- Balore
+					"", -- Gergoth
+					"", -- Zephyr
+					"", -- Aguni
+					"", -- Abaddon
+					"",
+					"@Nest of Evil/Doppelganger/",
+				}
+				for i, event in ipairs(event_locations) do
+					local bit = (data_value >> i-1) & 1
+					if event ~= "" then
+						if bit == 1 then
+							Tracker:FindObjectForCode(event).AvailableChestCount = 0
+						else
+							Tracker:FindObjectForCode(event).AvailableChestCount = 1
+						end
+					end
+				end
 			end
 		end
-	end
-
-	if key == "ElevatorSwitch" then
-		event = "@Tower of Death/Elevator Switch/"
-	elseif key == "Keremet" then
-		event = "@Great Stairway/Keremet/"
-	-- elseif key == "Stella" then
-	-- 	event = "@Tower of Death/Stella/"
-	elseif key == "Death" then
-		event = "@Tower of Death/Death/"
-	elseif key == "Stella&Loretta" then
-		event = "@Master's Keep/Banquet Room/Stella & Loretta"
-	elseif key == "Brauner" then
-		event = "@Master's Keep/Defeat Brauner/"
-	elseif key == "Dracula" then
-		event = "@The Throne Room/Defeat Dracula/"
-	elseif key == "Dullahan" then
-		event = "@City of Haze/Dullahan/"
-	elseif key == "Werewolf" then
-		event = "@13th Street/Werewolf/"
-	elseif key == "Astarte" then
-		event = "@Sandy Grave/Astarte/"
-	elseif key == "MummyMan" then
-		event = "@Forgotten City/Mummy Man/"
-	elseif key == "Legion" then
-		event = "@Nation of Fools/Legion/"
-	elseif key == "Medusa" then
-		event = "@Burnt Paradise/Medusa/"
-	elseif key == "Dagon" then
-		event = "@Forest of Doom/Dagon/"
-	elseif key == "TheCreature" then
-		event = "@Dark Academy/The Creature/"
-	elseif key == "Doppelganger" then
-		event = "@Nest of Evil/Doppelganger/"
-	else
-		return
-	end
-	if value == 1 then
-		Tracker:FindObjectForCode(event).AvailableChestCount = 0
-	else
-		Tracker:FindObjectForCode(event).AvailableChestCount = 1
 	end
 end
 
