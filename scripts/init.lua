@@ -25,7 +25,7 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 -- Items
 Tracker:AddItems("items/relics.jsonc")
 Tracker:AddItems("items/items.jsonc")
-Tracker:AddItems("items/cakes.jsonc")
+Tracker:AddItems("items/quests.jsonc")
 Tracker:AddItems("items/spells.jsonc")
 Tracker:AddItems("items/subweapons.jsonc")
 

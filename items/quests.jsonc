@@ -1,0 +1,202 @@
+[
+	// Quest Items
+	{
+		"name": "Ground Meat",
+		"type": "toggle",
+		"img": "images/items/quests/meat.png",
+		"codes": "mincedmeat"
+	},
+	{
+		"name": "Skull Ring",
+		"type": "toggle",
+		"img": "images/items/quests/skull.png",
+		"codes": "skull"
+	},
+	{
+		"name": "Statue's Tear",
+		"type": "toggle",
+		"img": "images/items/quests/tear.png",
+		"codes": "tear"
+	},
+	{
+		"name": "Nun's Habit",
+		"type": "toggle",
+		"img": "images/items/quests/head.png",
+		"codes": "nunhat"
+	},
+	{
+		"name": "Nun's Robes",
+		"type": "toggle",
+		"img": "images/items/quests/robe.png",
+		"codes": "nundress"
+	},
+	{
+		"name": "Nun's Shoes",
+		"type": "toggle",
+		"img": "images/items/quests/shoes.png",
+		"codes": "nunshoe"
+	},
+	{
+		"name": "Thick Glasses",
+		"type": "toggle",
+		"img": "images/items/quests/thick.png",
+		"codes": "nerd"
+	},
+	{
+		"name": "Spade",
+		"type": "toggle",
+		"img": "images/items/quests/spade.png",
+		"codes": "david"
+	},
+	{
+		"name": "Diamond",
+		"type": "toggle",
+		"img": "images/items/quests/diamond.png",
+		"codes": "coal"
+	},
+	{
+		"name": "Heart",
+		"type": "toggle",
+		"img": "images/items/quests/heart.png",
+		"codes": "soul"
+	},
+	{
+		"name": "Club",
+		"type": "toggle",
+		"img": "images/items/quests/club.png",
+		"codes": "bar"
+	},
+	{
+		"name": "Joker",
+		"type": "toggle",
+		"img": "images/items/quests/joker.png",
+		"codes": "persona5"
+	},
+	{
+		"name": "Moldy Bread",
+		"type": "toggle",
+		"img": "images/items/quests/mold.png",
+		"codes": "cookie"
+	},
+	{
+		"name": "Amanita",
+		"type": "toggle",
+		"img": "images/items/quests/amanita.png",
+		"codes": "marisa"
+	},
+	{
+		"name": "Long Sword",
+		"type": "toggle",
+		"img": "images/items/quests/long.png",
+		"codes": "long"
+	},
+	{
+		"name": "Beehive",
+		"type": "toggle",
+		"img": "images/items/quests/beehive.png",
+		"codes": "fiftythousandbees"
+	},
+	{
+		"name": "New York Steak",
+		"type": "toggle",
+		"img": "images/items/quests/steak.png",
+		"codes": "nysteak"
+	},
+	{
+		"name": "Gold Ring",
+		"type": "toggle",
+		"img": "images/items/quests/gold.png",
+		"codes": "gold"
+	},
+	{
+		"name": "Tome of Arms p1",
+		"type": "toggle",
+		"img": "images/items/quests/page.png",
+		"codes": "xpt1"
+	},
+	{
+		"name": "Tome of Arms p2",
+		"type": "toggle",
+		"img": "images/items/quests/page.png",
+		"codes": "xpt2"
+	},
+	// Cakes
+    {
+		"name": "Pancake",
+		"type": "toggle",
+		"img": "images/items/quests/cake1.png",
+		"codes": "akechi"
+	},
+	{
+		"name": "Wheat Roll",
+		"type": "toggle",
+		"img": "images/items/quests/cake2.png",
+		"codes": "wheat"
+	},
+	{
+		"name": "Sachertorte",
+		"type": "toggle",
+		"img": "images/items/quests/cake3.png",
+		"codes": "vienna"
+	},
+	{
+		"name": "NY Cheesecake",
+		"type": "toggle",
+		"img": "images/items/quests/cake4.png",
+		"codes": "cheese"
+	},
+	{
+		"name": "Mille-feuille",
+		"type": "toggle",
+		"img": "images/items/quests/cake5.png",
+		"codes": "french"
+	},
+	{
+		"name": "Tarte au Poire",
+		"type": "toggle",
+		"img": "images/items/quests/cake6.png",
+		"codes": "tart"
+	},
+	{
+		"name": "Gateau Fraise",
+		"type": "toggle",
+		"img": "images/items/quests/cake7.png",
+		"codes": "gusteau"
+	},
+	{
+		"name": "Kugelhopf",
+		"type": "toggle",
+		"img": "images/items/quests/cake8.png",
+		"codes": "german"
+	},
+	{
+		"name": "Green Tea Cake",
+		"type": "toggle",
+		"img": "images/items/quests/cake9.png",
+		"codes": "kaafii"
+	},
+	{
+		"name": "Gateau Marron",
+		"type": "toggle",
+		"img": "images/items/quests/cake10.png",
+		"codes": "gusteau2"
+	},
+	{
+		"name": "Langues de Chat",
+		"type": "toggle",
+		"img": "images/items/quests/cake11.png",
+		"codes": "cat"
+	},
+	{
+		"name": "Financier",
+		"type": "toggle",
+		"img": "images/items/quests/cake12.png",
+		"codes": "money"
+	},
+	{
+		"name": "Birthday Cake",
+		"type": "toggle",
+		"img": "images/items/quests/cake13.png",
+		"codes": "hooray"
+	}
+]

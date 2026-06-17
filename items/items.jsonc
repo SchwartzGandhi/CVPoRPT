@@ -17,125 +17,95 @@
 		"img": "images/items/puppet.png",
 		"codes": "puppet"
 	},
-	// Quest Items
+	// Boss Keys
 	{
-		"name": "Ground Meat",
+		"name": "Colosseum Key",
 		"type": "toggle",
-		"img": "images/items/quests/meat.png",
-		"codes": "mincedmeat"
+		"img": "images/items/",
+		"codes": "ekey"
 	},
 	{
-		"name": "Skull Ring",
+		"name": "Caverns Key",
 		"type": "toggle",
-		"img": "images/items/quests/skull.png",
-		"codes": "skull"
+		"img": "images/items/",
+		"codes": "gskey"
 	},
 	{
-		"name": "Statue's Tear",
+		"name": "Tower Base Key",
 		"type": "toggle",
-		"img": "images/items/quests/tear.png",
-		"codes": "tear"
+		"img": "images/items/",
+		"codes": "basekey"
 	},
 	{
-		"name": "Nun's Habit",
+		"name": "Clock Key",
 		"type": "toggle",
-		"img": "images/items/quests/head.png",
-		"codes": "nunhat"
+		"img": "images/items/",
+		"codes": "todkey"
 	},
 	{
-		"name": "Nun's Robes",
+		"name": "Gallery Key",
 		"type": "toggle",
-		"img": "images/items/quests/robe.png",
-		"codes": "nundress"
+		"img": "images/items/",
+		"codes": ""
 	},
 	{
-		"name": "Nun's Shoes",
+		"name": "Throne Key",
 		"type": "toggle",
-		"img": "images/items/quests/shoes.png",
-		"codes": "nunshoe"
+		"img": "images/items/",
+		"codes": "ttrkey"
 	},
 	{
-		"name": "Thick Glasses",
+		"name": "City Key",
 		"type": "toggle",
-		"img": "images/items/quests/thick.png",
-		"codes": "nerd"
+		"img": "images/items/",
+		"codes": "cohkey"
 	},
 	{
-		"name": "Spade",
+		"name": "Sandy Key",
 		"type": "toggle",
-		"img": "images/items/quests/spade.png",
-		"codes": "david"
+		"img": "images/items/",
+		"codes": "sgkey"
 	},
 	{
-		"name": "Diamond",
+		"name": "Circus Arena Key",
 		"type": "toggle",
-		"img": "images/items/quests/diamond.png",
-		"codes": "coal"
+		"img": "images/items/",
+		"codes": "nofkey"
 	},
 	{
-		"name": "Heart",
+		"name": "Forest Key",
 		"type": "toggle",
-		"img": "images/items/quests/heart.png",
-		"codes": "soul"
+		"img": "images/items/",
+		"codes": "fodkey"
 	},
 	{
-		"name": "Club",
+		"name": "Street Key",
 		"type": "toggle",
-		"img": "images/items/quests/club.png",
-		"codes": "bar"
+		"img": "images/items/",
+		"codes": "13skey"
 	},
 	{
-		"name": "Joker",
+		"name": "Forgotten Key",
 		"type": "toggle",
-		"img": "images/items/quests/joker.png",
-		"codes": "persona5"
+		"img": "images/items/",
+		"codes": "fckey"
 	},
 	{
-		"name": "Moldy Bread",
+		"name": "Burnt Key",
 		"type": "toggle",
-		"img": "images/items/quests/mold.png",
-		"codes": "cookie"
+		"img": "images/items/",
+		"codes": "bpkey"
 	},
 	{
-		"name": "Amanita",
+		"name": "Academy Key",
 		"type": "toggle",
-		"img": "images/items/quests/amanita.png",
-		"codes": "marisa"
+		"img": "images/items/",
+		"codes": "dakey"
 	},
 	{
-		"name": "Long Sword",
+		"name": "Nest Key",
 		"type": "toggle",
-		"img": "images/items/quests/long.png",
-		"codes": "long"
-	},
-	{
-		"name": "Beehive",
-		"type": "toggle",
-		"img": "images/items/quests/beehive.png",
-		"codes": "fiftythousandbees"
-	},
-	{
-		"name": "New York Steak",
-		"type": "toggle",
-		"img": "images/items/quests/steak.png",
-		"codes": "nysteak"
-	},
-	{
-		"name": "Gold Ring",
-		"type": "toggle",
-		"img": "images/items/quests/gold.png",
-		"codes": "gold"
-	},
-	{
-		"name": "Tome of Arms p1",
-		"type": "toggle",
-		"img": "images/items/quests/page.png",
-		"codes": "xpt1"
-	},
-	{
-		"name": "Tome of Arms p2",
-		"type": "toggle",
-		"img": "images/items/quests/page.png",
-		"codes": "xpt2"
+		"img": "images/items/",
+		"codes": "noekey"
 	}
 ]
