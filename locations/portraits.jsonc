@@ -1,6 +1,9 @@
 [
 	{
 		"name": "Portaits",
+		"visibility_rules": [
+			"portraitpreview"
+		],
 		"children": [
 			{
 				"name": "City of Haze",

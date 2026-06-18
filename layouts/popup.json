@@ -105,26 +105,99 @@
 						"content": [
 							{
 								"type": "array",
-								"orientation": "horizontal",
+								"orientation": "vertical",
+								"h_alignment": "stretch",
 								"margin": "0,0",
 								"content": [
 									{
-										"type": "itemgrid",
-										"background": "#000000",
-										"item_margin": "2, 2",
-										"h_alignment": "center",
-										"item_h_alignment": "center",
-										"item_size": 140,
-										"rows": [
-											["notabs", "hidequests"],
-											["reach", "ool", "hideevents"]
-										]
+										"type": "layout",
+										"key": "metarow1"
+									},
+									{
+										"type": "layout",
+										"key": "metarow2"
+									},
+									{
+										"type": "layout",
+										"key": "metarow3"
 									}
 								]
 							}
 						]
 					}
 				]
+			}
+		]
+	},
+	"metarow1": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"item_size": 128,
+		"content": [
+			{
+				"type": "group",
+				"header": "Auto-Tab Switching",
+				"content": {
+					"type": "item",
+					"item": "tabswitch"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Preview Portrait Destinations",
+				"content": {
+					"type": "item",
+					"item": "portpre"
+				}
+			}
+		]
+	},
+	"metarow2": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"item_size": 64,
+		"content": [
+			{
+				"type": "group",
+				"header": "Event Reach",
+				"content": {
+					"type": "item",
+					"item": "reach"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Sequence Breaks",
+				"content": {
+					"type": "item",
+					"item": "doool"
+				}
+			}
+		]
+	},
+	"metarow3": {
+		"type": "array",
+		"orientation": "horizontal",
+		"margin": "0,0",
+		"item_size": 64,
+		"content": [
+			{
+				"type": "group",
+				"header": "Hide Non-Check Locations",
+				"content": {
+					"type": "item",
+					"item": "events"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Hide Irrelevant Quests",
+				"content": {
+					"type": "item",
+					"item": "quests"
+				}
 			}
 		]
 	}
