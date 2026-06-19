@@ -20,9 +20,22 @@
     },
     {
         "name": "Open Throne",
-        "img": "images/settings/changestart.png",
-        "type": "toggle",
-        "codes": "throne"
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/closedthrone.png",
+                "codes": "throne, throneclose",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/openthrone.png",
+                "codes": "throne, throneopen",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Brauner Portraits",
@@ -118,7 +131,7 @@
     },
     {
         "name": "Boss Keys",
-        "img": "images/settings/changestart.png",
+        "img": "images/items/bosskey.png",
         "type": "toggle",
         "codes": "bosskeys"
     }

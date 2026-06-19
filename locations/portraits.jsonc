@@ -1,9 +1,6 @@
 [
 	{
 		"name": "Portaits",
-		"visibility_rules": [
-			"portraitpreview"
-		],
 		"children": [
 			{
 				"name": "City of Haze",
@@ -158,63 +155,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportcoh"],
+						"restrict_visibility_rules": ["$showportlocs, hubportcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportcoh"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportcoh"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportcoh"],
+						"restrict_visibility_rules": ["$showportlocs, towerportcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portcoh"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portcoh"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portcoh"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portcoh"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portcoh"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportcoh"],
+						"restrict_visibility_rules": ["$showportlocs, passageportcoh"],
 						"shape": "trapezoid"
 					}
 				]
@@ -304,63 +301,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubport13s"],
+						"restrict_visibility_rules": ["$showportlocs, hubport13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundport13s"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundport13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsport13s"],
+						"restrict_visibility_rules": ["$showportlocs, stairsport13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerport13s"],
+						"restrict_visibility_rules": ["$showportlocs, towerport13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1port13s"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1port13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2port13s"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2port13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3port13s"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3port13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4port13s"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4port13s"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageport13s"],
+						"restrict_visibility_rules": ["$showportlocs, passageport13s"],
 						"shape": "trapezoid"
 					}
 				]
@@ -478,63 +475,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportsg"],
+						"restrict_visibility_rules": ["$showportlocs, hubportsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportsg"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportsg"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportsg"],
+						"restrict_visibility_rules": ["$showportlocs, towerportsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portsg"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portsg"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portsg"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portsg"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portsg"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportsg"],
+						"restrict_visibility_rules": ["$showportlocs, passageportsg"],
 						"shape": "trapezoid"
 					}
 				]
@@ -620,63 +617,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportfc"],
+						"restrict_visibility_rules": ["$showportlocs, hubportfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportfc"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportfc"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportfc"],
+						"restrict_visibility_rules": ["$showportlocs, towerportfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portfc"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portfc"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portfc"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portfc"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portfc"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportfc"],
+						"restrict_visibility_rules": ["$showportlocs, passageportfc"],
 						"shape": "trapezoid"
 					}
 				]
@@ -794,63 +791,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportnof"],
+						"restrict_visibility_rules": ["$showportlocs, hubportnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportnof"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportnof"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportnof"],
+						"restrict_visibility_rules": ["$showportlocs, towerportnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portnof"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portnof"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portnof"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portnof"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portnof"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportnof"],
+						"restrict_visibility_rules": ["$showportlocs, passageportnof"],
 						"shape": "trapezoid"
 					}
 				]
@@ -940,63 +937,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportbp"],
+						"restrict_visibility_rules": ["$showportlocs, hubportbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportbp"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportbp"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportbp"],
+						"restrict_visibility_rules": ["$showportlocs, towerportbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portbp"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portbp"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portbp"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portbp"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portbp"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportbp"],
+						"restrict_visibility_rules": ["$showportlocs, passageportbp"],
 						"shape": "trapezoid"
 					}
 				]
@@ -1062,63 +1059,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportfod"],
+						"restrict_visibility_rules": ["$showportlocs, hubportfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportfod"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportfod"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportfod"],
+						"restrict_visibility_rules": ["$showportlocs, towerportfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portfod"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portfod"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portfod"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portfod"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portfod"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportfod"],
+						"restrict_visibility_rules": ["$showportlocs, passageportfod"],
 						"shape": "trapezoid"
 					}
 				]
@@ -1184,63 +1181,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportda"],
+						"restrict_visibility_rules": ["$showportlocs, hubportda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportda"],
+						"restrict_visibility_rules": ["$showportlocs, undergroundportda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportda"],
+						"restrict_visibility_rules": ["$showportlocs, stairsportda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportda"],
+						"restrict_visibility_rules": ["$showportlocs, towerportda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portda"],
+						"restrict_visibility_rules": ["$showportlocs, brauner1portda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portda"],
+						"restrict_visibility_rules": ["$showportlocs, brauner2portda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portda"],
+						"restrict_visibility_rules": ["$showportlocs, brauner3portda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portda"],
+						"restrict_visibility_rules": ["$showportlocs, brauner4portda"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportda"],
+						"restrict_visibility_rules": ["$showportlocs, passageportda"],
 						"shape": "trapezoid"
 					}
 				]
@@ -1270,63 +1267,63 @@
 						"map": "Dracula's Castle",
 						"x": 254,
 						"y": 632,
-						"restrict_visibility_rules": ["hubportnoe, normalnest", "hubportnoe, nestsanity", "hubportnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, hubportnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 1112,
 						"y": 672,
-						"restrict_visibility_rules": ["undergroundportnoe, normalnest", "undergroundportnoe, nestsanity", "undergroundportnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, undergroundportnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 572,
 						"y": 472,
-						"restrict_visibility_rules": ["stairsportnoe, normalnest", "stairsportnoe, nestsanity", "stairsportnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, stairsportnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 772,
 						"y": 292,
-						"restrict_visibility_rules": ["towerportnoe, normalnest", "towerportnoe, nestsanity", "towerportnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, towerportnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 858,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner1portnoe, normalnest", "brauner1portnoe, nestsanity", "brauner1portnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, brauner1portnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 874,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner2portnoe, normalnest", "brauner2portnoe, nestsanity", "brauner2portnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, brauner2portnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 890,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner3portnoe, normalnest", "brauner3portnoe, nestsanity", "brauner3portnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, brauner3portnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 906,
 						"y": 192,
-						"restrict_visibility_rules": ["brauner4portnoe, normalnest", "brauner4portnoe, nestsanity", "brauner4portnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, brauner4portnoe"],
 						"shape": "trapezoid"
 					},
 					{
 						"map": "Dracula's Castle",
 						"x": 172,
 						"y": 792,
-						"restrict_visibility_rules": ["passageportnoe, normalnest", "passageportnoe, nestsanity", "passageportnoe, bossnest"],
+						"restrict_visibility_rules": ["$showportlocs, $nestaccess, passageportnoe"],
 						"shape": "trapezoid"
 					}
 				]

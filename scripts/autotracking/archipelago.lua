@@ -124,7 +124,7 @@ function apply_slot_data(slot_data)
 	nestcount.AcquiredCount = slot_data["nest_portraits"]
 
 	local throne = Tracker:FindObjectForCode("throne")
-	throne.Active = slot_data["open_throne"]
+	throne.CurrentStage = slot_data["open_throne"]
 
 	-- Portrait Configuration
 	local ports = {
@@ -411,7 +411,7 @@ function onDataStorageUpdate(key, value, oldValue)
 	if key == EVENTS_KEY then
 		for data_key, data_value in pairs(value) do
 			-- Auto-Tab Switching
-			if data_key == "map_id" and not has("notabs") then
+			if data_key == "map_id" and has("yestabs") then
 				local maps = {
 					"Dracula's Castle",
 					"City of Haze",
@@ -464,6 +464,7 @@ function onDataStorageUpdate(key, value, oldValue)
 				for i, event in ipairs(event_locations) do
 					local bit = (data_value >> i-1) & 1
 					if event ~= "" then
+						print(event)
 						if bit == 1 then
 							Tracker:FindObjectForCode(event).AvailableChestCount = 0
 						else
