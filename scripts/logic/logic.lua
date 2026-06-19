@@ -202,6 +202,10 @@ function Elevator()
     end
 end
 
-function thorne()
-    return not has("throne")
+function nestaccess()
+    return not has("nonest")
+end
+
+function showportlocs()
+    return has("limport") or has("showport")
 end

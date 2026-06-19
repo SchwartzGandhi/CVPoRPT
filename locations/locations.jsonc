@@ -967,6 +967,10 @@
 			},
 			{
 				"name": "Keremet",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Great Stairway Regions/Lower"
 				],
@@ -979,10 +983,7 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 922,
-						"y": 632,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 632
 					}
 				]
 			}
@@ -1301,6 +1302,10 @@
 			},
 			{
 				"name": "Death",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Tower of Death Regions/Top of the Tower"
 				],
@@ -1313,15 +1318,16 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 1082,
-						"y": 172,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 172
 					}
 				]
 			},
 			{
 				"name": "Elevator Switch",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Tower of Death Regions/Top of the Tower"
 				],
@@ -1334,10 +1340,7 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 1052,
-						"y": 172,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 172
 					}
 				]
 			}
@@ -1452,7 +1455,7 @@
 		"name": "The Throne Room",
 		"visibility_rules": [
 			"goaldracula",
-			"throne"
+			"throneopen"
 		],
 		"children": [
 			{
@@ -1554,8 +1557,8 @@
 				"chest_unopened_img": "images/settings/dracula.png",
 				"chest_opened_img": "images/settings/draculaouch.png",
 				"access_rules": [
-					"$thorne, @The Throne Room Region",
-					"throne, @The Throne Room Region, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
+					"throneclose, @The Throne Room Region",
+					"throneopen, @The Throne Room Region, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
 				],
 				"sections": [
 					{
@@ -1569,7 +1572,7 @@
 						"y": 132,
 						"size": 24,
 						"force_invisibility_rules": [
-							"goalbrauner, throne"
+							"goalbrauner, throneopen"
 						]
 					}
 				]
@@ -2170,6 +2173,10 @@
 			},
 			{
 				"name": "Dullahan",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@City of Haze Regions/East"
 				],
@@ -2182,10 +2189,7 @@
 					{
 						"map": "City of Haze",
 						"x": 1022,
-						"y": 412,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 412
 					}
 				]
 			}
@@ -2493,6 +2497,10 @@
 			},
 			{
 				"name": "Werewolf",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@13th Street Regions/Main"
 				],
@@ -2505,10 +2513,7 @@
 					{
 						"map": "13th Street",
 						"x": 222,
-						"y": 412,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 412
 					}
 				]
 			}
@@ -2970,6 +2975,10 @@
 			},
 			{
 				"name": "Astarte",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Sandy Grave Regions/Pyramid Top"
 				],
@@ -2982,10 +2991,7 @@
 					{
 						"map": "Sandy Grave",
 						"x": 702,
-						"y": 272,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 272
 					}
 				]
 			}
@@ -3291,6 +3297,10 @@
 			},
 			{
 				"name": "Mummy Man",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Forgotten City Regions/Inner Upper"
 				],
@@ -3303,10 +3313,7 @@
 					{
 						"map": "Forgotten City",
 						"x": 532,
-						"y": 492,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 492
 					}
 				]
 			}
@@ -3770,6 +3777,10 @@
 			},
 			{
 				"name": "Legion",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Nation of Fools Regions/Main"
 				],
@@ -3782,10 +3793,7 @@
 					{
 						"map": "Nation of Fools",
 						"x": 632,
-						"y": 452,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 452
 					}
 				]
 			}
@@ -4123,6 +4131,10 @@
 			},
 			{
 				"name": "Medusa",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Burnt Paradise Regions/Bottom"
 				],
@@ -4135,10 +4147,7 @@
 					{
 						"map": "Burnt Paradise",
 						"x": 622,
-						"y": 692,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 692
 					}
 				]
 			}
@@ -4365,6 +4374,10 @@
 			},
 			{
 				"name": "Dagon",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Forest of Doom Regions/Cave"
 				],
@@ -4377,10 +4390,7 @@
 					{
 						"map": "Forest of Doom",
 						"x": 1012,
-						"y": 502,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 502
 					}
 				]
 			}
@@ -4592,6 +4602,10 @@
 			},
 			{
 				"name": "The Creature",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Dark Academy Regions/Main"
 				],
@@ -4604,10 +4618,7 @@
 					{
 						"map": "Dark Academy",
 						"x": 242,
-						"y": 492,
-						"force_invisibility_rules": [
-							"hideevents"
-						]
+						"y": 492
 					}
 				]
 			}
@@ -4681,6 +4692,10 @@
 			},
 			{
 				"name": "Doppelganger",
+				"visibility_rules": [
+					"limitevents",
+					"showevents"
+				],
 				"access_rules": [
 					"@Nest of Evil Regions/Main"
 				],
@@ -4695,8 +4710,7 @@
 						"x": 662,
 						"y": 712,
 						"force_invisibility_rules": [
-							"nonest",
-							"hideevents"
+							"nonest"
 						]
 					}
 				]

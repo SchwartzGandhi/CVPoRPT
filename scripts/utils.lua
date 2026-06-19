@@ -43,8 +43,9 @@ function LinkSpells(item_code)
     end
 end
 
+-- If logic updates upon collecting an event, the event must be shown
 function MetaCheck()
-    if Tracker:FindObjectForCode("reach").CurrentStage == 1 then
-        Tracker:FindObjectForCode("hideevents").Active = false
+    if has("collect") then
+        Tracker:FindObjectForCode("events").CurrentStage = 1
     end
 end

@@ -19,21 +19,11 @@
 										"background": "#000000",
 										"item_margin": "16, 2",
 										"h_alignment": "center",
+										"v_alignment": "center",
 										"item_h_alignment": "center",
-										"item_size": 272,
+										"item_size": 136,
 										"rows": [
-											["goal"]
-										]
-									},
-									{
-										"type": "itemgrid",
-										"background": "#000000",
-										"item_margin": "2, 2",
-										"h_alignment": "center",
-										"item_h_alignment": "center",
-										"item_size": 48,
-										"rows": [
-											["throne"]
+											["goal", "throne"]
 										]
 									},
 									{
@@ -105,7 +95,7 @@
 						"content": [
 							{
 								"type": "array",
-								"orientation": "vertical",
+								"orientation": "horizontal",
 								"h_alignment": "stretch",
 								"margin": "0,0",
 								"content": [
@@ -116,10 +106,6 @@
 									{
 										"type": "layout",
 										"key": "metarow2"
-									},
-									{
-										"type": "layout",
-										"key": "metarow3"
 									}
 								]
 							}
@@ -131,7 +117,7 @@
 	},
 	"metarow1": {
 		"type": "array",
-		"orientation": "horizontal",
+		"orientation": "vertical",
 		"margin": "0,0",
 		"item_size": 128,
 		"content": [
@@ -145,26 +131,34 @@
 			},
 			{
 				"type": "group",
-				"header": "Preview Portrait Destinations",
+				"header": "Real Time Event Logic Updates",
 				"content": {
 					"type": "item",
-					"item": "portpre"
+					"item": "reach"
+				}
+			},
+			{
+				"type": "group",
+				"header": "Hide Non-Check Locations",
+				"content": {
+					"type": "item",
+					"item": "events"
 				}
 			}
 		]
 	},
 	"metarow2": {
 		"type": "array",
-		"orientation": "horizontal",
+		"orientation": "vertical",
 		"margin": "0,0",
 		"item_size": 64,
 		"content": [
 			{
 				"type": "group",
-				"header": "Event Reach",
+				"header": "Preview Portrait Destinations",
 				"content": {
 					"type": "item",
-					"item": "reach"
+					"item": "portpre"
 				}
 			},
 			{
@@ -173,22 +167,6 @@
 				"content": {
 					"type": "item",
 					"item": "doool"
-				}
-			}
-		]
-	},
-	"metarow3": {
-		"type": "array",
-		"orientation": "horizontal",
-		"margin": "0,0",
-		"item_size": 64,
-		"content": [
-			{
-				"type": "group",
-				"header": "Hide Non-Check Locations",
-				"content": {
-					"type": "item",
-					"item": "events"
 				}
 			},
 			{

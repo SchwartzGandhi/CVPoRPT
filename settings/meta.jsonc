@@ -1,0 +1,126 @@
+[
+	{
+		"name": "If enabled, the map will be updated in real time to the portrait you are in in-game.",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "tabswitch, notabs",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "tabswitch, yestabs",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, logic relating to quests and bosses will update upon collecting the correlating locations.",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "reach, access",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "reach, collect",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, locations that can be accessed via tricks/glitches will be shown in yellow.",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "doool, nool",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "doool, ool",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, will hide all quests that are not in your include list.",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "quests, showquests",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "quests, hidequests",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, will show all events that aren't checks. If limited, only events relevant for logic will be shown.",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 1,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "events, hideevents",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/limited.png",
+				"codes": "events, limitevents",
+				"inhereit_codes": false
+			},
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "events, showevents",
+				"inhereit_codes": false
+			}
+		]
+	},
+	{
+		"name": "If enabled, will show all of the checks for a portrait on a location in the main castle map (shown as a trapezoid).", //  If limited, only the portrait's name will be shown.
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/settings/meta/disabled.png",
+				"codes": "portpre, noport",
+				"inhereit_codes": false
+			},
+			// {
+			// 	"img": "images/settings/meta/limited.png",
+			// 	"codes": "portpre, limport",
+			// 	"inhereit_codes": false
+			// },
+			{
+				"img": "images/settings/meta/enabled.png",
+				"codes": "portpre, showport",
+				"inhereit_codes": false
+			}
+		]
+	}
+]

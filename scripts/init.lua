@@ -32,7 +32,7 @@ Tracker:AddItems("items/subweapons.jsonc")
 -- Settings
 Tracker:AddItems("settings/settings.json")
 Tracker:AddItems("settings/portraits.json")
-Tracker:AddItems("settings/meta.json")
+Tracker:AddItems("settings/meta.jsonc")
 
 -- Link item codes and bestiary codes
 for k, v in pairs(LINKED_SPELLS) do
