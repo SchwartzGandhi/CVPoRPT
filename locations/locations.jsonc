@@ -243,7 +243,7 @@
 			{
 				"name": "Right Hidden Room",
 				"access_rules": [
-					"@Entrance Regions/Behemoth Area"
+					"@Entrance Regions/Post Behemoth"
 				],
 				"sections": [
 					{
@@ -526,7 +526,7 @@
 			{
 				"name": "After Keremet Lower",
 				"access_rules": [
-					"@Great Stairway Regions/Lower"
+					"@Great Stairway Regions/Post Keremet"
 				],
 				"sections": [
 					{
@@ -892,7 +892,7 @@
 			{
 				"name": "Connector Pipe",
 				"access_rules": [
-					"@Great Stairway Regions/Upper, $holes"
+					"@Great Stairway Regions/Upper, ^$holes"
 				],
 				"sections": [
 					{
@@ -972,7 +972,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Great Stairway Regions/Lower"
+					"@Great Stairway Regions/Lower, $BossKey|gskey"
 				],
 				"sections": [
 					{
@@ -1013,7 +1013,7 @@
 			{
 				"name": "Stella Item",
 				"access_rules": [
-					"@Tower of Death Regions/Bottom"
+					"@Tower of Death Regions/Bottom, $BossKey|basekey"
 				],
 				"sections": [
 					{
@@ -1307,7 +1307,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Tower of Death Regions/Top of the Tower"
+					"@Tower of Death Regions/Top of the Tower, $BossKey|todkey"
 				],
 				"sections": [
 					{
@@ -1557,8 +1557,8 @@
 				"chest_unopened_img": "images/settings/dracula.png",
 				"chest_opened_img": "images/settings/draculaouch.png",
 				"access_rules": [
-					"throneclose, @The Throne Room Region",
-					"throneopen, @The Throne Room Region, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
+					"throneclose, @The Throne Room Region, $BossKey|ttrkey",
+					"throneopen, @The Throne Room Region, $BossKey|ttrkey, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
 				],
 				"sections": [
 					{
@@ -1921,7 +1921,7 @@
 			{
 				"name": "Heavy Cart Item",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -1939,7 +1939,7 @@
 			{
 				"name": "Axe Courtyard",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -1957,7 +1957,7 @@
 			{
 				"name": "Left Dance Hall Left Item",
 				"access_rules": [
-					"@City of Haze Regions/East, $tinyuppies"
+					"@City of Haze Regions/Post-Boss, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -1975,7 +1975,7 @@
 			{
 				"name": "Left Dance Hall Right Item",
 				"access_rules": [
-					"@City of Haze Regions/East, $tinyuppies"
+					"@City of Haze Regions/Post-Boss, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -1993,7 +1993,7 @@
 			{
 				"name": "Dance Halls Basement",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -2011,7 +2011,7 @@
 			{
 				"name": "Right Dance Hall Item",
 				"access_rules": [
-					"@City of Haze Regions/East, $tinyuppies"
+					"@City of Haze Regions/Post-Boss, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -2029,7 +2029,7 @@
 			{
 				"name": "Right Dance Hall Secret Room",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -2047,7 +2047,7 @@
 			{
 				"name": "Post-Boss Room",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -2065,7 +2065,7 @@
 			{
 				"name": "Tunnel Room Right",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -2083,8 +2083,8 @@
 			{
 				"name": "Tunnel Room Left",
 				"access_rules": [
-					"@City of Haze Regions/East, $holes",
-					"@City of Haze Regions/East, puppet"
+					"@City of Haze Regions/Post-Boss, ^$holes",
+					"@City of Haze Regions/Post-Boss, puppet"
 				],
 				"sections": [
 					{
@@ -2102,7 +2102,7 @@
 			{
 				"name": "Dance Halls Vertical Hallway",
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/Post-Boss"
 				],
 				"sections": [
 					{
@@ -2178,7 +2178,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@City of Haze Regions/East"
+					"@City of Haze Regions/East, $BossKey|cohkey"
 				],
 				"sections": [
 					{
@@ -2256,9 +2256,9 @@
 				"name": "Many Nyxes Room",
 				"access_rules": [
 					"@13th Street Regions/Main, $mediumuppies, puppet, slide",
-					"@13th Street Regions/Main, $mediumuppies, $holes",
+					"@13th Street Regions/Main, $mediumuppies, ^$holes",
 					"@13th Street Regions/Main, $mario, puppet, slide",
-					"@13th Street Regions/Main, $mario, puppet, $holes"
+					"@13th Street Regions/Main, $mario, puppet, ^$holes"
 				],
 				"sections": [
 					{
@@ -2502,7 +2502,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@13th Street Regions/Main"
+					"@13th Street Regions/Main, $BossKey|13skey"
 				],
 				"sections": [
 					{
@@ -2706,7 +2706,7 @@
 			{
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
-					"@Sandy Grave Regions/Main, $holes"
+					"@Sandy Grave Regions/Main, ^$holes"
 				],
 				"sections": [
 					{
@@ -2958,7 +2958,7 @@
 			{
 				"name": "Pyramid 5F Nook",
 				"access_rules": [
-					"@Sandy Grave Regions/Pyramid Top"
+					"@Sandy Grave Regions/Pyramid Top, $BossKey|sgkey"
 				],
 				"sections": [
 					{
@@ -2980,7 +2980,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Sandy Grave Regions/Pyramid Top"
+					"@Sandy Grave Regions/Pyramid Top, $BossKey|sgkey"
 				],
 				"sections": [
 					{
@@ -3113,7 +3113,7 @@
 			{
 				"name": "Lower Boulder Room Tunnel Alcove",
 				"access_rules": [
-					"@Forgotten City Regions/Main, $holes"
+					"@Forgotten City Regions/Main, ^$holes"
 				],
 				"sections": [
 					{
@@ -3280,7 +3280,7 @@
 			{
 				"name": "Post-Boss Item",
 				"access_rules": [
-					"@Forgotten City Regions/Inner Upper"
+					"@Forgotten City Regions/Inner Upper, $BossKey|fckey"
 				],
 				"sections": [
 					{
@@ -3302,7 +3302,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Forgotten City Regions/Inner Upper"
+					"@Forgotten City Regions/Inner Upper, $BossKey|fckey"
 				],
 				"sections": [
 					{
@@ -3397,7 +3397,7 @@
 			{
 				"name": "Legion Arena",
 				"access_rules": [
-					"@Nation of Fools Regions/Main"
+					"@Nation of Fools Regions/Main, $BossKey|nofkey"
 				],
 				"sections": [
 					{
@@ -3562,7 +3562,7 @@
 				"name": "Crevice Item",
 				"access_rules": [
 					"@Nation of Fools Regions/Main, puppet",
-					"@Nation of Fools Regions/Main, $holes"
+					"@Nation of Fools Regions/Main, ^$holes"
 				],
 				"sections": [
 					{
@@ -3616,7 +3616,7 @@
 			{
 				"name": "Bottom Right Medium Square On Wall",
 				"access_rules": [
-					"@Nation of Fools Regions/Main"
+					"@Nation of Fools Regions/Right Lower Medium Room"
 				],
 				"sections": [
 					{
@@ -3782,7 +3782,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Nation of Fools Regions/Main"
+					"@Nation of Fools Regions/Main, $BossKey|nofkey"
 				],
 				"sections": [
 					{
@@ -4005,7 +4005,7 @@
 			{
 				"name": "Left Big Corner",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -4023,7 +4023,7 @@
 			{
 				"name": "Lower Left Big Room",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -4041,8 +4041,8 @@
 			{
 				"name": "Lower Vertical Hall",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom, puppet",
-					"@Burnt Paradise Regions/Bottom, $holes"
+					"@Burnt Paradise Regions/Entrance, puppet",
+					"@Burnt Paradise Regions/Entrance, ^$holes"
 				],
 				"sections": [
 					{
@@ -4060,7 +4060,7 @@
 			{
 				"name": "Bottom Corner",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance, $BossKey|"
 				],
 				"sections": [
 					{
@@ -4078,7 +4078,7 @@
 			{
 				"name": "Bottom Right Breakable Wall",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -4096,7 +4096,7 @@
 			{
 				"name": "Bottom Right Big Room",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance"
 				],
 				"sections": [
 					{
@@ -4114,7 +4114,8 @@
 			{
 				"name": "Bottom Right Corner Room",
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance, $mediumuppies",
+					"@Burnt Paradise Regions/Entrance, $mario, puppet"
 				],
 				"sections": [
 					{
@@ -4136,7 +4137,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Burnt Paradise Regions/Bottom"
+					"@Burnt Paradise Regions/Entrance, $BossKey|bpkey"
 				],
 				"sections": [
 					{
@@ -4357,7 +4358,7 @@
 			{
 				"name": "Post-Boss Room",
 				"access_rules": [
-					"@Forest of Doom Regions/Cave"
+					"@Forest of Doom Regions/Cave, $BossKey|fodkey"
 				],
 				"sections": [
 					{
@@ -4379,7 +4380,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Forest of Doom Regions/Cave"
+					"@Forest of Doom Regions/Cave, $BossKey|fodkey"
 				],
 				"sections": [
 					{
@@ -4607,7 +4608,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Dark Academy Regions/Main"
+					"@Dark Academy Regions/Main, $BossKey|dakey"
 				],
 				"sections": [
 					{
@@ -4630,7 +4631,7 @@
 			{
 				"name": "Doppelganger Reward",
 				"access_rules": [
-					"@Nest of Evil Regions/Main"
+					"@Nest of Evil Regions/Main, $BossKey|noekey"
 				],
 				"sections": [
 					{
@@ -4697,7 +4698,7 @@
 					"showevents"
 				],
 				"access_rules": [
-					"@Nest of Evil Regions/Main"
+					"@Nest of Evil Regions/Main, $BossKey|noekey"
 				],
 				"sections": [
 					{

@@ -9,9 +9,7 @@
 					"@Entrance Regions/Hub Painting Room, $smol",
 					"@Entrance Regions/Underground Passage, $smalluppies",
 					"@Entrance Regions/Upper Area",
-					"@Entrance Regions/Behemoth Area",
-					"@Buried Chamber Regions/Main",
-					"@Great Stairway Regions/Lower"
+					"@Entrance Regions/Behemoth Area"
 				]
 			},
 			{
@@ -23,7 +21,16 @@
 			{
 				"name": "Behemoth Area",
 				"access_rules": [
-					"@Entrance Regions/Hub, $smalluppies"
+					"@Entrance Regions/Hub, $smalluppies",
+					"@Entrance Regions/Post Behemoth, $BossKey|ekey"
+				]
+			},
+			{
+				"name": "Post Behemoth",
+				"access_rules": [
+					"@Entrance Regions/Behemoth Area, $BossKey|ekey",
+					"@Buried Chamber Regions/Main",
+					"@Great Stairway Regions/Lower, $strongies"
 				]
 			},
 			{
@@ -55,7 +62,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Entrance Regions/Behemoth Area",
+					"@Entrance Regions/Post Behemoth",
 					"@Great Stairway Regions/Lower"
 				]
 			}
@@ -67,8 +74,9 @@
 			{
 				"name": "Lower",
 				"access_rules": [
-					"@Entrance Regions/Behemoth Area, $strongies",
+					"@Entrance Regions/Post Behemoth, $strongies",
 					"@Buried Chamber Regions/Main",
+					"@Great Stairway Regions/Post Keremet, $BossKey|gskey",
 					"@Great Stairway Regions/Staircases"
 				]
 			},
@@ -76,9 +84,16 @@
 				"name": "Staircases",
 				"access_rules": [
 					"@Great Stairway Regions/Lower, $mediumuppies",
+					"@Great Stairway Regions/Post Keremet, $mediumuppies",
 					"@Great Stairway Regions/Underground Painting",
 					"@Great Stairway Regions/Entrance Connector",
 					"@Great Stairway Regions/Upper"
+				]
+			},
+			{
+				"name": "Post Keremet",
+				"access_rules": [
+					"@Great Stairway Regions/Lower, $BossKey|gskey"
 				]
 			},
 			{
@@ -96,7 +111,7 @@
 					"@Great Stairway Regions/Entrance Connector, $mediumuppies",
 					"@Great Stairway Regions/Entrance Connector, $mario, $fast",
 					"@Great Stairway Regions/Central Painting Area",
-					"@Tower of Death Regions/Belt Area, $holes"
+					"@Tower of Death Regions/Belt Area, ^$holes"
 				]
 			},
 			{
@@ -133,7 +148,7 @@
 			{
 				"name": "Belt Area",
 				"access_rules": [
-					"@Great Stairway Regions/Upper, $holes",
+					"@Great Stairway Regions/Upper, ^$holes",
 					"@Tower of Death Regions/Motorcycles, $stay, tag",
 					"@Tower of Death Regions/Painting Room",
 					"@Master's Keep Regions/Bridge"
@@ -158,13 +173,13 @@
 				"access_rules": [
 					"@Tower of Death Regions/Bottom, $smalluppies",
 					"@Tower of Death Regions/Elevator Room",
-					"@Tower of Death Regions/Ascent, $holes"
+					"@Tower of Death Regions/Ascent, ^$holes"
 				]
 			},
 			{
 				"name": "Ascent",
 				"access_rules": [
-					"@Tower of Death Regions/First Gear Room, $holes",
+					"@Tower of Death Regions/First Gear Room, ^$holes",
 					"@Tower of Death Regions/Second Gear Room"
 				]
 			},
@@ -247,6 +262,12 @@
 				"access_rules": [
 					"@City of Haze Regions/Main, puppet",
 					"@City of Haze Regions/Main, tag, doubleup"
+				]
+			},
+			{
+				"name": "Post-Boss",
+				"access_rules": [
+					"@City of Haze Regions/East, $BossKey|cohkey"
 				]
 			}
 		]
@@ -333,9 +354,16 @@
 				]
 			},
 			{
+				"name": "Right Lower Medium Room",
+				"access_rules": [
+					"@Nation of Fools Regions/Right Lower, $tinyuppies"
+				]
+			},
+			{
 				"name": "Main",
 				"access_rules": [
-					"@Nation of Fools Regions/Entrance, $mediumuppies"
+					"@Nation of Fools Regions/Entrance, $mediumuppies",
+					"@Nation of Fools Regions/Entrance, $mario, puppet"
 				]
 			}
 		]
@@ -352,13 +380,8 @@
 			{
 				"name": "Entrance",
 				"access_rules": [
-					"@Burnt Paradise Regions/Main, $tinyuppies"
-				]
-			},
-			{
-				"name": "Bottom",
-				"access_rules": [
-					"@Burnt Paradise Regions/Entrance, $biguppies"
+					"@Burnt Paradise Regions/Main, $tinyuppies",
+					"@Burnt Paradise Regions/Main, puppet"
 				]
 			}
 		]

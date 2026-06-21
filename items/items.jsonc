@@ -25,7 +25,7 @@
 		"codes": "ekey"
 	},
 	{
-		"name": "Caverns Key",
+		"name": "Cavern Key",
 		"type": "toggle",
 		"img": "images/items/keys/cavern.png",
 		"codes": "gskey"

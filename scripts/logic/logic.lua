@@ -71,6 +71,9 @@ function tinyuppies()
 end
 
 function holes()
+    if has("doool") and has("puppet") then
+        return AccessibilityLevel.SequenceBreak
+    end
     return froggy() or birdie() -- We don't put Puppet Master here since holes in Portrait are typically tinier than Dawn's
 end
 function smol()
@@ -202,6 +205,36 @@ function Elevator()
     end
 end
 
+function BossKey(code)
+    if has("bosskeys") then
+        local code_keys = {
+            ["ekey"] = "Colosseum Key",
+            ["gskey"] = "Cavern Key",
+            ["basekey"] = "Tower Base Key",
+            ["todkey"] = "Clock Key",
+            ["mkey"] = "Gallery Key",
+            ["ttrkey"] = "Throne Key",
+            ["cohkey"] = "City Key",
+            ["13skey"] = "Street Key",
+            ["sgkey"] = "Sandy Key",
+            ["fckey"] = "Forgotten Key",
+            ["nofkey"] = "Circus Arena Key",
+            ["bpkey"] = "Burnt Key",
+            ["fodkey"] = "Forest Key",
+            ["dakey"] = "Adacemy Key",
+            ["noekey"] = "Nest Key",
+        }
+        for _, key in ipairs(EXCLUDED_KEYS) do
+            if key == code_keys[code] then
+                return true
+            end
+        end
+        return has(code)
+    end
+    return true
+end
+
+-- Settings Macros
 function nestaccess()
     return not has("nonest")
 end
