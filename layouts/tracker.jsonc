@@ -24,6 +24,13 @@
 									}
 								},
 								{
+									"title": "Boss Keys",
+									"content": {
+										"type": "layout",
+										"key": "keys_grid"
+									}
+								},
+								{
 									"title": "Quests",
 									"content": {
 										"type": "layout",

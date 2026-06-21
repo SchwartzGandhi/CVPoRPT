@@ -21,85 +21,85 @@
 	{
 		"name": "Colosseum Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/colosseum.png",
 		"codes": "ekey"
 	},
 	{
 		"name": "Caverns Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/cavern.png",
 		"codes": "gskey"
 	},
 	{
 		"name": "Tower Base Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/base.png",
 		"codes": "basekey"
 	},
 	{
 		"name": "Clock Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/death.png",
 		"codes": "todkey"
 	},
 	{
 		"name": "Gallery Key",
 		"type": "toggle",
-		"img": "images/items/",
-		"codes": ""
+		"img": "images/items/keys/gallery.png",
+		"codes": "mkey"
 	},
 	{
 		"name": "Throne Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/throne.png",
 		"codes": "ttrkey"
 	},
 	{
 		"name": "City Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/city.png",
 		"codes": "cohkey"
 	},
 	{
 		"name": "Sandy Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/sandy.png",
 		"codes": "sgkey"
 	},
 	{
 		"name": "Circus Arena Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/circus.png",
 		"codes": "nofkey"
 	},
 	{
 		"name": "Forest Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/forest.png",
 		"codes": "fodkey"
 	},
 	{
 		"name": "Street Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/street.png",
 		"codes": "13skey"
 	},
 	{
 		"name": "Forgotten Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/forgotten.png",
 		"codes": "fckey"
 	},
 	{
 		"name": "Burnt Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/burnt.png",
 		"codes": "bpkey"
 	},
 	{
 		"name": "Academy Key",
 		"type": "toggle",
-		"img": "images/items/",
+		"img": "images/items/keys/academy.png",
 		"codes": "dakey"
 	},
 	{

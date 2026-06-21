@@ -124,4 +124,21 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 2153] = {{"dangle", "toggle"}},
 	[BASE_ITEM_ID + 2154] = {{"downslash", "toggle"}},
 	[BASE_ITEM_ID + 2155] = {{"names", "toggle"}},
+
+	-- Boss Keys
+	[BASE_ITEM_ID + 260] = {{"ekey", "toggle"}},
+	[BASE_ITEM_ID + 261] = {{"gskey", "toggle"}},
+	[BASE_ITEM_ID + 262] = {{"basekey", "toggle"}},
+	[BASE_ITEM_ID + 263] = {{"todkey", "toggle"}},
+	[BASE_ITEM_ID + 264] = {{"mkey", "toggle"}},
+	[BASE_ITEM_ID + 265] = {{"ttrkey", "toggle"}},
+	[BASE_ITEM_ID + 266] = {{"cohkey", "toggle"}},
+	[BASE_ITEM_ID + 267] = {{"sgkey", "toggle"}},
+	[BASE_ITEM_ID + 268] = {{"nofkey", "toggle"}},
+	[BASE_ITEM_ID + 269] = {{"fodkey", "toggle"}},
+	[BASE_ITEM_ID + 270] = {{"13skey", "toggle"}},
+	[BASE_ITEM_ID + 271] = {{"fckey", "toggle"}},
+	[BASE_ITEM_ID + 272] = {{"bpkey", "toggle"}},
+	[BASE_ITEM_ID + 273] = {{"dakey", "toggle"}},
+	[BASE_ITEM_ID + 274] = {{"noekey", "toggle"}},
 }

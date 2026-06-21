@@ -3,7 +3,7 @@
 		"name": "Dracula's Castle",
 		"location_size": 12,
 		"location_border_thickness": 2,
-		"img": "images/maps/Castle.png"
+		"img": "images/maps/Castle_b.png"
 	},
 	{
 		"name": "City of Haze",
