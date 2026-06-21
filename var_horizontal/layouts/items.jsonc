@@ -87,5 +87,28 @@
 				]
 			}
 		]
+	},
+	"keys_grid": {
+		"type": "group",
+		"header": "Keys",
+		"item_h_alignment": "center",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "10, 10",
+						"h_alignment": "center",
+						"item_size": 96,
+						"rows": [
+							["ekey", "gskey", "basekey", "todkey", "mkey", "ttrkey", "cohkey", "13skey", "sgkey", "fckey", "nofkey", "bpkey", "fodkey", "dakey", "noekey"]
+						]
+					}
+				]
+			}
+		]
 	}
 }

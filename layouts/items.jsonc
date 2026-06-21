@@ -115,7 +115,8 @@
 							["", "cohkey", "13skey"], 
 							["", "sgkey", "fckey"], 
 							["", "nofkey", "bpkey"], 
-							["", "fodkey", "dakey"]
+							["", "fodkey", "dakey"],
+							["", "noekey"]
 						]
 					}
 				]
