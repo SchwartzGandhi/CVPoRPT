@@ -60,7 +60,8 @@
 			{
 				"name": "Find the King of Birds",
 				"access_rules": [
-					"^$QuestBossLocation|The Creature, @Forgotten City Regions/Main, $comcast, dio"
+					"^$QuestBossLocation|The Creature, @Forgotten City Regions/Main, spear",
+					"^$QuestBossLocation|The Creature, @Forgotten City Regions/Main, $dodospells"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Find the King of Birds|e"
@@ -544,6 +545,10 @@
 			{
 				"name": "The Hundred Tasks",
 				"ref": "Wind's Quests/The Hundred Tasks"
+			},
+			{
+				"name": "The Spear of Legend",
+				"ref": "Wind's Quests/The Spear of Legend"
 			},
 			{
 				"name": "Master the Holy Power",

@@ -80,6 +80,12 @@ function smol()
     return has("slide") or holes()
 end
 
+function dodospells()
+    if comcast() then
+        return has("dio") or has("fast") or has("burn") or has("thunder") or has("megumin") or has("chain") or has("plasma") or has("am2r")
+    end
+end
+
 -- Checks portrait configuration and links the given portrait accordingly
 function ConnectPortrait(area)
     local ports = {

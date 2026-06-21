@@ -1050,7 +1050,8 @@
 				"name": "Above Motorcycles",
 				"access_rules": [
 					"@Tower of Death Regions/Motorcycles, $biguppies",
-					"@Tower of Death Regions/Motorcycles, $mario, djump"
+					"@Tower of Death Regions/Motorcycles, $mario, djump",
+					"@Tower of Death Regions/Motorcycles, djump, puppet"
 				],
 				"sections": [
 					{
