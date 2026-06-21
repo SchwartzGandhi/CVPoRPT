@@ -119,7 +119,6 @@
 		"type": "array",
 		"orientation": "vertical",
 		"margin": "0,0",
-		"item_size": 128,
 		"content": [
 			{
 				"type": "group",
@@ -151,7 +150,6 @@
 		"type": "array",
 		"orientation": "vertical",
 		"margin": "0,0",
-		"item_size": 64,
 		"content": [
 			{
 				"type": "group",
