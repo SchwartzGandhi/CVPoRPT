@@ -142,7 +142,7 @@
 			{
 				"name": "Motorcycles",
 				"access_rules": [
-					"@Tower of Death Regions/Bottom, toon"
+					"@Tower of Death Regions/Bottom, toon" // key?
 				]
 			},
 			{
@@ -244,8 +244,8 @@
 	{
 		"name": "The Throne Room Region",
 		"access_rules": [
-			"@Master's Keep Regions/Upper Quarters, throneopen",
-			"@Master's Keep Regions/Upper Quarters, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
+			"throneopen, @Master's Keep Regions/Upper Quarters",
+			"throneclose, @Master's Keep Regions/Upper Quarters, $PortraitClear|dracula, ^$BraunerRequired, ^$NestRequired"
 		]
 	},
 	{
