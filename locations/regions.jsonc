@@ -111,7 +111,8 @@
 					"@Great Stairway Regions/Entrance Connector, $mediumuppies",
 					"@Great Stairway Regions/Entrance Connector, $mario, $fast",
 					"@Great Stairway Regions/Central Painting Area",
-					"@Tower of Death Regions/Belt Area, ^$holes"
+					"@Tower of Death Regions/Belt Area, $holes",
+					"@Tower of Death Regions/Belt Area, ^$puppetslide"
 				]
 			},
 			{
@@ -148,7 +149,8 @@
 			{
 				"name": "Belt Area",
 				"access_rules": [
-					"@Great Stairway Regions/Upper, ^$holes",
+					"@Great Stairway Regions/Upper, $holes",
+					"@Great Stairway Regions/Upper, ^$puppetslide",
 					"@Tower of Death Regions/Motorcycles, $stay, tag",
 					"@Tower of Death Regions/Painting Room",
 					"@Master's Keep Regions/Bridge"
@@ -173,13 +175,15 @@
 				"access_rules": [
 					"@Tower of Death Regions/Bottom, $smalluppies",
 					"@Tower of Death Regions/Elevator Room",
-					"@Tower of Death Regions/Ascent, ^$holes"
+					"@Tower of Death Regions/Ascent, $holes",
+					"@Tower of Death Regions/Ascent, ^$puppetslide"
 				]
 			},
 			{
 				"name": "Ascent",
 				"access_rules": [
-					"@Tower of Death Regions/First Gear Room, ^$holes",
+					"@Tower of Death Regions/First Gear Room, $holes",
+					"@Tower of Death Regions/First Gear Room, ^$puppetslide",
 					"@Tower of Death Regions/Second Gear Room"
 				]
 			},

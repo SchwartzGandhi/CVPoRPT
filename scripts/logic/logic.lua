@@ -71,11 +71,14 @@ function tinyuppies()
 end
 
 function holes()
-    if has("doool") and has("puppet") then
+    return froggy() or birdie()
+end
+function puppetslide()
+    if has("doool") and has("puppet") and has("slide") then
         return AccessibilityLevel.SequenceBreak
     end
-    return froggy() or birdie() -- We don't put Puppet Master here since holes in Portrait are typically tinier than Dawn's
 end
+
 function smol()
     return has("slide") or holes()
 end

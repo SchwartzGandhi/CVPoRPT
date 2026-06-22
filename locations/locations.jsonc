@@ -892,7 +892,8 @@
 			{
 				"name": "Connector Pipe",
 				"access_rules": [
-					"@Great Stairway Regions/Upper, ^$holes"
+					"@Great Stairway Regions/Upper, $holes",
+					"@Great Stairway Regions/Upper, ^$puppetslide"
 				],
 				"sections": [
 					{
@@ -2084,7 +2085,7 @@
 			{
 				"name": "Tunnel Room Left",
 				"access_rules": [
-					"@City of Haze Regions/Post-Boss, ^$holes",
+					"@City of Haze Regions/Post-Boss, $holes",
 					"@City of Haze Regions/Post-Boss, puppet"
 				],
 				"sections": [
@@ -2257,9 +2258,9 @@
 				"name": "Many Nyxes Room",
 				"access_rules": [
 					"@13th Street Regions/Main, $mediumuppies, puppet, slide",
-					"@13th Street Regions/Main, $mediumuppies, ^$holes",
+					"@13th Street Regions/Main, $mediumuppies, $holes",
 					"@13th Street Regions/Main, $mario, puppet, slide",
-					"@13th Street Regions/Main, $mario, puppet, ^$holes"
+					"@13th Street Regions/Main, $mario, puppet, $holes"
 				],
 				"sections": [
 					{
@@ -2707,7 +2708,8 @@
 			{
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
-					"@Sandy Grave Regions/Main, ^$holes"
+					"@Sandy Grave Regions/Main, $holes",
+					"@Sandy Grave Regions/Main, ^$puppetslide"
 				],
 				"sections": [
 					{
@@ -3114,7 +3116,7 @@
 			{
 				"name": "Lower Boulder Room Tunnel Alcove",
 				"access_rules": [
-					"@Forgotten City Regions/Main, ^$holes"
+					"@Forgotten City Regions/Main, $holes"
 				],
 				"sections": [
 					{
@@ -3563,7 +3565,7 @@
 				"name": "Crevice Item",
 				"access_rules": [
 					"@Nation of Fools Regions/Main, puppet",
-					"@Nation of Fools Regions/Main, ^$holes"
+					"@Nation of Fools Regions/Main, $holes"
 				],
 				"sections": [
 					{
@@ -4043,7 +4045,7 @@
 				"name": "Lower Vertical Hall",
 				"access_rules": [
 					"@Burnt Paradise Regions/Entrance, puppet",
-					"@Burnt Paradise Regions/Entrance, ^$holes"
+					"@Burnt Paradise Regions/Entrance, $holes"
 				],
 				"sections": [
 					{
