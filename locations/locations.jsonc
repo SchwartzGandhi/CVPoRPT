@@ -332,6 +332,29 @@
 						"y": 612
 					}
 				]
+			},
+			{
+				"name": "Behemoth",
+				"chest_unopened_img": "images/enemies/140.png",
+				"chest_opened_img": "images/enemies/140_bw.png",
+				"visibility_rules": [
+					"showevents"
+				],
+				"access_rules": [
+					"@Entrance Regions/Behemoth Area, $BossKey|ekey"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 502,
+						"y": 632
+					}
+				]
 			}
 		]
 	},
@@ -968,6 +991,8 @@
 			},
 			{
 				"name": "Keremet",
+				"chest_unopened_img": "images/enemies/141.png",
+				"chest_opened_img": "images/enemies/141_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -1013,6 +1038,8 @@
 			},
 			{
 				"name": "Stella Item",
+				"chest_unopened_img": "images/enemies/146.png",
+				"chest_opened_img": "images/enemies/146_bw.png",
 				"access_rules": [
 					"@Tower of Death Regions/Bottom, $BossKey|basekey"
 				],
@@ -1304,6 +1331,8 @@
 			},
 			{
 				"name": "Death",
+				"chest_unopened_img": "images/enemies/145.png",
+				"chest_opened_img": "images/enemies/145_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -1412,10 +1441,15 @@
 				],
 				"sections": [
 					{
-						"name": "Stella & Loretta"
+						"name": "Stella & Loretta",
+						"visibility_rules": [
+							"showevents"
+						]
 					},
 					{
-						"name": "Whip Trial"
+						"name": "Whip Trial",
+						"chest_unopened_img": "images/enemies/153.png",
+						"chest_opened_img": "images/enemies/153_bw.png"
 					}
 				],
 				"map_locations": [
@@ -2175,6 +2209,8 @@
 			},
 			{
 				"name": "Dullahan",
+				"chest_unopened_img": "images/enemies/139.png",
+				"chest_opened_img": "images/enemies/139_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -2499,6 +2535,8 @@
 			},
 			{
 				"name": "Werewolf",
+				"chest_unopened_img": "images/enemies/150.png",
+				"chest_opened_img": "images/enemies/150_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -2978,6 +3016,8 @@
 			},
 			{
 				"name": "Astarte",
+				"chest_unopened_img": "images/enemies/142.png",
+				"chest_opened_img": "images/enemies/142_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -3300,6 +3340,8 @@
 			},
 			{
 				"name": "Mummy Man",
+				"chest_unopened_img": "images/enemies/152.png",
+				"chest_opened_img": "images/enemies/152_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -3780,6 +3822,8 @@
 			},
 			{
 				"name": "Legion",
+				"chest_unopened_img": "images/enemies/143.png",
+				"chest_opened_img": "images/enemies/143_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -4135,6 +4179,8 @@
 			},
 			{
 				"name": "Medusa",
+				"chest_unopened_img": "images/enemies/151.png",
+				"chest_opened_img": "images/enemies/151_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -4378,6 +4424,8 @@
 			},
 			{
 				"name": "Dagon",
+				"chest_unopened_img": "images/enemies/144.png",
+				"chest_opened_img": "images/enemies/144_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -4606,6 +4654,8 @@
 			},
 			{
 				"name": "The Creature",
+				"chest_unopened_img": "images/enemies/149.png",
+				"chest_opened_img": "images/enemies/149_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
@@ -4696,6 +4746,8 @@
 			},
 			{
 				"name": "Doppelganger",
+				"chest_unopened_img": "images/enemies/135.png",
+				"chest_opened_img": "images/enemies/135_bw.png",
 				"visibility_rules": [
 					"limitevents",
 					"showevents"
