@@ -1442,6 +1442,8 @@
 				"sections": [
 					{
 						"name": "Stella & Loretta",
+						"chest_unopened_img": "images/enemies/SL.png",
+						"chest_opened_img": "images/enemies/SL_bw.png",
 						"visibility_rules": [
 							"showevents"
 						]
