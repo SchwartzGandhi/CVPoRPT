@@ -1,19 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "2.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/2.0/CVPoRPT.zip",
-            "sha256": "335ff4803d35118c07aa143271718ef6aaea73fb51fc2060b24daca9eb4887f0",
+            "package_version": "2.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/2.1/CVPoRPT.zip",
+            "sha256": "ab19d060325cf7211eb2f59e4f082056f08fb3d48a3770167f202602d5aee9d4",
             "changelog": [
-                "The Meta tab in the settings popup now looks way cleaner and is actually readable.",
-                "Meta settings now have their own brief descriptions when hovering over the setting.",
-                "Data Storage tracking has been reworked for a future update for the apworld, therefore autotab switching and boss tracking do not work on this version for the time being.",
-                "You can now preview a portrait and its locations from the Castle map, shown as a trapezoid. These will also be placed is correlation to your portrait configuration. This can be enabled in the meta tab. By Radis7Noir",
-                "To account for the new trapezoids, the location for Brauner has been moved to his own room slightly to the left of the portrait gallery.",
-                "Added some sequence break logic for using puppet master to get to tower of death early.",
-                "Added open throne to the settings popup.",
-                "Boss keys have now been added in a new items tab.",
-                "Misc logic updates with the new apworld version."
+                "Puppet slides now actually account for slide",
+                "All boss locations now have icons"
             ]
         }
     ]
