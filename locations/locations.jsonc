@@ -2749,7 +2749,7 @@
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
 					"@Sandy Grave Regions/Main, $holes",
-					"@Sandy Grave Regions/Main, ^$puppetslide"
+					"@Sandy Grave Regions/Main, $puppetslide"
 				],
 				"sections": [
 					{
