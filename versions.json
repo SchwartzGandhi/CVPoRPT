@@ -1,12 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "2.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/2.1/CVPoRPT.zip",
-            "sha256": "ab19d060325cf7211eb2f59e4f082056f08fb3d48a3770167f202602d5aee9d4",
+            "package_version": "2.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/2.2/CVPoRPT.zip",
+            "sha256": "ab4e4b71bdaa6db53115caeca5dc87590805cbaa3fb1dec6633d105e39c7ebf1",
             "changelog": [
-                "Puppet slides now actually account for slide",
-                "All boss locations now have icons"
+                "Fixed the id mappings for boss keys"
             ]
         }
     ]
