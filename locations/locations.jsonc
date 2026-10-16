@@ -751,7 +751,7 @@
 				"name": "Lower Grand Staircase Middle Alcove",
 				"access_rules": [
 					"@Great Stairway Regions/Staircases, $mediumuppies",
-					"@Great Stairway Regions/Staircases, dlink, fast, puppet"
+					"@Great Stairway Regions/Staircases, doubleup, fast, puppet"
 				],
 				"sections": [
 					{
@@ -1471,7 +1471,7 @@
 					"goaldracula, brauner"
 				],
 				"access_rules": [
-					"@Master's Keep Regions/Portrait Room, $PortraitClear|brauner, ^$NestRequired"
+					"@Master's Keep Regions/Portrait Room, $PortraitClear|brauner, ^$NestRequired|brauner"
 				],
 				"sections": [
 					{
@@ -2749,7 +2749,7 @@
 				"name": "Boulder Room Tunnel",
 				"access_rules": [
 					"@Sandy Grave Regions/Main, $holes",
-					"@Sandy Grave Regions/Main, $puppetslide"
+					"@Sandy Grave Regions/Main, puppet, slide"
 				],
 				"sections": [
 					{
@@ -4017,8 +4017,7 @@
 				"name": "Right Upper Big Corner On Wall",
 				"access_rules": [
 					"@Burnt Paradise Regions/Entrance, $biguppies",
-					"@Burnt Paradise Regions/Entrance, $mario, djump",
-					"@Burnt Paradise Regions/Entrance, djump, puppet"
+					"@Burnt Paradise Regions/Entrance, djump"
 				],
 				"sections": [
 					{
@@ -4109,7 +4108,7 @@
 			{
 				"name": "Bottom Corner",
 				"access_rules": [
-					"@Burnt Paradise Regions/Entrance, $BossKey|"
+					"@Burnt Paradise Regions/Entrance, $BossKey|bpkey"
 				],
 				"sections": [
 					{

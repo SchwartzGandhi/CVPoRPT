@@ -131,3 +131,11 @@ function ShowQuest(quest, type)
         return true
     end
 end
+
+-- The nest quests don't need the portrait cleared when unlock all quests is on
+function QuestNestUnlocked()
+    if has("allquests") then
+        return true
+    end
+    return PortraitClear("nest")
+end

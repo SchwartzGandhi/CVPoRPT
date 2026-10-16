@@ -93,7 +93,8 @@
 			{
 				"name": "Post Keremet",
 				"access_rules": [
-					"@Great Stairway Regions/Lower, $BossKey|gskey"
+					"@Great Stairway Regions/Lower, $BossKey|gskey",
+					"@Great Stairway Regions/Staircases"
 				]
 			},
 			{
@@ -143,7 +144,7 @@
 			{
 				"name": "Motorcycles",
 				"access_rules": [
-					"@Tower of Death Regions/Bottom, toon" // key?
+					"@Tower of Death Regions/Bottom, toon, $BossKey|basekey"
 				]
 			},
 			{
@@ -165,7 +166,7 @@
 			{
 				"name": "Elevator Room",
 				"access_rules": [
-					"@Tower of Death/Top of the Tower",
+					"@Tower of Death Regions/Top of the Tower",
 					"@Master's Keep Regions/Bridge",
 					"@Master's Keep Regions/Lower, ^$Elevator"
 				]
@@ -191,14 +192,14 @@
 				"name": "Second Gear Room",
 				"access_rules": [
 					"@Tower of Death Regions/Ascent, $mediumuppies",
-					"@Tower of Death Regions/Top of the Tower"
+					"@Tower of Death Regions/Top of the Tower, $BossKey|todkey"
 				]
 			},
 			{
 				"name": "Top of the Tower",
 				"access_rules": [
 					"@Tower of Death Regions/Elevator Room, $biguppies",
-					"@Tower of Death Regions/Second Gear Room"
+					"@Tower of Death Regions/Second Gear Room, $BossKey|todkey"
 				]
 			}
 		]
@@ -239,8 +240,8 @@
 			{
 				"name": "Portrait Room",
 				"access_rules": [
-					"@Master's Keep Regions/Upper Quarters, fortress, dlink",
-					"@Master's Keep Regions/Upper Quarters, fortress, tag, doubleup"
+					"@Master's Keep Regions/Upper Quarters, fortress, dlink, $BossKey|mkey",
+					"@Master's Keep Regions/Upper Quarters, fortress, tag, doubleup, $BossKey|mkey"
 				]
 			}
 		]

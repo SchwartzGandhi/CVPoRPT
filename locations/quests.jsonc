@@ -74,7 +74,8 @@
 					"^$QuestBossLocation|Astarte, @Entrance Regions/Upper Area",
 					"^$QuestBossLocation|Astarte, @Tower of Death/Rampart Room",
 					"^$QuestBossLocation|Astarte, @Tower of Death Regions/Ascent",
-					"^$QuestBossLocation|Astarte, @Sandy Grave Regions/Main"
+					"^$QuestBossLocation|Astarte, @Sandy Grave Regions/Main",
+					"^$QuestBossLocation|Astarte, @Forgotten City Regions/Main"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Overcome the Curse|s"
@@ -287,7 +288,7 @@
 			{
 				"name": "Lost Page",
 				"access_rules": [
-					"$PortraitClear|nest, xpt1, xpt2"
+					"$QuestNestUnlocked, xpt1, xpt2"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Lost Page|i"
@@ -296,8 +297,8 @@
 			{
 				"name": "The Hundred Tasks",
 				"access_rules": [
-					"$PortraitClear|nest, $PortraitClear|5",
-					"$PortraitClear|nest, @Nest of Evil Regions/Main, $PortraitClear|4"
+					"$QuestNestUnlocked, $PortraitClear|5",
+					"$QuestNestUnlocked, @Nest of Evil Regions/Main, $PortraitClear|4"
 				],
 				"visibility_rules": [
 					"$ShowQuest|The Hundred Tasks|g"
@@ -306,7 +307,7 @@
 			{
 				"name": "Master the Holy Power",
 				"access_rules": [
-					"$PortraitClear|nest, $PortraitClear|2, scripture, crucifix, baptism"
+					"$QuestNestUnlocked, $PortraitClear|2, scripture, crucifix, baptism"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Master the Holy Power|m",
@@ -316,7 +317,7 @@
 			{
 				"name": "Almighty",
 				"access_rules": [
-					"$PortraitClear|nest, knife, axe, crucifix, baptism, scripture, spear, rock, ty, knife2, shuriken, shuriken2, frisbee, tekken, kunai, papercity, metoyourmom, bow, joint, granatu, part7, bricks, off, def, taunt, miley, berserker, snakeftilt, lucario, rocket"
+					"$QuestNestUnlocked, knife, axe, crucifix, baptism, scripture, spear, rock, ty, knife2, shuriken, shuriken2, frisbee, tekken, kunai, papercity, metoyourmom, bow, joint, granatu, part7, bricks, off, def, taunt, miley, berserker, snakeftilt, lucario, rocket"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Almighty|g"
@@ -325,7 +326,7 @@
 			{
 				"name": "The Great Sage",
 				"access_rules": [
-					"$PortraitClear|nest, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, luck, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
+					"$QuestNestUnlocked, froggy, birdie, fortress, fast, basilio, thorns, norange, dio, medkit, unpoisonma, uncursema, str, con, int, mind, luck, all, aero, stoning, burn, shadesoul, thunder, light, drift, fishron, unpetrify, shadesoul2, megumin, chain, plasma, gravitysuit, qinshihuang, am2r, hax, sal, blizzard, thor, aya, skelly, boo, snipermonkey, miepee"
 				],
 				"visibility_rules": [
 					"$ShowQuest|The Great Sage|g"
@@ -334,7 +335,7 @@
 			{
 				"name": "Kill Gergoth",
 				"access_rules": [
-					"$PortraitClear|nest, @Nest of Evil Regions/Main, tag"
+					"$QuestNestUnlocked, @Nest of Evil Regions/Main, tag"
 				],
 				"visibility_rules": [
 					"$ShowQuest|Kill Gergoth|e"

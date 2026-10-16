@@ -142,22 +142,65 @@ function ConnectPortrait(area)
                 print(string.format("\"%s\" tis indeed in logic for portrait \"%s\"", region, code))
             end
             -- The Portrait in Tower of Death specifically also needs Stella's Locket
-            if code == "towerport" then
-                return access and has("locket")
+            if code == "towerport" and not has("locket") then
+                goto continue
+            end
+            -- Brauner's portrait 2 and 3 only open after clearing portrait 1 and 4 respectively
+            if code == "brauner2port" or code == "brauner3port" then
+                local gate = BraunerPortraitGate(code == "brauner2port" and "brauner1port" or "brauner4port")
+                if gate < AccessibilityLevel.SequenceBreak then
+                    goto continue
+                end
+                if gate < access then
+                    access = gate
+                end
             end
             return access
         end
+        ::continue::
     end
+end
+
+-- Opens Brauner's portrait 2 and 3 when bosses of portrait 1 an 4 are cleared
+function BraunerPortraitGate(code)
+    local bosses = {
+        [0] = "@City of Haze/Dullahan/",
+        [1] = "@13th Street/Werewolf/",
+        [2] = "@Sandy Grave/Astarte/",
+        [3] = "@Forgotten City/Mummy Man/",
+        [4] = "@Nation of Fools/Legion/",
+        [5] = "@Burnt Paradise/Medusa/",
+        [6] = "@Forest of Doom/Dagon/",
+        [7] = "@Dark Academy/The Creature/",
+        [8] = "@Nest of Evil/Doppelganger/",
+    }
+    local boss = Tracker:FindObjectForCode(bosses[Tracker:FindObjectForCode(code).CurrentStage])
+    if not boss then
+        return AccessibilityLevel.None
+    end
+    if has("collect") then
+        if boss.AvailableChestCount == 0 then
+            return AccessibilityLevel.Normal
+        end
+        return AccessibilityLevel.None
+    end
+    return boss.AccessibilityLevel
 end
 
 function BraunerRequired()
     if Tracker:FindObjectForCode("brauner").Active then
         return Tracker:FindObjectForCode("@Master's Keep/Defeat Brauner/").AccessibilityLevel
     end
+    return true -- unlocks the Throne Room if not required
 end
 
-function NestRequired()
+function NestRequired(target)
     local stage = Tracker:FindObjectForCode("neststate").CurrentStage
+
+    if target == "brauner" and Tracker:FindObjectForCode("goal").CurrentStage ~= 0 then
+        return true
+    end
+
     if stage == 2 then
         return Tracker:FindObjectForCode("@Nest of Evil/Doppelganger Reward/").AccessibilityLevel
     end
@@ -230,7 +273,7 @@ function BossKey(code)
             ["nofkey"] = "Circus Arena Key",
             ["bpkey"] = "Burnt Key",
             ["fodkey"] = "Forest Key",
-            ["dakey"] = "Adacemy Key",
+            ["dakey"] = "Academy Key",
             ["noekey"] = "Nest Key",
         }
         for _, key in ipairs(EXCLUDED_KEYS) do

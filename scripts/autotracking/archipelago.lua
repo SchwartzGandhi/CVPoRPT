@@ -6,6 +6,7 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/event_map_mapping.lua")
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
 if Highlight then
@@ -19,9 +20,9 @@ if Highlight then
 end
 
 CUR_INDEX = -1
+IDs = nil
 TEAM_NUMBER = -1
 SLOT_NUMBER = -1
-EVENTS_KEY = ""
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 INCLUDED_QUESTS = {}
@@ -123,6 +124,9 @@ function apply_slot_data(slot_data)
 	local nestcount = Tracker:FindObjectForCode("nestcount")
 	nestcount.AcquiredCount = slot_data["nest_portraits"]
 
+	local brauner = Tracker:FindObjectForCode("brauner")
+	brauner.Active = slot_data["brauner_required"] == 1
+
 	local throne = Tracker:FindObjectForCode("throne")
 	throne.CurrentStage = slot_data["open_throne"]
 
@@ -175,6 +179,11 @@ function apply_slot_data(slot_data)
 
 	local solomitt = Tracker:FindObjectForCode("solomitt")
 	solomitt.Active = slot_data["stronger_glove"]
+
+	-- needed to reset on connect
+	EXCLUDED_KEYS = {}
+	INCLUDED_QUESTS = {}
+	EXCLUDED_QUESTS = {}
 
 	local bosskeys = Tracker:FindObjectForCode("bosskeys")
 	bosskeys.Active = slot_data["add_bosskeys"]
@@ -255,9 +264,22 @@ function onClear(slot_data)
 	end
 	apply_slot_data(slot_data)
 
-	EVENTS_KEY = string.format("cv_por_events_%s_%s", TEAM_NUMBER, SLOT_NUMBER)
-	Archipelago:SetNotify({EVENTS_KEY})
-	Archipelago:Get({EVENTS_KEY})
+	-- Datastorage Watches
+	local suffix = TEAM_NUMBER .. "_" .. SLOT_NUMBER
+	local function makeID(s) return "cv_por_" .. suffix .. "_" .. s end
+
+	IDs = {
+		MAP_ID = makeID("map_id"),
+		EVENTS = {},
+	}
+	local keys = {IDs.MAP_ID}
+	for event, code in pairs(EVENT_KEYS) do
+		local id = makeID(event)
+		IDs.EVENTS[id] = code
+		table.insert(keys, id)
+	end
+	Archipelago:SetNotify(keys)
+	Archipelago:Get(keys)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
@@ -407,73 +429,25 @@ function onDataStorageUpdate(key, value, oldValue)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onEvent: key %s, value %s", key, value))
 	end
-	-- Check if the update was for the connected player
-	if key == EVENTS_KEY then
-		for data_key, data_value in pairs(value) do
-			-- Auto-Tab Switching
-			if data_key == "map_id" and has("yestabs") then
-				local maps = {
-					"Dracula's Castle",
-					"City of Haze",
-					"13th Street",
-					"Sandy Grave",
-					"Forgotten City",
-					"Nation of Fools",
-					"Burnt Paradise",
-					"Forest of Doom",
-					"Dark Academy",
-					"Nest of Evil",
-				}
-				for i, map in ipairs(maps) do
-					if i - 1 == data_value then
-						Tracker:UiHint("ActivateTab", map)
-					end
-				end
-				return
-			-- Event Tracking
-			elseif data_key == "events" then
-				local event_locations = {
-					"@Tower of Death/Elevator Switch/",
-					"",
-					"@City of Haze/Dullahan/",
-					"", -- Behemoth
-					"",
-					"@Great Stairway/Keremet/",
-					"@Nation of Fools/Legion/",
-					"@Forest of Doom/Dagon/",
-					"@Sandy Grave/Astarte/",
-					"@13th Street/Werewolf/",
-					"@Dark Academy/The Creature/",
-					"@Forgotten City/Mummy Man/",
-					"@Burnt Paradise/Medusa/",
-					"", -- Richter
-					"", -- Stella
-					"@Master's Keep/Banquet Room/Stella & Loretta",
-					"@Master's Keep/Defeat Brauner/",
-					"@Tower of Death/Death/",
-					"",
-					"@The Throne Room/Defeat Dracula/",
-					"", -- Balore
-					"", -- Gergoth
-					"", -- Zephyr
-					"", -- Aguni
-					"", -- Abaddon
-					"",
-					"@Nest of Evil/Doppelganger/",
-				}
-				for i, event in ipairs(event_locations) do
-					local bit = (data_value >> i-1) & 1
-					if event ~= "" then
-						print(event)
-						if bit == 1 then
-							Tracker:FindObjectForCode(event).AvailableChestCount = 0
-						else
-							Tracker:FindObjectForCode(event).AvailableChestCount = 1
-						end
-					end
-				end
-			end
+	-- Keys written by the client
+	if IDs == nil then
+		return
+	end
+	if key == IDs.MAP_ID then
+		if has("yestabs") and MAP_TABS[value + 1] then
+			Tracker:UiHint("ActivateTab", MAP_TABS[value + 1])
 		end
+		return
+	end
+	local event_code = IDs.EVENTS[key]
+	if event_code then
+		local obj = Tracker:FindObjectForCode(event_code)
+		if obj then
+			obj.AvailableChestCount = (value ~= 0) and 0 or obj.ChestCount
+		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("onDataStorageUpdate: could not find %s", event_code))
+		end
+		return
 	end
 end
 

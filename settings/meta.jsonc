@@ -9,12 +9,12 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "tabswitch, notabs",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "tabswitch, yestabs",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
@@ -28,12 +28,12 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "reach, access",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "reach, collect",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
@@ -47,12 +47,12 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "doool, nool",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "doool, ool",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
@@ -66,12 +66,12 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "quests, showquests",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "quests, hidequests",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
@@ -85,17 +85,17 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "events, hideevents",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/limited.png",
 				"codes": "events, limitevents",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "events, showevents",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	},
@@ -109,17 +109,17 @@
 			{
 				"img": "images/settings/meta/disabled.png",
 				"codes": "portpre, noport",
-				"inhereit_codes": false
+				"inherit_codes": false
 			},
 			// {
 			// 	"img": "images/settings/meta/limited.png",
 			// 	"codes": "portpre, limport",
-			// 	"inhereit_codes": false
+			// 	"inherit_codes": false
 			// },
 			{
 				"img": "images/settings/meta/enabled.png",
 				"codes": "portpre, showport",
-				"inhereit_codes": false
+				"inherit_codes": false
 			}
 		]
 	}
