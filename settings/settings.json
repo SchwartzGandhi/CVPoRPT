@@ -124,6 +124,12 @@
         "codes": "solomitt"
     },
     {
+        "name": "Open Early Castle",
+        "img": "images/settings/opencastle.png",
+        "type": "toggle",
+        "codes": "opencastle"
+    },
+    {
         "name": "Unlock All Quests",
         "img": "images/settings/windhappy.png",
         "type": "toggle",

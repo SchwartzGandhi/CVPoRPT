@@ -28,6 +28,17 @@ GLOBAL_ITEMS = {}
 INCLUDED_QUESTS = {}
 EXCLUDED_QUESTS = {}
 EXCLUDED_KEYS = {}
+DOOR_MAP = {
+	["Sec01Rm14"] = "Sec06Rm00", ["Sec06Rm00"] = "Sec01Rm14",
+	["Sec00Rm0A"] = "Sec02Rm03", ["Sec02Rm03"] = "Sec00Rm0A",
+	["Sec00Rm0B"] = "Sec03Rm00", ["Sec03Rm00"] = "Sec00Rm0B",
+	["Sec02Rm1C"] = "Sec03Rm06", ["Sec03Rm06"] = "Sec02Rm1C",
+	["Sec03Rm0C"] = "Sec07Rm17", ["Sec07Rm17"] = "Sec03Rm0C",
+	["Sec06Rm0C"] = "Sec08Rm0A", ["Sec08Rm0A"] = "Sec06Rm0C",
+	["Sec08Rm07"] = "Sec0BRm03", ["Sec0BRm03"] = "Sec08Rm07",
+	["Sec07Rm1B"] = "Sec0BRm05", ["Sec0BRm05"] = "Sec07Rm1B",
+	["Sec07Rm19"] = "Sec0ARm13", ["Sec0ARm13"] = "Sec07Rm19",
+}
 
 -- gets the data storage key for hints for the current player
 -- returns nil when not connected to AP
@@ -112,17 +123,21 @@ function apply_slot_data(slot_data)
 	local goal = Tracker:FindObjectForCode("goal")
 	goal.CurrentStage = slot_data["goal"]
 
-	local braunercount = Tracker:FindObjectForCode("braunercount")
-	braunercount.AcquiredCount = slot_data["brauner_portraits"]
-
-	local countdracula = Tracker:FindObjectForCode("countdracula")
-	countdracula.AcquiredCount = slot_data["dracula_portraits"]
+	local braunercount = slot_data["brauner_portraits"]
+	if braunercount then
+		Tracker:FindObjectForCode("braunercount").AcquiredCount = braunercount
+	end
+	local countdracula = slot_data["dracula_portraits"]
+	if countdracula then
+		Tracker:FindObjectForCode("countdracula").AcquiredCount = countdracula
+	end
 
 	local neststate = Tracker:FindObjectForCode("neststate")
 	neststate.CurrentStage = slot_data["nest_of_evil"]
-
-	local nestcount = Tracker:FindObjectForCode("nestcount")
-	nestcount.AcquiredCount = slot_data["nest_portraits"]
+	local nestcount = slot_data["nest_portraits"]
+	if nestcount then
+		Tracker:FindObjectForCode("nestcount").AcquiredCount = nestcount
+	end
 
 	local brauner = Tracker:FindObjectForCode("brauner")
 	brauner.Active = slot_data["brauner_required"] == 1
@@ -201,6 +216,23 @@ function apply_slot_data(slot_data)
 	end
 	for _, quest in ipairs(slot_data["excluded_quests"]) do
 		table.insert(EXCLUDED_QUESTS, quest)
+	end
+
+	-- Door Shuffle
+	local new_door_map = {}
+	for _, connection in ipairs(slot_data["door_map"]) do
+		new_door_map[connection[1]] = connection[2]
+	end
+	-- Check if the new door map is the same as the old one, to offload processing power
+	local normal_doors = true
+	for entrance, exit in pairs(new_door_map) do
+		if DOOR_MAP[entrance] ~= exit then
+			normal_doors = false
+		end
+	end
+	if normal_doors == false then
+		Tracker:FindObjectForCode("doors").CurrentStage = 1
+		DOOR_MAP = new_door_map
 	end
 end
 

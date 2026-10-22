@@ -58,13 +58,13 @@ end
 
 -- Misc traversal
 function biguppies()
-    return has("zip") or (comcast() and has("birdie"))
+    return has("zip") or birdie()
 end
 function mediumuppies()
     return biguppies() or has("djump")
 end
 function smalluppies()
-    return mediumuppies() or (has("doubleup") and has("mario"))
+    return mediumuppies() or mario()
 end
 function tinyuppies()
     return smalluppies() or has("puppet")
@@ -284,6 +284,14 @@ function BossKey(code)
         return has(code)
     end
     return true
+end
+
+function GetDoorConnection(door_in_question)
+    for entrance, exit in pairs(DOOR_MAP) do
+        if door_in_question == entrance then
+            return Tracker:FindObjectForCode(string.format("@Door Map/%s", exit)).AccessibilityLevel
+        end
+    end
 end
 
 -- Settings Macros

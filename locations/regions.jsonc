@@ -22,6 +22,7 @@
 				"name": "Behemoth Area",
 				"access_rules": [
 					"@Entrance Regions/Hub, $smalluppies",
+					"@Entrance Regions/Hub, opencastle",
 					"@Entrance Regions/Post Behemoth, $BossKey|ekey"
 				]
 			},
@@ -29,8 +30,17 @@
 				"name": "Post Behemoth",
 				"access_rules": [
 					"@Entrance Regions/Behemoth Area, $BossKey|ekey",
-					"@Buried Chamber Regions/Main",
-					"@Great Stairway Regions/Lower, $strongies"
+					"@Entrance Regions/Iron Block Door, $strongies",
+					"normaldoors, @Buried Chamber Regions/Main",
+					"randodoors, @Door Map/Sec00Rm0A"
+				]
+			},
+			{
+				"name": "Iron Block Door",
+				"access_rules": [
+					"@Entrance Regions/Post Behemoth, $strongies",
+					"normaldoors, @Great Stairway Regions/Lower, $strongies",
+					"randodoors, @Door Map/Sec00Rm0B"
 				]
 			},
 			{
@@ -51,7 +61,8 @@
 				"access_rules": [
 					"@Entrance Regions/Hub, $mario, djump",
 					"@Entrance Regions/Hub, $biguppies",
-					"@Great Stairway Regions/Entrance Connector"
+					"normaldoors, @Great Stairway Regions/Entrance Connector",
+					"randodoors, @Door Map/Sec01Rm14"
 				]
 			}
 		]
@@ -62,8 +73,10 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@Entrance Regions/Post Behemoth",
-					"@Great Stairway Regions/Lower"
+					"normaldoors, @Entrance Regions/Post Behemoth",
+					"randodoors, @Door Map/Sec02Rm03",
+					"normaldoors, @Great Stairway Regions/Lower",
+					"randodoors, @Door Map/Sec02Rm1C"
 				]
 			}
 		]
@@ -74,20 +87,12 @@
 			{
 				"name": "Lower",
 				"access_rules": [
-					"@Entrance Regions/Post Behemoth, $strongies",
-					"@Buried Chamber Regions/Main",
+					"normaldoors, @Entrance Regions/Iron Block Door",
+					"randodoors, @Door Map/Sec03Rm00",
+					"normaldoors, @Buried Chamber Regions/Main",
+					"randodoors, @Door Map/Sec03Rm06",
 					"@Great Stairway Regions/Post Keremet, $BossKey|gskey",
 					"@Great Stairway Regions/Staircases"
-				]
-			},
-			{
-				"name": "Staircases",
-				"access_rules": [
-					"@Great Stairway Regions/Lower, $mediumuppies",
-					"@Great Stairway Regions/Post Keremet, $mediumuppies",
-					"@Great Stairway Regions/Underground Painting",
-					"@Great Stairway Regions/Entrance Connector",
-					"@Great Stairway Regions/Upper"
 				]
 			},
 			{
@@ -98,9 +103,45 @@
 				]
 			},
 			{
+				"name": "Staircases",
+				"access_rules": [
+					"@Great Stairway Regions/Lower, $mediumuppies",
+					"@Great Stairway Regions/Underground, djump",
+					"@Great Stairway Regions/Underground, puppet",
+					"@Great Stairway Regions/Underground, opencastle",
+					"@Great Stairway Regions/Post Keremet, $mediumuppies",
+					"@Great Stairway Regions/Entrance Connector",
+					"@Great Stairway Regions/Upper"
+				]
+			},
+			{
+				"name": "Underground",
+				"access_rules": [
+					"@Great Stairway Regions/Post Keremet, $mediumuppies",
+					"@Great Stairway Regions/Post Keremet, $smalluppies, opencastle",
+					"@Great Stairway Regions/Staircases",
+					"@Great Stairway Regions/Underground Painting"
+				]
+			},
+			{
+				"name": "Push Block Door",
+				"access_rules": [
+					"@Great Stairway Regions/Staircases, $strongies",
+					"normaldoors, @Tower of Death Regions/Bottom",
+					"randodoors, @Door Map/Sec03Rm0C"
+				]
+			},
+			{
+				"name": "Underground Painting",
+				"access_rules": [
+					"@Great Stairway Regions/Underground"
+				]
+			},
+			{
 				"name": "Entrance Connector",
 				"access_rules": [
-					"@Entrance Regions/Upper Area",
+					"normaldoors, @Entrance Regions/Upper Area",
+					"randodoors, @Door Map/Sec06Rm00",
 					"@Great Stairway Regions/Upper"
 				]
 			},
@@ -112,20 +153,23 @@
 					"@Great Stairway Regions/Entrance Connector, $mediumuppies",
 					"@Great Stairway Regions/Entrance Connector, $mario, $fast",
 					"@Great Stairway Regions/Central Painting Area",
-					"@Tower of Death Regions/Belt Area, $holes",
-					"@Tower of Death Regions/Belt Area, ^$puppetslide"
+					"@Great Stairway Regions/Pipe Door, $holes",
+					"@Great Stairway Regions/Pipe Door, ^$puppetslide"
+				]
+			},
+			{
+				"name": "Pipe Door",
+				"access_rules": [
+					"@Great Stairway Regions/Upper, $holes",
+					"@Great Stairway Regions/Upper, ^$puppetslide",
+					"normaldoors, @Tower of Death Regions/Belt Area",
+					"randodoors, @Door Map/Sec06Rm0C"
 				]
 			},
 			{
 				"name": "Central Painting Area",
 				"access_rules": [
 					"@Great Stairway Regions/Upper, $smalluppies"
-				]
-			},
-			{
-				"name": "Underground Painting",
-				"access_rules": [
-					"@Great Stairway Regions/Staircases"
 				]
 			}
 		]
@@ -136,7 +180,8 @@
 			{
 				"name": "Bottom",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases, $strongies",
+					"normaldoors, @Great Stairway Regions/Push Block Door",
+					"randodoors, @Door Map/Sec07Rm17",
 					"@Tower of Death Regions/Motorcycles",
 					"@Tower of Death Regions/First Gear Room"
 				]
@@ -150,11 +195,12 @@
 			{
 				"name": "Belt Area",
 				"access_rules": [
-					"@Great Stairway Regions/Upper, $holes",
-					"@Great Stairway Regions/Upper, ^$puppetslide",
+					"normaldoors, @Great Stairway Regions/Pipe Door",
+					"randodoors, @Door Map/Sec08Rm0A",
 					"@Tower of Death Regions/Motorcycles, $stay, tag",
 					"@Tower of Death Regions/Painting Room",
-					"@Master's Keep Regions/Bridge"
+					"normaldoors, @Master's Keep Regions/Bridge",
+					"randodoors, @Door Map/Sec08Rm07"
 				]
 			},
 			{
@@ -167,8 +213,17 @@
 				"name": "Elevator Room",
 				"access_rules": [
 					"@Tower of Death Regions/Top of the Tower",
-					"@Master's Keep Regions/Bridge",
-					"@Master's Keep Regions/Lower, ^$Elevator"
+					"normaldoors, @Master's Keep Regions/Bridge",
+					"randodoors, @Door Map/Sec07Rm1B",
+					"@Tower of Death Regions/Elevator Exit, ^$Elevator"
+				]
+			},
+			{
+				"name": "Elevator Exit",
+				"access_rules": [
+					"@Tower of Death Regions/Elevator Room, $smalluppies, ^$Elevator",
+					"normaldoors, @Master's Keep Regions/Lower",
+					"randodoors, @Door Map/Sec07Rm19"
 				]
 			},
 			{
@@ -210,15 +265,18 @@
 			{
 				"name": "Bridge",
 				"access_rules": [
-					"@Tower of Death Regions/Belt Area",
-					"@Tower of Death Regions/Elevator Room",
+					"normaldoors, @Tower of Death Regions/Belt Area",
+					"randodoors, @Door Map/Sec0BRm03",
+					"normaldoors, @Tower of Death Regions/Elevator Room",
+					"randodoors, @Door Map/Sec0BRm05",
 					"@Master's Keep Regions/Lower"
 				]
 			},
 			{
 				"name": "Lower",
 				"access_rules": [
-					"@Tower of Death Regions/Elevator Room, ^$Elevator, $smalluppies",
+					"normaldoors, @Tower of Death Regions/Elevator Exit",
+					"randodoors, @Door Map/Sec0ARm13",
 					"@Master's Keep Regions/Main"
 				]
 			},
@@ -444,6 +502,137 @@
 				"name": "Main",
 				"access_rules": [
 					"^$ConnectPortrait|noe"
+				]
+			}
+		]
+	},
+	{
+		"name": "Door Map",
+		"children": [
+			{
+				"name": "Sec01Rm14", // E -> GS U
+				"access_rules": [
+					"@Entrance Regions/Upper Area",
+					"^$GetDoorConnection|Sec01Rm14"
+				]
+			},
+			{
+				"name": "Sec00Rm0A", // E -> BC
+				"access_rules": [
+					"@Entrance Regions/Post Behemoth",
+					"^$GetDoorConnection|Sec00Rm0A"
+				]
+			},
+			{
+				"name": "Sec00Rm0B", // E -> GS L
+				"access_rules": [
+					"@Entrance Regions/Iron Block Door",
+					"^$GetDoorConnection|Sec00Rm0B"
+				]
+			},
+			{
+				"name": "Sec02Rm03", // BC -> E
+				"access_rules": [
+					"@Buried Chamber Regions/Main",
+					"^$GetDoorConnection|Sec02Rm03"
+				]
+			},
+			{
+				"name": "Sec02Rm1C", // BC -> GS
+				"access_rules": [
+					"@Buried Chamber Regions/Main",
+					"^$GetDoorConnection|Sec02Rm1C"
+				]
+			},
+			{
+				"name": "Sec03Rm00", // GS -> E L
+				"access_rules": [
+					"@Great Stairway Regions/Lower",
+					"^$GetDoorConnection|Sec03Rm00"
+				]
+			},
+			{
+				"name": "Sec03Rm06", // GS -> BC
+				"access_rules": [
+					"@Great Stairway Regions/Lower",
+					"^$GetDoorConnection|Sec03Rm06"
+				]
+			},
+			{
+				"name": "Sec03Rm0C", // GS -> ToD L
+				"access_rules": [
+					"@Great Stairway Regions/Push Block Door",
+					"^$GetDoorConnection|Sec03Rm0C"
+				]
+			},
+			{
+				"name": "Sec06Rm00", // GS -> E U
+				"access_rules": [
+					"@Great Stairway Regions/Upper",
+					"^$GetDoorConnection|Sec06Rm00"
+				]
+			},
+			{
+				"name": "Sec06Rm0C", // GS -> ToD U
+				"access_rules": [
+					"@Great Stairway Regions/Pipe Door",
+					"^$GetDoorConnection|Sec06Rm0C"
+				]
+			},
+			{
+				"name": "Sec07Rm17", // ToD -> GS L
+				"access_rules": [
+					"@Tower of Death Regions/Bottom",
+					"^$GetDoorConnection|Sec07Rm17"
+				]
+			},
+			{
+				"name": "Sec08Rm0A", // ToD -> GS U
+				"access_rules": [
+					"@Tower of Death Regions/Belt Area",
+					"^$GetDoorConnection|Sec08Rm0A"
+				]
+			},
+			{
+				"name": "Sec08Rm07", // ToD -> MK BL
+				"access_rules": [
+					"@Tower of Death Regions/Belt Area",
+					"^$GetDoorConnection|Sec08Rm07"
+				]
+			},
+			{
+				"name": "Sec07Rm1B", // ToD -> MK BR
+				"access_rules": [
+					"@Tower of Death Regions/Elevator Room",
+					"^$GetDoorConnection|Sec07Rm1B"
+				]
+			},
+			{
+				"name": "Sec07Rm19", // ToD -> MK U
+				"access_rules": [
+					"@Tower of Death Regions/Elevator Exit",
+					"^$GetDoorConnection|Sec07Rm19"
+				]
+			},
+			{
+				"name": "Sec0BRm03", // MK -> ToD L
+				"access_rules": [
+					"@Master's Keep Regions/Bridge",
+					"^$GetDoorConnection|Sec0BRm03"
+				]
+			},
+			{
+				"name": "Sec0BRm05", // MK -> ToD R
+				"access_rules": [
+					"@Master's Keep Regions/Bridge",
+					"^$GetDoorConnection|Sec0BRm05"
+				]
+			},
+			{
+				"name": "Sec0ARm13", // MK -> ToD U
+				"access_rules": [
+					"@Master's Keep Regions/Lower",
+					"^$GetDoorConnection|Sec0ARm13"
 				]
 			}
 		]

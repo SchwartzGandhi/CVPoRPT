@@ -789,7 +789,7 @@
 			{
 				"name": "Upper Underground Room",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -807,7 +807,7 @@
 			{
 				"name": "After Keremet Upper",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -825,7 +825,7 @@
 			{
 				"name": "Big Underground Room Upper",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -843,7 +843,7 @@
 			{
 				"name": "Big Underground Room Hidden Item",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -861,7 +861,7 @@
 			{
 				"name": "Big Underground Room Lower",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -879,7 +879,7 @@
 			{
 				"name": "Underground Hidden Room",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
@@ -897,7 +897,7 @@
 			{
 				"name": "Underground East Room",
 				"access_rules": [
-					"@Great Stairway Regions/Staircases"
+					"@Great Stairway Regions/Underground"
 				],
 				"sections": [
 					{
