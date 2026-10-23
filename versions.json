@@ -1,11 +1,15 @@
 {
     "versions": [
         {
-            "package_version": "2.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/2.2/CVPoRPT.zip",
-            "sha256": "ab4e4b71bdaa6db53115caeca5dc87590805cbaa3fb1dec6633d105e39c7ebf1",
+            "package_version": "3.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVPoRPT/releases/download/3.0/CVPoRPT.zip",
+            "sha256": "deea80fb94d2bbd062751fee6c0d89a0b8e0b58f294debbaf01b368f1317505d",
             "changelog": [
-                "Fixed the id mappings for boss keys"
+                "Implemented door shuffle, connect to a slot and it should work automatically",
+                "new setting for Open Early Castle",
+                "Logic fixes for boss keys",
+                "Auto Tab Switch and Event tracking should now work again",
+                "logic changes from the new apworld update"
             ]
         }
     ]
