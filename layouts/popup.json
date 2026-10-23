@@ -82,7 +82,7 @@
 										"item_h_alignment": "center",
 										"item_size": 128,
 										"rows": [
-											["taganywhere", "shiwakeanywhere", "solomitt"],
+											["", "taganywhere", "shiwakeanywhere", "solomitt", ""],
 											[ "opencastle", "neststate", "allquests", "bosskeys"]
 										]
 									}

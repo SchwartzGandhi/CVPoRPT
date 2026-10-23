@@ -125,8 +125,10 @@
     },
     {
         "name": "Open Early Castle",
-        "img": "images/settings/opencastle.png",
         "type": "toggle",
+        "img": "images/settings/opencastle.png",
+        "disabled_img": "images/settings/closedcastle.png",
+        "disabled_img_mods": "grey",
         "codes": "opencastle"
     },
     {

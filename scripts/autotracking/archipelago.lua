@@ -139,6 +139,8 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("nestcount").AcquiredCount = nestcount
 	end
 
+	local castle = Tracker:FindObjectForCode("opencastle")
+	castle.Active = slot_data["early_castle"] == 1
 	local brauner = Tracker:FindObjectForCode("brauner")
 	brauner.Active = slot_data["brauner_required"] == 1
 
